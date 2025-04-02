@@ -1,0 +1,10 @@
+{
+  "@@locale": "my",
+  "helloWorld": "မင်္ဂလာပါ!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "home": "ပင်မ",
+  "profile": "ပရိုဖိုင်",
+  "selectLanguage": "ဘာသာစကားရွေးရန်"
+}
