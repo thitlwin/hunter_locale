@@ -10,7 +10,7 @@ class LanguageSwitcherDialog extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final currentLocale = ref.watch(localeNotifierProvider);
     final notifier = ref.read(localeNotifierProvider.notifier);
-    final translations = AppLocalizations.of(context)!;
+    final translations = AppLocalizations.of(context);
 
     return AlertDialog(
       title: Text(translations.selectLanguage),
@@ -21,7 +21,7 @@ class LanguageSwitcherDialog extends ConsumerWidget {
           children: AppLocalizations.supportedLocales.map((locale) {
             final isSelected = locale == currentLocale;
             return ListTile(
-              leading: _LanguageFlag(locale: locale),
+              leading: LanguageFlag(locale: locale),
               title: Text(
                 _getLanguageName(locale),
                 style: TextStyle(
@@ -55,10 +55,10 @@ class LanguageSwitcherDialog extends ConsumerWidget {
 }
 
 // 3. Helper Widget for Language Flags (optional)
-class _LanguageFlag extends StatelessWidget {
+class LanguageFlag extends StatelessWidget {
   final Locale locale;
 
-  const _LanguageFlag({required this.locale});
+  const LanguageFlag({required this.locale});
 
   @override
   Widget build(BuildContext context) {

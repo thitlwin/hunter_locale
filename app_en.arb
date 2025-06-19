@@ -6,5 +6,834 @@
   },
   "home": "Home",
   "profile": "Profile",
-  "selectLanguage": "Language Selection"
-}
+  "selectLanguage": "Language Selection",
+  "login": "Login",
+  "register": "Register",
+  "or": "Or",
+  "signin_with_google": "Sign in with Google",
+  "signin_with_facebook": "Sign in with Facebook",
+  "lets_build_healthy_lifestyle_with_joy_en":"Let's build healthy lifestyle with joy",
+  "lets_build_healthy_lifestyle_with_joy_my":"ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့",
+  "dontHaveAccount":"Don't have Account?",
+  "signUp": "Register",
+  "forgotYourPassword": "Forgot your password?",
+  "password": "Password",
+  "phoneNumber": "Phone Number",
+  "loginToYourAccount": "Login to your account",
+  "welcomeBack": "Welcome Back!",
+  "title_forgot_password": "Fogot Password",
+  "enter_your_phone": "Enter your phone number to reset password",
+  "btn_reset_password": "Reset Password",
+  "btn_next": "Next",
+  "already_have_an_account": "Already have an account?",
+  "we_will_send_otp": "We will send OTP code to your phone.",
+  "title_create_account": "Create An Account",
+  "title_phone_verification": "Phone Verification",
+  "enter_your_otp": "Enter your OTP code here",
+  "we_have_sent_opt_code":"We have sent OTP Code to your number.",
+  "didnt_get_the_otp": "Didn't receive the OTP",
+  "error_fill_in_all_fields":"Please fill in all fields",
+  "success_login": "Login successful",
+  "error_phone_required": "Phone number is required",
+  "error_password_required": "Password is required",
+  "btn_resend_otp": "Resend OTP",
+  "title_create_new_password": "Create New Password",
+  "btn_create_password": "Create Password",
+  "confirm_password": "Confirm Password",
+  "error_password_mismatch": "Password mismatch",
+  "title_reset_password": "Reset Password",
+  "error_confirm_password_required": "Confirm password is required",
+  "error_confirm_password_mismatch": "Confirm password mismatch",
+  "success_password_reset": "Password reset successful",
+  "title_home": "Home",
+  "title_profile": "Profile",
+  "title_favorite": "Favorite",
+  "meal_plan": "Meal Plan",
+  "juice_plan": "Juice Plan",
+  "challenge": "Challenge",
+  "our_products": "Our Products",
+  "healthy_tips": "Healthy Tips",
+  "upcoming_live": "Upcoming Live",
+  "see_all": "See All",
+  "btn_purchase": "Purchase",
+  "no_products_available": "No products available",
+  "try_again": "Try Again",
+  "an_error_occurred": "An error has occured!",
+  "label_description": "Description",
+  "label_price": "Price",
+  "empty_profile": "Empty profile",
+  "btn_reload": "Reload",
+  "label_member": "Member",
+  "joy_coupon": "Current JOY $",
+  "your_goal": "Your Goal",
+  "age": "Age",
+  "weight": "Weight",
+  "height": "Height",
+  "phone":"Phone",
+  "gender": "Gender",
+  "nrc":"NRC",
+  "delivery_address": "Delivery Address",
+  "primary_address": "Primary Address",
+  "my_address": "My Addresses",
+  "bmi_label_with_value": "BMI ({bmiValue})",
+  "@bmi_label_with_value": {
+    "description": "Displays the BMI label followed by the calculated value in parentheses.",
+    "placeholders": {
+      "bmiValue": {
+        "type": "double",
+        "example": "21.0"
+      }
+    }
+  },
+  "select_gender": "Select Your Gender",
+  "title_edit_profile": "Edit Profile",
+  "optional": "Optional",
+  "name": "Name",
+  "btn_save": "Save",
+  "required_name": "Name is required",
+  "male": "Male",
+  "female": "Female",
+  "other": "Other",
+  "active_plan_count": "Active Plan",
+  "active_challenge_count": "Active Challenge",
+  "order_list_label": "Orders",
+  "rewards_label": "Rewards",
+  "notifications_label": "Notifications",
+  "language_label": "Language",
+  "logout_confirmation": "Logout Confirmation",
+  "logout_confirmation_message": "Are you sure you want to logout?",
+  "btn_logout": "Logout",
+  "btn_cancel": "Cancel",
+  "title_notifications": "Notifications",
+  "you_have": "You have ",
+  "new_notifications": "{unReadCount, plural, =0{no new notifications} =1{1 new notification} other{{unReadCount} new notifications}}", 
+  "@new_notifications": {
+    "description": "Displays the number of new notifications.",
+    "placeholders": {
+      "unReadCount": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "btn_checkout": "Checkout",
+  "total": "Total",
+  "title_shopping_cart": "Cart",
+  "title_checkout": "Checkout",
+  "other_methods": "Other Methods",
+  "title_payment_methods": "Payment Methods",
+  "bank_transfer": "Bank Transfer",
+  "payment_method": "Payment Method",
+  "btn_change": "Change",
+  "btn_confirm_order": "Confirm Order",
+  "order_information": "Order Information",
+  "total_amount": "Total Amount",
+  "label_point": "Point",
+  "point_value": "{pointCount, plural, =0{no points} =1{1 point} other{{pointCount} points}}", 
+  "@point_value": {
+    "description": "Displays the number of point.",
+    "placeholders": {
+      "pointCount": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "net_amount": "Net Amount",
+  "add_new_address":"Add New Address",
+  "no_bank_accounts_available": "No bank accounts available",
+  "btn_confirm": "Confirm",
+  "btn_ok": "Ok",
+  "title_error": "Error",
+  "title_warning": "Warning",
+  "error_delivery_address_required": "Delivery address is required.",
+  "title_order_detail": "Order Detail",
+  "empty_cart": "Empty cart",
+  "bank_account_copied": "Account number copied to clipboard!",
+  "order_number": "Order",
+  "used_coupon_amount": "Used Coupon",
+  "title_orders": "Orders",
+  "empty_order": "Empty order list",
+  "payment_confirmed": "Payment Confirmed",
+  "order_confirmed": "Order Confirmed",
+  "payment_rejected": "Payment Rejected",
+  "order_completed": "Order Completed",
+  "cancelled":"Order Cancelled",
+  "pending": "Pending Order",
+  "order_created": "Order Created",
+  "upload_payment_screenshot":"Upload payment screenshot",
+  "take_photo": "Take Photo",
+  "gallery": "Gallery",
+  "error_payment_screenshot_required": "Payment screenshot is required.",
+  "error_name_required": "Name is required.",
+  "success_profile_update": "Profile updated successfully.",
+  "title_success": "Success",
+  "errorRegionRequired": "Region is required.",
+  "errorTownshipRequired": "Township is required.",
+  "errorStressAddressRequired": "Street is required",
+  "successAddressCreate": "Address created successfully.",
+  "successAddressUpdate": "Address updated successfully.",  
+  "title_add_new_address": "Add New Address",
+  "select_region": "Select Region",
+  "select_township": "Select Township",
+  "stress_address": "Street",
+  "is_primary_address": "Is Primary Address?",
+  "btn_delete": "Delete",
+  "delete_confiration":"Are you sure you want to delete this address?",
+  "title_confirmation": "Confirmation",
+  "btn_edit": "Edit",
+  "delete_success": "Successfully deleted.",
+  "delete_error": "Failed to delete.",
+  "title_edit_address": "Edit Address",
+  "btn_update": "Update",
+  "levelMember":"Member",
+  "levelSilver":"Silver",
+  "levelGold":"Gold",
+  "levelPlatinum":"Platinum",
+  "levelDiamond":"Diamond",
+  "underWeight": "Underweight",
+  "normal": "Normal",
+  "overWeight": "Overweight",
+  "obese": "Obese",
+  "year": "{count, plural, =0{Yrs} =1{1 Yr} other{{count} Yrs}}", 
+  "@year": {
+    "description": "Displays the number of year.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "lb": "{count, plural, =0{Lbs} =1{1 Lb} other{{count} Lbs}}", 
+  "@lb": {
+    "description": "Displays the number of lbs.",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "let_start": "Let's Start\nTogether",
+  "feet": "Feet",
+  "inches": "Inches",
+  "dob": "Date of birth",
+  "select_your_goal":"Please Select\nYour Goal",
+  "btn_start": "Start",
+  "errorDobRequired": "Date of birth is required.",
+  "errorWeightRequired": "Weight is required.",
+  "errorFeetRequired": "Feet is required.",
+  "errorInchesRequired": "Inches is required.",
+  "requireGoalSelection": "Please select your goal.",
+  "active_programs": "Active Programs",
+  "calculators": "Calculators",
+  "meal_plans": "Meal Plan",
+  "challenges": "Challenges",
+  "no_active_meal_plan": "No active meal plan",
+  "no_active_challenge": "No active challenge",
+  "start_date": "Start: {startDate}",
+  "@start_date": {
+    "description": "Start: date",
+    "placeholders": {
+      "startDate": {
+        "type": "String",
+        "example": "1 May 2023"
+      }
+    }
+  },
+  "batch_number": "Batch: {batchNumber}",
+  "@batch_number": {
+    "description": "Batch: date",
+    "placeholders": {
+      "batchNumber": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "label_schedule": "Schedule",
+  "empty_reminder": "There is no reminder!",
+  "label_tracker": "Tracker",
+  "label_meal_plan": "Meal Plan",
+  "label_news_feed": "News Feed",
+  "title_active_challenge": "Active Challenge",
+  "btn_add": "Add",
+  "label_selected_ml": "Selected amount: {selectedMl}",
+  "@label_selected_ml": {
+    "description": "Displays the selected amount of ml.",
+    "placeholders": {
+      "selectedMl": {
+        "type": "int",
+        "example": "100"
+      }
+    }
+  },
+  "title_water_intake": "Water Intake",
+  "today_water_intake": "Today Water Intake",
+  "title_water_record": "Record drinking water",
+  "goal": "Goal",
+  "completed_percentage": "{percentage}% completed.",
+  "@completed_percentage": { 
+    "description": "Displays the percentage of completion.",
+    "placeholders": {
+      "percentage": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "comment_count": "{count, plural, =0{No comments} =1{1 comment} other{{count} comments}}",
+  "@comment_count": {
+    "description": "Displays the number of comments.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "what_is_on_your_mind": "What is on your mind?",
+  "btn_post": "Post",
+  "like": "Like",
+  "camera_source": "Camera",
+  "gallery_source": "Gallery",
+  "success_news_feed_create": "News feed created successfully. It will be published after admin approval.",
+  "likedUsers": "People who liked this post",
+  "title_feed_of_user": "{username}'s Post",
+  "@title_feed_of_user": {
+    "description": "Displays the username's post.",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "noComments": "No comments yet",
+  "beFirstToComment": "Be the first to comment",
+  "comment_as": "Comment as {username}",
+  "@comment_as": {
+    "description": "Displays the username.",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "comment": "Comment",
+  "empty_news_feed": "No news feed available",
+  "replyCount": "{count, plural, =0{Reply} =1{1 reply} other{{count} replies}}",
+  "@replyCount": {
+    "description": "Displays the number of replies.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "success_comment_create": "Comment created successfully.",
+  "you_have_finished_your_meal_plan_part": "You have finished {numberOrdinal} part of your meal plan.",
+  "@you_have_finished_your_meal_plan_part": {
+    "description": "Displays the numberOrdinal.",
+    "placeholders": {
+      "numberOrdinal": {
+        "type": "String",
+        "example": "first"
+      }
+    }
+  },
+  "enter_your_current_weight":"Your previous weight was {weight} lb. \nYou need to enter your current weight to generate most suitable meal plans according to your new weight.",
+  "@enter_your_current_weight": {
+    "description": "Displays the previous weight and prompts the user to enter their current weight.",
+    "placeholders": {
+      "weight": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  "btn_enter_new_weight": "Enter New Weight",
+  "select_precondition_you_have":"Select Pre-conditions you have",
+  "your_previous_weight": "Your weight at {updatedDate} was {weight} lb.",
+  "@your_previous_weight": {
+    "description": "Displays the previous weight and date.",
+    "placeholders": {
+      "updatedDate": {
+        "type": "String",
+        "example": "1 May 2023"
+      },
+      "weight": {
+        "type": "num",
+        "example": "150"
+      }
+    }
+  },
+  "your_today_weight": "Your weight measured at today",
+  "title_sleep_schedule": "Sleep Schedule",
+  "sleep_time": "Sleep Time = {sleepTime}",
+  "@sleep_time": {
+    "description": "Displays the sleep time.",
+    "placeholders": {
+      "sleepTime": {
+        "type": "String",
+        "example": "10:00 AM"
+      }
+    }
+  },    
+  "your_sleep_time_is": "Your sleep time is ",
+  "title_add_sleep_schedule": "Add Sleep Schedule",
+  "great": "great",
+  "late": "late",
+  "title_choose_today_mood": "Select Today Mood",
+  "today_feeling_note": "Write Today Feelings",
+  "title_today_feeling": "Today Feeling",
+  "write_total_feeling": "Record Today Feeling",
+  "feeling_note": "Feeling note",
+  "record_activities": "Record activities",
+  "title_dance_and_workout_activity": "Dance & Workout Activities",
+  "total_workout_time":"Total workout time:  {hour, plural, other{{hour} hrs} zero{0 hrs} one{1 hr}} : {minute, plural, other{{minute} mins} zero{0 mins} one{1 min}}",
+  "@total_workout_time": {
+      "description": "Displays the total workout time.",
+      "placeholders": {
+        "hour": {
+            "type": "int",
+            "example": "1" 
+          },
+          "minute": {
+            "type": "int",
+            "example": "1" 
+          }
+      }
+  },  
+  "hour_minute": " ({hour, plural, zero{0 hrs} one{1 hr} other{{hour} hrs}} : {minute, plural, zero{0 mins} one{1 min} other{{minute} mins}})",
+  "@hour_minute": {
+      "description": "minute",
+      "placeholders": {
+        "hour": {
+            "type": "int",
+            "example": "1" 
+          },
+          "minute": {
+            "type": "int",
+            "example": "1" 
+          }
+      }
+  },
+  "label_select_activity_type": "Select Activity Type",
+  "label_select_total_time": "Select Total Time",
+  "title_record_workout_activity": "Record Dance & Workout Activiy",
+  "your_last_bmi": "Your latest BMI : {value}",
+  "@your_last_bmi": {
+     "description": "Displays the latest BMI value.",   
+     "placeholders": {
+        "value": {
+                "type": "String",
+                "example": "20"
+              }
+     }       
+  },
+  "your_last_calorie": "Your latest CR : {value}",
+  "@your_last_calorie": {
+    "description": "Displays the latest Calorie value.",   
+     "placeholders": {
+        "value": {
+                "type": "String",
+                "example": "20"
+              }
+     }       
+  },
+  "your_last_whr": "Your latest WHR : {value}",
+  "@your_last_whr": {
+    "description": "Displays the latest WHI value.",   
+     "placeholders": {
+        "value": {
+                "type": "String",
+                "example": "20"
+              }
+     }       
+  },
+  "your_last_bfp": "Your latest BFP : {value}",
+  "@your_last_bfp": {
+    "description": "Displays the latest BFP value.",   
+     "placeholders": {
+        "value": {
+                "type": "String",
+                "example": "20"
+              }
+     }       
+  },
+  "title_calculators": "Calculators",
+  "title_bmi": "Body Mass Index",
+  "calculate_bmi": "Calculate BMI",
+  "history": "History",
+  "for_myself": "For Myself",
+  "result_can_be_saved_to_profile": "(The result can be saved to profile)",
+  "for_other": "For Other",
+  "result_can_not_be_saved_to_profile": "(The result can not be saved to profile)",
+  "btn_calculate": "Calculate",
+  "btn_back_to_home":"Back To Home",
+  "title_result": "Result",
+  "name_bmi_is": "{name} BMI is {value} ",
+  "@name_bmi_is": {
+    "description": "Displays name and BMI value.",   
+     "placeholders": {
+      "name": {
+                "type": "String",
+                "example": "La La"
+              },
+        "value": {
+                "type": "num",
+                "example": "20"
+              }
+     }       
+  },
+  "your_bmi_is": "Your BMI is {value} ",
+  "@your_bmi_is": {
+    "description": "Displays the latest BFP value.",   
+     "placeholders": {
+        "value": {
+                "type": "num",
+                "example": "20"
+              }
+     }       
+  },
+  "bmi_underweight_description_for_other": "{name} needs to gain some muscle for a stronger and healthier version.",
+  "@bmi_underweight_description_for_other": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+  "bmi_underweight_description_for_you": "You need to gain some muscle for a stronger and healthier version of you.",
+  "bmi_normalweight_description_for_you": "You are on your normal weight. Try to keep it better.",
+  "bmi_normalweight_description_for_other": "{name} is on normal weight. Try to keep it better.",
+  "@bmi_normalweight_description_for_other": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "bmi_overweight_description_for_you": "There is a slight increase in your weight currently. If this is because of some extra fat, you need to remove them before it's too late.",
+    "bmi_overweight_description_for_other": "There is a slight increase in {name}'s weight currently. If this is because of some extra fat, you need to remove them before it's too late.",
+    "@bmi_overweight_description_for_other": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "bmi_obesity_description_for_you": "BMI cannot show the exact status of your health. But if you are fat with this BMI result, you really need to try to lose some weight",
+    "bmi_obesity_description_for_other": "BMI cannot show the exact status of {name}'s health. But if you are fat with this BMI result, you really need to try to lose some weight",
+    "@bmi_obesity_description_for_other": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "bmi_bad_result_description_for_you": "You have a bad result with your BMI. Please take action to lose weight immediately to live longer, to live healthier.",
+    "you_look_fantastic":"You look fantastic!",
+    "name_looks_fantastic": "{name} looks fantastic!",
+     "@name_looks_fantastic": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "you_need_improvement": "You need improvement!",
+    "name_needs_improvement": "{name} needs improvement!", 
+     "@name_needs_improvement": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "btn_save_result": "Save Result",
+    "successSavingCalculatorResult": "The result has been successfully saved to the profile.",
+    "calculate_cr": "Calculate CR",
+    "title_calorie_requirement": "Calorie Requirement",
+    "title_wth_ratio": "Waist to Height Ratio",
+    "calculate_wth_ratio": "Calculate WTH Ratio",
+    "title_bfp": "Body Fat Percentage",
+    "waist": "Waist",
+    "stress_factor": "Stress Factor",
+    "lifestyle": "Life Style",    
+    "your": "Your",
+    "your_bfp_result_is":"{name} Body Fat Percentage is {bfp}%",
+    "@your_bfp_result_is": {
+      "description": "Displays name.",   
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "Ko La"
+                },
+        "bfp": {
+                "type": "num",
+                "example": "43"
+              }
+        }       
+    },
+    "your_calorie_requirement_is":"Your calorie requirement is {calorie}",
+    "@your_calorie_requirement_is": {
+      "description": "Displays name.",   
+      "placeholders": {
+          "calorie": {
+                  "type": "int",
+                  "example": "43"
+                }
+      }       
+    },
+    "name_calorie_requirement_is":"{name}'s calorie requirement is {calorie}",
+    "@name_calorie_requirement_is": {
+      "description": "Displays name & calorie.",   
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                },
+          "calorie": {
+                  "type": "int",
+                  "example": "43"
+                }
+      }       
+    },
+    "calorie_requirement_description": "Pay attention to your daily calorie intake because \"3500calories = 1 lb\".",
+    "your_waist_to_height_ratio_is" : "Your Waist to Height ratio is {value}",
+    "@your_waist_to_height_ratio_is": {
+      "description": "Displays value.",   
+      "placeholders": {
+          "value": {
+                  "type": "num",
+                  "example": "43"
+                }
+      }       
+    },
+    "name_waist_to_height_ratio_is" : "{name}'s Waist to Height ratio is {value}",
+    "@name_waist_to_height_ratio_is": {
+      "description": "Displays name & value.",   
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                },
+          "value": {
+                  "type": "num",
+                  "example": "43"
+                }
+      }       
+    },
+    "you_need_an_improvement": "Your need an improvement!",
+    "name_needs_an_improvement": "{name} needs an improvement!",
+    "@name_needs_an_improvement": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_wth_result_extremely_slim": "You need to put on some weight to get a healthy body. More protein, more carbs and more strength training will transform you into an ideal body.",
+    "name_wth_result_extremely_slim": "{name} need to put on some weight to get a healthy body. More protein, more carbs and more strength training will transform him/her into an ideal body.",
+    "@name_wth_result_extremely_slim": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_wth_result_absolutely_slim": "Your body is very thin for your height. Slimming may reduce obesity related diseases by extremely slim can give you lower immunity, not good-looking appearance and weak endurance.",    
+    "name_wth_result_absolutely_slim": "{name}'s body is very thin for height. Slimming may reduce obesity related diseases by extremely slim can give you lower immunity, not good-looking appearance and weak endurance.",
+    "@name_wth_result_absolutely_slim": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_wth_result_healthy": "You are on your best result in Waist to Height Ratio. Check your body’s status for other measurements and say “Cheers”",
+    "name_wth_result_healthy": "{name} is on his/her best result in Waist to Height Ratio. Check his/her body’s status for other measurements and say “Cheers”",
+    "@name_wth_result_healthy": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_wth_result_overweight": "There is slight increase in your fat around your waist. Try to lose it coz these will be the potential threat to your health!",
+    "name_wth_result_overweight": "There is slight increase in fat around the waist. Try to lose it coz these will be the potential threat to health!",
+    "your_wth_result_extremely_overweight":"You cannot say healthy if your result is in this range of Very Overweight. Before it is too late, you’d better start losing some weight.",
+    "name_wth_result_extremely_overweight":"{name} cannot say healthy if your result is in this range of Very Overweight. Before it is too late, he/she’d better start losing some weight.",
+    "@name_wth_result_extremely_overweight": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_wth_result_unheathy": "You have a very unhealthy result in here. There is a reason why Waist to Height Ratio is more useful than other types of body measurements. It can indicate the level of dangerous fat around your waist (around your internal organ) than other types. Central obesity will cause you at higher risk of cardiovascular diseases. Please note it and take it seriously.",
+    "name_wth_result_unheathy": "{name} has a very unhealthy result in here. There is a reason why Waist to Height Ratio is more useful than other types of body measurements. It can indicate the level of dangerous fat around his/her waist (around his/her internal organ) than other types. Central obesity will cause you at higher risk of cardiovascular diseases. Please note it and take it seriously.",
+    "@name_wth_result_unheathy": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_bfp_result_lean":"You need to gain some fat and muscle for a stronger and healthier version of you. Let's Boost the Essential Fat.",
+    "name_bfp_result_lean":"{name} needs to gain some fat and muscle for a stronger and healthier version. Let's Boost the Essential Fat.",
+    "@name_bfp_result_lean": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_bfp_result_healthy":"You are on your normal fit stage. Let's keep it up.",
+    "name_bfp_result_healthy": "{name} is on normal fit stage. Let's keep it up.",
+    "@name_bfp_result_healthy": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },     
+    "your_bfp_result_overfat": "There are some extra fat in your body, you need to remove them before it's too late. Let's burn the Notty Fat with exercises.",
+    "name_bfp_result_overfat": "There are some extra fat in {name} body, he/she needs to remove them before it's too late. Let's burn the Notty Fat with exercises.",
+    "@name_bfp_result_overfat": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "your_bfp_result_bad": "You have a bad result with your BFP. Please take action to burn fat immediately to live longer, to live healthier.Let's burn the Notty Fat with exercises.",
+    "name_bfp_result_bad": "{name} has a bad result with BFP. Please take action to burn fat immediately to live longer, to live healthier.Let's burn the Notty Fat with exercises.",
+    "@name_bfp_result_bad": {
+      "description": "Display name",
+      "placeholders": {
+        "name": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "calculate_bfp": "Calculate BFP",
+    "title_meal_plan": "Meal Plan",
+    "choose_meal_plan": "Select Meal Plan",
+    "break_fast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "calories_with_unit": "({value, plural, =0{cal} =1{1 cal} other{{value} cals}})",
+    "@calories_with_unit": {
+      "description": "Display calories",
+      "placeholders": {
+        "value": {
+                  "type": "int",
+                  "example": "4"
+                }
+      }       
+    },
+    "calories_with_value": "Calories: {value}",
+    "@calories_with_value": {
+      "description": "Display calories",
+      "placeholders": {
+        "value": {
+                  "type": "int",
+                  "example": "4"
+                }
+      }       
+    },
+    "day": "Day : {day}",
+    "@day": {
+      "description": "Display day",
+      "placeholders": {
+        "day": {
+                  "type": "int",
+                  "example": "4"
+                }
+      }       
+    },
+    "no_meal_plan_for_today":"There is no meal for today.",
+    "eaten_date": "Eaten Date: ",
+    "btn_mark_as_eaten": "Mark as Eaten",
+    "no_product_found": "No products found for {query}.",
+     "@no_product_found": {
+      "description": "Display name",
+      "placeholders": {
+        "query": {
+                  "type": "String",
+                  "example": "La La"
+                }
+      }       
+    },
+    "type_to_search_product": "Type to search products from the search box.",
+    "search_hint": "Search...",
+    "nutrient_fat": "Fat",
+    "nutrient_carbohydrate": "Carbohydrate",
+    "nutrient_protein": "Protein",
+    "label_dish": "Dish : {dish}",
+    "@label_dish": {
+      "description": "Display Dish",
+      "placeholders": {
+        "dish": {
+                  "type": "int",
+                  "example": "4"
+                }
+      }       
+    },
+    "label_ingredient": "Ingredient",
+    "label_instruction": "Instruction",
+    "btn_eaten": "Eaten",
+    "label_bmi": "BMI : ",
+    "label_weight": "Weight : ",
+    "label_height": "Height : ",
+    "label_preconditions": "Preconditions : ",
+    "label_meals": "Meals",
+    "first": "first",
+    "second": "second",
+    "third": "third",
+    "fourth": "fourth",
+    "fifth": "fifth",
+    "sixth": "sixth",
+    "seventh": "seventh",
+    "eighth": "eighth",
+    "nineth": "nineth",
+    "tenth": "tenth",
+    "require_weight_to_generate_meal_plan":"You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions."
+  }

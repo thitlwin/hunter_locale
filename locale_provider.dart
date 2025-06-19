@@ -1,9 +1,9 @@
 import 'package:joy_app/l10n/generated/app_localizations.dart';
+import 'package:joy_app/src/core/data/local/preferences/preferences_datasource.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
-part '../../l10n/locale_provider.g.dart';
+part 'locale_provider.g.dart';
 
 @riverpod
 class LocaleNotifier extends _$LocaleNotifier {
@@ -16,7 +16,7 @@ class LocaleNotifier extends _$LocaleNotifier {
   }
 
   Future<void> _saveLocale(Locale locale) async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = ref.watch(preferencesDataSourceProvider);
     await prefs.setString(_localeKey, locale.languageCode);
   }
 
@@ -28,8 +28,8 @@ class LocaleNotifier extends _$LocaleNotifier {
   }
 
   Future<void> loadSavedLocale() async {
-    final prefs = await SharedPreferences.getInstance();
-    final languageCode = prefs.getString(_localeKey);
+    final prefs = ref.watch(preferencesDataSourceProvider);
+    final languageCode = await prefs.getString(_localeKey);
 
     if (languageCode != null) {
       final locale = Locale(languageCode);
