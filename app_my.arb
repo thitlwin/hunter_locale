@@ -1,119 +1,927 @@
 {
   "@@locale": "my",
-  "helloWorld": "မင်္ဂလာပါ!",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
-  },
+  "title_announcement": "ကြေငြာချက်များ",
+  "confirm_reminder_has_done": "ဤအရာကို ပြီးပြီဟု အမှတ်အသားပြုလိုသည်မှာ သေချာပါသလား?",
+  "label_finish": "ပြီးမည်",
+  "title_bfp_calculator": "ခန္ဓာကိုယ်အဆီပါဝင်မှု တွက်ချက်ရန်",
+  "title_wth_calculator": "ခါးနှင့်အရပ်အချိုး တွက်ချက်ရန်",
+  "title_calorie_calculator": "ကယ်လိုရီ တွက်ချက်ရန်",
+  "title_bmi_calculator": "BMI တွက်ချက်ရန်",
+  "btn_add_to_cart": "စျေးခြင်းထဲထည့်မည်",
+  "no_healthy_tips": "ကျန်းမာရေးအကြံပြုချက်များ မရှိပါ။",
+  "label_select_from_meal_plan":"အစားအစာအစီအစဉ်မှ ရွေးချယ်မည်လား?",
+  "title_record_meal_plan": "အစားအစာအစီအစဉ် မှတ်တမ်းတင်မည်",
+  "title_select_a_meal_plan": "အစားအစာအစီအစဉ် ရွေးချယ်မည်",  
+  "select_meal_plan": "အစားအစာအစီအစဉ် ရွေးချယ်မည်",
+  "label_see_all_meal_plan": "အစားအစာအစီအစဉ်အားလုံးကို ကြည့်ရန်",
+  "label_total_calories": "စုစုပေါင်းကယ်လိုရီ : ",  
   "home": "ပင်မ",
+  "today": "ယနေ့",
   "profile": "ကိုယ်ရေးအချက်အလက်",
-  "selectLanguage": "ဘာသာစကားရွေးချယ်မှု",
-  "login": "ဝင်ရောက်မည်",
+  "selectLanguage": "ဘာသာစကား ရွေးချယ်မည်",
+  "login": "ဝင်မည်",
   "register": "မှတ်ပုံတင်မည်",
   "or": "သို့မဟုတ်",
-  "signin_with_google": "Google ဖြင့် ဝင်မည်။",
-  "signin_with_facebook": "Facebookဖြင့် ဝင်မည်။",
+  "hint_what_did_you_eat": "ဘာစားခဲ့ပါသလဲ?",
+  "label_eat_own_meal": "ကိုယ်ပိုင်အစားအစာ စားမည်လား?",
+  "signin_with_google": "Google ဖြင့် ဝင်မည်",
+  "signin_with_facebook": "Facebook ဖြင့် ဝင်မည်",
   "lets_build_healthy_lifestyle_with_joy_en":"Let's build healthy lifestyle with joy",
   "lets_build_healthy_lifestyle_with_joy_my":"ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့",
-  "dontHaveAccount": "အကောင့်မရှိသေးဘူးလား?",
+  "dontHaveAccount":"အကောင့်မရှိသေးဘူးလား?",
   "signUp": "မှတ်ပုံတင်မည်",
+  "btn_select": "ရွေးချယ်မည်",
   "forgotYourPassword": "စကားဝှက်မေ့နေပါသလား?",
   "password": "စကားဝှက်",
   "phoneNumber": "ဖုန်းနံပါတ်",
-  "loginToYourAccount": "သင့်အကောင့်ထဲသို့ဝင်ရောက်ပါ",
+  "loginToYourAccount": "သင့်အကောင့်သို့ ဝင်ရောက်မည်",
   "welcomeBack": "ပြန်လည်ကြိုဆိုပါသည်!",
   "title_forgot_password": "စကားဝှက်မေ့နေပါသလား",
-  "enter_your_phone": "စကားဝှက်ပြန်လည်သတ်မှတ်ရန် သင့်ဖုန်းနံပါတ်ထည့်ပါ",
+  "enter_your_phone": "စကားဝှက်ပြန်လည်သတ်မှတ်ရန် ဖုန်းနံပါတ်ထည့်ပါ",
   "btn_reset_password": "စကားဝှက်ပြန်သတ်မှတ်မည်",
   "btn_next": "နောက်တစ်ဆင့်",
   "already_have_an_account": "အကောင့်ရှိပြီးသားလား?",
-  "we_will_send_otp": "သင့်ဖုန်းကို OTP ကုဒ်ပို့ပေးပါမည်။",
-  "title_create_account": "အကောင့်အသစ်ဖွင့်ရန်",
+  "we_will_send_otp": "သင့်ဖုန်းသို့ OTP ကုဒ်ပို့ပေးပါမည်။",
+  "title_create_account": "အကောင့်အသစ်ဖန်တီးမည်",
   "title_phone_verification": "ဖုန်းနံပါတ် အတည်ပြုခြင်း",
-  "enter_your_otp": "OTP ကုဒ်ကို ဤနေရာတွင် ထည့်ပါ",
-  "we_have_sent_opt_code": "သင့်ဖုန်းနံပါတ်သို့ OTP ကုဒ် ပို့ပြီးပါပြီ။",
-  "didnt_get_the_otp": "OTP ကုဒ် မရရှိပါသလား?",
-  "error_fill_in_all_fields": "ကျေးဇူးပြု၍ အကွက်အားလုံးကို ဖြည့်ပါ",
+  "enter_your_otp": "OTP ကုဒ်ကို ဤနေရာတွင် ထည့်သွင်းပါ",
+  "we_have_sent_opt_code":"သင့်ဖုန်းနံပါတ်သို့ OTP ကုဒ်ပို့ပြီးပါပြီ။",
+  "didnt_get_the_otp": "OTP မရရှိပါက",
+  "error_fill_in_all_fields":"ကျေးဇူးပြု၍ အားလုံးဖြည့်စွက်ပါ",
   "success_login": "အကောင့်ဝင်ရောက်မှု အောင်မြင်ပါသည်",
   "error_phone_required": "ဖုန်းနံပါတ် လိုအပ်ပါသည်",
   "error_password_required": "စကားဝှက် လိုအပ်ပါသည်",
-  "btn_resend_otp": "OTP ကိုပြန်လည်ပို့ပါ",
-  "title_create_new_password": "စကားဝှက်အသစ်ဖန်တီးရန်",
-  "btn_create_password": "စကားဝှက်ဖန်တီးပါ",
-  "confirm_password": "စကားဝှက်အတည်ပြုပါ",
-  "error_password_mismatch": "စကားဝှက်မကိုက်ညီပါ",
-  "title_reset_password": "စကားဝှက်ပြန်လည်သတ်မှတ်ရန်",
-  "error_confirm_password_required": "စကားဝှက်အတည်ပြုရန်လိုအပ်ပါသည်",
-  "error_confirm_password_mismatch": "စကားဝှက်အတည်ပြုမှုမကိုက်ညီပါ",
-  "success_password_reset": "စကားဝှက်ပြန်လည်သတ်မှတ်မှုအောင်မြင်ပါသည်",
+  "btn_resend_otp": "OTP ပြန်ပို့မည်",
+  "btn_request_otp": "OTP တောင်းမည်",
+  "title_create_new_password": "စကားဝှက်အသစ်ဖန်တီးမည်",
+  "btn_create_password": "စကားဝှက်ဖန်တီးမည်",
+  "confirm_password": "စကားဝှက်အတည်ပြုမည်",
+  "error_password_mismatch": "စကားဝှက် မကိုက်ညီပါ",
+  "title_reset_password": "စကားဝှက်ပြန်သတ်မှတ်မည်",
+  "error_confirm_password_required": "စကားဝှက်အတည်ပြုရန် လိုအပ်ပါသည်",
+  "error_confirm_password_mismatch": "စကားဝှက်အတည်ပြုချက် မကိုက်ညီပါ",
+  "success_password_reset": "စကားဝှက်ပြန်သတ်မှတ်မှု အောင်မြင်ပါသည်",
   "title_home": "ပင်မ",
-  "title_profile": "ပရိုဖိုင်",
-  "title_favorite": "အကြိုက်ဆုံး",
-  "meal_plan": "အစားအစာ အစီအစဉ်",
-  "juice_plan": "ဖျော်ရည် အစီအစဉ်",
+  "title_profile": "ကိုယ်ရေးအချက်အလက်",
+  "title_favorite": "အကြိုက်ဆုံးများ",
+  "meal_box_program": "အစားအစာပါသော ပရိုဂရမ်",
+  "juice_plan": "ဖျော်ရည် ပရိုဂရမ်",
   "challenge": "စိန်ခေါ်မှု",
   "our_products": "ကျွန်ုပ်တို့၏ ထုတ်ကုန်များ",
-  "healthy_tips": "ကျန်းမာရေး အကြံပြုချက်များ",
-  "upcoming_live": "တိုက်ရိုက်ထုတ်လွှင့်မှု",
+  "healthy_tips": "ကျန်းမာရေးအကြံပြုချက်များ",
+  "upcoming_live": "ရောက်ရှိလာမည့် တိုက်ရိုက်ထုတ်လွှင့်မှုများ",
   "see_all": "အားလုံးကြည့်ရန်",
   "btn_purchase": "ဝယ်ယူမည်",
-  "no_products_available": "ပစ္စည်းမရှိသေးဘူး",
-  "try_again": "ပြန်ကြိုးစားကြည့်ပါ",
-  "an_error_occurred": "အမှားအယွင်းဖြစ်ပွားနေပါသည်",
+  "no_products_available": "ရရှိနိုင်သော ထုတ်ကုန်မရှိပါ",
+  "try_again": "ထပ်ကြိုးစားမည်",
+  "an_error_occurred": "အမှားတစ်ခုဖြစ်ပွားနေပါသည်!",
   "label_description": "ဖော်ပြချက်",
   "label_price": "စျေးနှုန်း",
-  "empty_profile": "အချက်အလက်မရှိသောပရိုဖိုင်",
+  "empty_profile": "အချက်အလက်မရှိသေးပါ",
   "btn_reload": "ပြန်ဖွင့်မည်",
-  "label_member": "အသင်းဝင်",
+  "label_member": "အသင်း၀င်",
   "joy_coupon": "လက်ရှိ JOY $",
   "your_goal": "သင့်ရည်မှန်းချက်",
   "age": "အသက်",
   "weight": "ကိုယ်အလေးချိန်",
   "height": "အရပ်အမြင့်",
-  "phone": "ဖုန်းနံပါတ်",
+  "phone":"ဖုန်း",
   "gender": "လိင်",
-  "nrc": "မှတ်ပုံတင်နံပါတ်",
-  "delivery_address": "ပို့ဆောင်ရန်လိပ်စာ",
+  "nrc":"မှတ်ပုံတင်နံပါတ်",
+  "delivery_address": "ပို့ဆောင်မည့်လိပ်စာ",
   "primary_address": "ပင်မလိပ်စာ",
   "my_address": "ကျွန်ုပ်၏လိပ်စာများ",
   "bmi_label_with_value": "BMI ({bmiValue})",
   "@bmi_label_with_value": {
-    "description": "BMI တန်ဖိုးကိုကွင်းစကွင်းပိတ်ဖြင့်ပြသထားသည်။",
+    "description": "BMI တန်ဖိုးကို ကွင်းစကွင်းပိတ်ဖြင့် ဖော်ပြခြင်း။",
     "placeholders": {
       "bmiValue": {
         "type": "double",
         "example": "21.0"
       }
     }
-  },  
-  "select_gender": "သင့်လိင် ရွေးချယ်ပါ",
-  "title_edit_profile": "ပရိုဖိုင်းပြင်ဆင်ရန်",
+  },
+  "select_gender": "လိင် ရွေးချယ်ပါ",
+  "title_edit_profile": "ကိုယ်ရေးအချက်အလက် ပြင်ဆင်မည်",
   "optional": "ရွေးချယ်နိုင်သည်",
   "name": "အမည်",
   "btn_save": "သိမ်းမည်",
-  "required_name": "အမည်ဖြည့်ရန် လိုအပ်ပါသည်",
+  "required_name": "အမည် လိုအပ်ပါသည်",
   "male": "ကျား",
   "female": "မ",
   "other": "အခြား",
-  "active_plan_count": "လက်ရှိ Plan",
-  "active_challenge_count": "လက်ရှိ Challenge",
+  "active_plan_count": "တက်ကြွသော အစီအစဉ်",
+  "active_challenge_count": "တက်ကြွသော စိန်ခေါ်မှု",
   "order_list_label": "အော်ဒါများ",
   "rewards_label": "ဆုလာဘ်များ",
   "notifications_label": "အသိပေးချက်များ",
   "language_label": "ဘာသာစကား",
-  "logout_confirmation": "အကောင့်မှ ထွက်ရန် အတည်ပြုခြင်း",
+  "logout_confirmation": "အကောင့်မှ ထွက်မည်",
   "logout_confirmation_message": "အကောင့်မှ ထွက်ရန် သေချာပါသလား?",
   "btn_logout": "ထွက်မည်",
   "btn_cancel": "မထွက်တော့ပါ",
   "title_notifications": "အသိပေးချက်များ",
   "you_have": "သင့်တွင် ",
-  "new_notifications": "{unReadCount, plural, =0{အသိပေးချက်အသစ်မရှိပါ} =1{အသိပေးချက်အသစ် ၁ ခုရှိသည်} other{အသိပေးချက်အသစ် {unReadCount} ခုရှိသည်}}",
+  "new_notifications": "{unReadCount, plural, =0{အသိပေးချက်အသစ်မရှိပါ} =1{အသိပေးချက်အသစ် ၁ ခု} other{အသိပေးချက်အသစ် {unReadCount} ခု}}", 
   "@new_notifications": {
-    "description": "အသိပေးချက်အရေအတွက်ကိုပြသသည်။",
+    "description": "အသိပေးချက်အသစ်အရေအတွက်ကို ဖော်ပြခြင်း။",
     "placeholders": {
       "unReadCount": {
         "type": "int",
         "example": "5"
       }
     }
-  }
+  },
+  "btn_checkout": "ငွေရှင်းမည်",
+  "total": "စုစုပေါင်း",
+  "title_shopping_cart": "စျေးခြင်းထည့်စရာ",
+  "title_checkout": "ငွေရှင်းမည်",
+  "other_methods": "အခြားနည်းလမ်းများ",
+  "title_payment_methods": "ငွေပေးချေမှုနည်းလမ်းများ",
+  "bank_transfer": "ဘဏ်လွှဲ",
+  "payment_method": "ငွေပေးချေမှုနည်းလမ်း",
+  "btn_change": "ပြောင်းမည်",
+  "btn_confirm_order": "အော်ဒါအတည်ပြုမည်",
+  "order_information": "အော်ဒါအချက်အလက်",
+  "total_amount": "စုစုပေါင်းပမာဏ",
+  "label_point": "အမှတ်",
+  "point_value": "{pointCount, plural, =0{အမှတ်မရှိပါ} =1{အမှတ် ၁ ခု} other{အမှတ် {pointCount} ခု}}", 
+  "@point_value": {
+    "description": "အမှတ်အရေအတွက်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "pointCount": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "net_amount": "အသားတင်ပမာဏ",
+  "add_new_address":"လိပ်စာအသစ်ထည့်မည်",
+  "no_bank_accounts_available": "ရရှိနိုင်သော ဘဏ်အကောင့်မရှိပါ",
+  "btn_confirm": "အတည်ပြုမည်",
+  "btn_ok": "အိုကေ",
+  "title_error": "အမှား",
+  "title_warning": "သတိပေးချက်",
+  "error_delivery_address_required": "ပို့ဆောင်မည့်လိပ်စာ လိုအပ်ပါသည်။",
+  "title_order_detail": "အော်ဒါအသေးစိတ်",
+  "empty_cart": "စျေးခြင်းထည့်စရာ မရှိပါ",
+  "bank_account_copied": "ဘဏ်အကောင့်နံပါတ်ကို clipboard သို့ ကူးထည့်ပြီးပါပြီ!",
+  "order_number": "အော်ဒါ",
+  "used_coupon_amount": "အသုံးပြုထားသော ကူပွန်",
+  "title_orders": "အော်ဒါများ",
+  "empty_order": "အော်ဒါစာရင်း မရှိပါ",
+  "payment_confirmed": "ငွေပေးချေမှု အတည်ပြုပြီး",
+  "order_confirmed": "အော်ဒါ အတည်ပြုပြီး",
+  "payment_rejected": "ငွေပေးချေမှု ပယ်ချခံရ",
+  "order_completed": "အော်ဒါ ပြီးစီးပြီး",
+  "cancelled":"အော်ဒါ ပယ်ဖျက်ပြီး",
+  "pending": "ဆိုင်းငံ့ထားသော အော်ဒါ",
+  "order_created": "အော်ဒါ ဖန်တီးပြီး",
+  "upload_payment_screenshot":"ငွေပေးချေမှု screenshot တင်မည်",
+  "take_photo": "ဓာတ်ပုံရိုက်မည်",
+  "gallery": "ပြခန်း",
+  "error_payment_screenshot_required": "ငွေပေးချေမှု screenshot လိုအပ်ပါသည်။",
+  "error_name_required": "အမည် လိုအပ်ပါသည်။",
+  "success_profile_update": "ကိုယ်ရေးအချက်အလက် အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ။",
+  "title_success": "အောင်မြင်မှု",
+  "errorRegionRequired": "တိုင်းဒေသကြီး လိုအပ်ပါသည်။",
+  "errorTownshipRequired": "မြို့နယ် လိုအပ်ပါသည်။",
+  "errorStressAddressRequired": "လမ်း လိုအပ်ပါသည်",
+  "successAddressCreate": "လိပ်စာ အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။",
+  "successAddressUpdate": "လိပ်စာ အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ။",  
+  "title_add_new_address": "လိပ်စာအသစ်ထည့်မည်",
+  "select_region": "တိုင်းဒေသကြီး ရွေးချယ်ပါ",
+  "select_township": "မြို့နယ် ရွေးချယ်ပါ",
+  "stress_address": "လမ်း",
+  "is_primary_address": "ပင်မလိပ်စာ ဖြစ်ပါသလား?",
+  "btn_delete": "ဖျက်မည်",
+  "delete_confiration":"ဤလိပ်စာကို ဖျက်ရန် သေချာပါသလား?",
+  "title_confirmation": "အတည်ပြုချက်",
+  "btn_edit": "ပြင်ဆင်မည်",
+  "delete_success": "အောင်မြင်စွာ ဖျက်ပြီးပါပြီ။",
+  "delete_error": "ဖျက်ရန် မအောင်မြင်ပါ။",
+  "title_edit_address": "လိပ်စာ ပြင်ဆင်မည်",
+  "btn_update": "မွမ်းမံမည်",
+  "levelMember":"အသင်း၀င်",
+  "levelSilver":"ငွေ",
+  "levelGold":"ရွှေ",
+  "levelPlatinum":"ပလက်တီနမ်",
+  "levelDiamond":"စိန်",
+  "underWeight": "ပုံမှန်ထက် ပိန်သည်",
+  "normal": "ပုံမှန်",
+  "overWeight": "ပုံမှန်ထက် ဝသည်",
+  "obese": "အဝလွန်သည်",
+  "year": "{count, plural, =0{နှစ်} =1{၁ နှစ်} other{{count} နှစ်}}", 
+  "@year": {
+    "description": "နှစ်အရေအတွက်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "lb": "{count, plural, =0{ပေါင်} =1{၁ ပေါင်} other{{count} ပေါင်}}", 
+  "@lb": {
+    "description": "ပေါင်အရေအတွက်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "let_start": "အတူတူ စတင်ကြရအောင်",
+  "feet": "ပေ",
+  "inches": "လက်မ",
+  "dob": "မွေးနေ့",
+  "select_your_goal":"သင့်ရည်မှန်းချက်ကို ရွေးချယ်ပါ",
+  "btn_start": "စတင်မည်",
+  "errorDobRequired": "မွေးနေ့ လိုအပ်ပါသည်။",
+  "errorWeightRequired": "ကိုယ်အလေးချိန် လိုအပ်ပါသည်။",
+  "errorFeetRequired": "ပေ လိုအပ်ပါသည်။",
+  "errorInchesRequired": "လက်မ လိုအပ်ပါသည်။",
+  "requireGoalSelection": "ကျေးဇူးပြု၍ သင့်ရည်မှန်းချက်ကို ရွေးချယ်ပါ။",
+  "active_programs": "ကျွန်ုပ်၏ ပရိုဂရမ်များ",
+  "calculators": "တွက်ချက်ကိရိယာများ",
+  "product_programs": "ထုတ်ကုန်ပရိုဂရမ်များ",  
+  "service_programs": "ဝန်ဆောင်မှုပရိုဂရမ်များ",  
+  "no_active_meal_plan": "တက်ကြွသော ထုတ်ကုန်မရှိပါ။",
+  "no_active_challenge": "တက်ကြွသော ဝန်ဆောင်မှုမရှိပါ။",
+  "start_date": "စတင်မည်: {startDate}",
+  "@start_date": {
+    "description": "စတင်မည့်ရက်",
+    "placeholders": {
+      "startDate": {
+        "type": "String",
+        "example": "၁ မေ ၂၀၂၃"
+      }
+    }
+  },
+  "batch_number": "အသုတ်: {batchNumber}",
+  "@batch_number": {
+    "description": "အသုတ်နံပါတ်",
+    "placeholders": {
+      "batchNumber": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "label_schedule": "အချိန်ဇယား",
+  "empty_reminder": "သတိပေးချက် မရှိပါ!",
+  "label_tracker": "ခြေရာခံ",
+  "label_meal_plan": "အစားအစာအစီအစဉ်",
+  "label_news_feed": "သတင်းများ",
+  "title_active_challenge": "တက်ကြွသော စိန်ခေါ်မှု",
+  "btn_add": "ထည့်မည်",
+  "label_selected_ml": "ရွေးချယ်ထားသော ပမာဏ: {selectedMl}",
+  "@label_selected_ml": {
+    "description": "ရွေးချယ်ထားသော ml ပမာဏကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "selectedMl": {
+        "type": "int",
+        "example": "100"
+      }
+    }
+  },
+  "title_water_intake": "ရေသောက်သုံးမှု",
+  "today_water_intake": "ယနေ့ ရေသောက်သုံးမှု",
+  "title_water_record": "ရေသောက်သုံးမှု မှတ်တမ်းတင်မည်",
+  "goal": "ရည်မှန်းချက်",
+  "completed_percentage": "{percentage}% ပြီးစီးပြီး။",
+  "@completed_percentage": { 
+    "description": "ပြီးစီးမှုရာခိုင်နှုန်းကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "percentage": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "comment_count": "{count, plural, =0{မှတ်ချက်မရှိပါ} =1{မှတ်ချက် ၁ ခု} other{မှတ်ချက် {count} ခု}}",
+  "@comment_count": {
+    "description": "မှတ်ချက်အရေအတွက်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "what_is_on_your_mind": "စိတ်ထဲမှာ ဘာတွေရှိလဲ?",
+  "btn_post": "တင်မည်",
+  "like": "နှစ်သက်သည်",
+  "camera_source": "ကင်မရာ",
+  "gallery_source": "ပြခန်း",
+  "success_news_feed_create": "သတင်းများ အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။ အက်ဒ်မင်အတည်ပြုပြီးနောက် ထုတ်ဝေပါမည်။",
+  "likedUsers": "ဤပို့စ်ကို နှစ်သက်သူများ",
+  "title_feed_of_user": "{username} ၏ ပို့စ်",
+  "@title_feed_of_user": {
+    "description": "အသုံးပြုသူအမည်၏ ပို့စ်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "ဂျွန်ဒိုး"
+      }
+    }
+  },
+  "noComments": "မှတ်ချက်မရှိသေးပါ",
+  "beFirstToComment": "ပထမဆုံး မှတ်ချက်ပေးသူဖြစ်ပါစေ",
+  "comment_as": "{username} အဖြစ် မှတ်ချက်ပေးမည်",
+  "@comment_as": {
+    "description": "အသုံးပြုသူအမည်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "ဂျွန်ဒိုး"
+      }
+    }
+  },
+  "comment": "မှတ်ချက်",
+  "empty_news_feed": "ရရှိနိုင်သော သတင်းများ မရှိပါ",
+  "replyCount": "{count, plural, =0{ပြန်ကြားချက်} =1{ပြန်ကြားချက် ၁ ခု} other{ပြန်ကြားချက် {count} ခု}}",
+  "@replyCount": {
+    "description": "ပြန်ကြားချက်အရေအတွက်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "success_comment_create": "မှတ်ချက် အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။",
+  "you_have_finished_your_meal_plan_part": "သင့်အစားအစာအစီအစဉ်၏ {numberOrdinal} အပိုင်းကို ပြီးမြောက်ပြီးပါပြီ။",
+  "@you_have_finished_your_meal_plan_part": {
+    "description": "နံပါတ်စဉ်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "numberOrdinal": {
+        "type": "String",
+        "example": "ပထမ"
+      }
+    }
+  },
+  "enter_your_current_weight":"သင့်ယခင်ကိုယ်အလေးချိန်မှာ {weight} ပေါင်ဖြစ်ပါသည်။ \nသင့်လက်ရှိကိုယ်အလေးချိန်ကို ထည့်သွင်းရန် လိုအပ်ပါသည်။",
+  "@enter_your_current_weight": {
+    "description": "ယခင်ကိုယ်အလေးချိန်ကို ဖော်ပြပြီး လက်ရှိကိုယ်အလေးချိန်ထည့်ရန် တိုက်တွန်းခြင်း။",
+    "placeholders": {
+      "weight": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  "btn_enter_new_weight": "ကိုယ်အလေးချိန်အသစ်ထည့်မည်",
+  "select_precondition_you_have":"သင့်တွင် ရှိသော ကြိုတင်အခြေအနေများကို ရွေးချယ်ပါ",
+  "your_previous_weight": "{updatedDate} တွင် သင့်ကိုယ်အလေးချိန်မှာ {weight} ပေါင်ဖြစ်ပါသည်။",
+  "@your_previous_weight": {
+    "description": "ယခင်ကိုယ်အလေးချိန်နှင့် ရက်စွဲကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "updatedDate": {
+        "type": "String",
+        "example": "၁ မေ ၂၀၂၃"
+      },
+      "weight": {
+        "type": "num",
+        "example": "150"
+      }
+    }
+  },
+  "your_today_weight": "ယနေ့တိုင်းတာထားသော သင့်ကိုယ်အလေးချိန်",
+  "title_sleep_schedule": "အိပ်စက်မှုအချိန်ဇယား",
+  "sleep_time": "အိပ်ချိန် = {sleepTime}",
+  "@sleep_time": {
+    "description": "အိပ်ချိန်ကို ဖော်ပြခြင်း။",
+    "placeholders": {
+      "sleepTime": {
+        "type": "String",
+        "example": "နံနက် ၁၀:၀၀"
+      }
+    }
+  },    
+  "your_sleep_time_is": "သင့်အိပ်ချိန်မှာ ",
+  "title_add_sleep_schedule": "အိပ်စက်မှုအချိန်ဇယား ထည့်မည်",
+  "great": "ကောင်းသည်",
+  "late": "နောက်ကျသည်",
+  "title_choose_today_mood": "ယနေ့စိတ်အခြေအနေ ရွေးချယ်ပါ",
+  "today_feeling_note": "ယနေ့ခံစားချက်များကို ရေးသားပါ",
+  "title_today_feeling": "ယနေ့ခံစားချက်",
+  "write_total_feeling": "ယနေ့ခံစားချက် မှတ်တမ်းတင်မည်",
+  "feeling_note": "ခံစားချက်မှတ်စု",
+  "record_activities": "လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ",
+  "title_dance_and_workout_activity": "အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများ",
+  "total_workout_time": "စုစုပေါင်း လေ့ကျင့်ခန်းအချိန် - {hour, plural, other{{hour} နာရီ} zero{0 နာရီ} one{1 နာရီ}} : {minute, plural, other{{minute} မိနစ်} zero{0 မိနစ်} one{1 မိနစ်}}",
+  "@total_workout_time": {
+    "description": "စုစုပေါင်း လေ့ကျင့်ခန်းအချိန်ကို ပြသသည်။",
+    "placeholders": {
+      "hour": {
+        "type": "int",
+        "example": "1"
+      },
+      "minute": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "hour_minute": " ({hour, plural, zero{0 နာရီ} one{1 နာရီ} other{{hour} နာရီ}} : {minute, plural, zero{0 မိနစ်} one{1 မိနစ်} other{{minute} မိနစ်}})",
+  "@hour_minute": {
+    "description": "မိနစ်",
+    "placeholders": {
+      "hour": {
+        "type": "int",
+        "example": "1"
+      },
+      "minute": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "label_select_activity_type": "လှုပ်ရှားမှုအမျိုးအစားကို ရွေးချယ်ပါ",
+  "label_select_total_time": "စုစုပေါင်းအချိန်ကို ရွေးချယ်ပါ",
+  "title_record_workout_activity": "အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ",
+  "your_last_bmi": "သင့်နောက်ဆုံး BMI - {value}",
+  "@your_last_bmi": {
+    "description": "နောက်ဆုံး BMI တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "20"
+      }
+    }
+  },
+  "your_last_calorie": "သင့်နောက်ဆုံး CR - {value}",
+  "@your_last_calorie": {
+    "description": "နောက်ဆုံး Calorie တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "20"
+      }
+    }
+  },
+  "your_last_whr": "သင့်နောက်ဆုံး WHR - {value}",
+  "@your_last_whr": {
+    "description": "နောက်ဆုံး WHI တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "20"
+      }
+    }
+  },
+  "your_last_bfp": "သင့်နောက်ဆုံး BFP - {value}",
+  "@your_last_bfp": {
+    "description": "နောက်ဆုံး BFP တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "20"
+      }
+    }
+  },
+  "title_calculators": "တွက်ချက်ကိရိယာများ",
+  "title_bmi": "ခန္ဓာကိုယ်ထုထည်ညွှန်းကိန်း",
+  "calculate_bmi": "BMI တွက်ရန်",
+  "history": "မှတ်တမ်း",
+  "for_myself": "ကိုယ်တိုင်",
+  "result_can_be_saved_to_profile": "(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်းနိုင်သည်)",
+  "for_other": "အခြားသူများ",
+  "result_can_not_be_saved_to_profile": "(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်း၍မရပါ)",
+  "btn_calculate": "တွက်ရန်",
+  "btn_back_to_home": "ပင်မစာမျက်နှာသို့ ပြန်သွားရန်",
+  "title_result": "ရလဒ်",
+  "name_bmi_is": "{name} ၏ BMI မှာ {value} ဖြစ်သည်",
+  "@name_bmi_is": {
+    "description": "အမည်နှင့် BMI တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      },
+      "value": {
+        "type": "num",
+        "example": "20"
+      }
+    }
+  },
+  "your_bmi_is": "သင့် BMI မှာ {value} ဖြစ်သည်",
+  "@your_bmi_is": {
+    "description": "နောက်ဆုံး BFP တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "value": {
+        "type": "num",
+        "example": "20"
+      }
+    }
+  },
+  "bmi_underweight_description_for_other": "{name} သည် ပိုမိုကျန်းမာသန်စွမ်းစေရန် ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။",
+  "@bmi_underweight_description_for_other": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "bmi_underweight_description_for_you": "သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။",
+  "bmi_normalweight_description_for_you": "သင့်တွင် ပုံမှန်ကိုယ်အလေးချိန် ရှိပါသည်။ ပိုမိုကောင်းမွန်အောင် ထိန်းသိမ်းပါ။",
+  "bmi_normalweight_description_for_other": "{name} တွင် ပုံမှန်ကိုယ်အလေးချိန် ရှိပါသည်။ ပိုမိုကောင်းမွန်အောင် ထိန်းသိမ်းပါ။",
+  "@bmi_normalweight_description_for_other": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "bmi_overweight_description_for_you": "သင့်တွင် ကိုယ်အလေးချိန် အနည်းငယ် တိုးနေပါသည်။ အဆီပိုများကြောင့် ဖြစ်ပါက မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။",
+  "bmi_overweight_description_for_other": "{name} တွင် ကိုယ်အလေးချိန် အနည်းငယ် တိုးနေပါသည်။ အဆီပိုများကြောင့် ဖြစ်ပါက မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။",
+  "@bmi_overweight_description_for_other": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "bmi_obesity_description_for_you": "BMI သည် သင့်ကျန်းမာရေး အခြေအနေကို တိတိကျကျ မဖော်ပြနိုင်ပါ။ သို့သော် ဤ BMI ရလဒ်ဖြင့် အဝလွန်နေပါက ကိုယ်အလေးချိန် လျှော့ချရန် ကြိုးစားသင့်ပါသည်။",
+  "bmi_obesity_description_for_other": "BMI သည် {name} ၏ ကျန်းမာရေး အခြေအနေကို တိတိကျကျ မဖော်ပြနိုင်ပါ။ သို့သော် ဤ BMI ရလဒ်ဖြင့် အဝလွန်နေပါက ကိုယ်အလေးချိန် လျှော့ချရန် ကြိုးစားသင့်ပါသည်။",
+  "@bmi_obesity_description_for_other": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "bmi_bad_result_description_for_you": "သင့် BMI တွင် မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် ကိုယ်အလေးချိန် လျှော့ချရန် ချက်ချင်းလုပ်ဆောင်ပါ။",
+  "you_look_fantastic": "သင် အလွန်လှပနေပါသည်!",
+  "name_looks_fantastic": "{name} အလွန်လှပနေပါသည်!",
+  "@name_looks_fantastic": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "you_need_improvement": "သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!",
+  "name_needs_improvement": "{name} တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!",
+  "@name_needs_improvement": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "btn_save_result": "ရလဒ်ကို သိမ်းဆည်းရန်",
+  "successSavingCalculatorResult": "ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။",
+  "calculate_cr": "CR တွက်ရန်",
+  "title_calorie_requirement": "ကယ်လိုရီလိုအပ်ချက်",
+  "title_wth_ratio": "ခါးနှင့်အရပ်အချိုး (W2H)",
+  "calculate_wth_ratio": "W2H အချိုးကို တွက်ရန်",
+  "title_bfp": "ခန္ဓာကိုယ်အဆီအချိုးအစား",
+  "waist": "ခါး",
+  "stress_factor": "စိတ်ဖိစီးမှုအချက်",
+  "lifestyle": "နေထိုင်မှုပုံစံ",
+  "your": "သင့်",
+  "your_bfp_result_is": "{name} ၏ ခန္ဓာကိုယ်အဆီအချိုးအစားမှာ {bfp}% ဖြစ်သည်",
+  "@your_bfp_result_is": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "ကိုလှ"
+      },
+      "bfp": {
+        "type": "num",
+        "example": "43"
+      }
+    }
+  },
+  "your_calorie_requirement_is": "သင့်ကယ်လိုရီလိုအပ်ချက်မှာ {calorie} ဖြစ်သည်",
+  "@your_calorie_requirement_is": {
+    "description": "အမည်ကို ပြသသည်။",
+    "placeholders": {
+      "calorie": {
+        "type": "int",
+        "example": "43"
+      }
+    }
+  },
+  "name_calorie_requirement_is": "{name} ၏ ကယ်လိုရီလိုအပ်ချက်မှာ {calorie} ဖြစ်သည်",
+  "@name_calorie_requirement_is": {
+    "description": "အမည်နှင့် ကယ်လိုရီကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      },
+      "calorie": {
+        "type": "int",
+        "example": "43"
+      }
+    }
+  },
+  "calorie_requirement_description": "သင့်နေ့စဉ် ကယ်လိုရီစားသုံးမှုကို ဂရုပြုပါ၊ အကြောင်းမှာ \"3500 ကယ်လိုရီ = 1 ပေါင်\" ဖြစ်သောကြောင့်ဖြစ်သည်။",
+  "your_waist_to_height_ratio_is": "သင့်ခါးနှင့်အရပ်အချိုးမှာ {value} ဖြစ်သည်",
+  "@your_waist_to_height_ratio_is": {
+    "description": "တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "value": {
+        "type": "num",
+        "example": "43"
+      }
+    }
+  },
+  "name_waist_to_height_ratio_is": "{name} ၏ ခါးနှင့်အရပ်အချိုးမှာ {value} ဖြစ်သည်",
+  "@name_waist_to_height_ratio_is": {
+    "description": "အမည်နှင့် တန်ဖိုးကို ပြသသည်။",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      },
+      "value": {
+        "type": "num",
+        "example": "43"
+      }
+    }
+  },
+  "you_need_an_improvement": "သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!",
+  "name_needs_an_improvement": "{name} တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!",
+  "@name_needs_an_improvement": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_wth_result_extremely_slim": "ကျန်းမာသော ခန္ဓာကိုယ်ရရှိရန် ကိုယ်အလေးချိန် တိုးရန် လိုအပ်ပါသည်။ ပရိုတင်းဓာတ်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ကြွက်သားတည်ဆောက်မှု လေ့ကျင့်ခန်းများ ပိုမိုလုပ်ဆောင်ခြင်းဖြင့် အကောင်းဆုံးခန္ဓာကိုယ်ကို ရရှိနိုင်ပါသည်။",
+  "name_wth_result_extremely_slim": "{name} သည် ကျန်းမာသော ခန္ဓာကိုယ်ရရှိရန် ကိုယ်အလေးချိန် တိုးရန် လိုအပ်ပါသည်။ ပရိုတင်းဓာတ်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ကြွက်သားတည်ဆောက်မှု လေ့ကျင့်ခန်းများ ပိုမိုလုပ်ဆောင်ခြင်းဖြင့် အကောင်းဆုံးခန္ဓာကိုယ်ကို ရရှိနိုင်ပါသည်။",
+  "@name_wth_result_extremely_slim": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_wth_result_absolutely_slim": "သင့်အရပ်နှင့်နှိုင်းယှဉ်လျှင် ခန္ဓာကိုယ်မှာ အလွန်ပိန်နေပါသည်။ ပိန်ခြင်းသည် အဝလွန်ခြင်းနှင့်ဆက်စပ်သော ရောဂါများကို လျှော့ချနိုင်သော်လည်း အလွန်အမင်းပိန်ခြင်းသည် ကိုယ်ခံအားနည်းခြင်း၊ အလှအပနည်းခြင်းနှင့် သည်းခံနိုင်စွမ်းနည်းခြင်းတို့ကို ဖြစ်စေနိုင်ပါသည်။",
+  "name_wth_result_absolutely_slim": "{name} ၏ အရပ်နှင့်နှိုင်းယှဉ်လျှင် ခန္ဓာကိုယ်မှာ အလွန်ပိန်နေပါသည်။ ပိန်ခြင်းသည် အဝလွန်ခြင်းနှင့်ဆက်စပ်သော ရောဂါများကို လျှော့ချနိုင်သော်လည်း အလွန်အမင်းပိန်ခြင်းသည် ကိုယ်ခံအားနည်းခြင်း၊ အလှအပနည်းခြင်းနှင့် သည်းခံနိုင်စွမ်းနည်းခြင်းတို့ကို ဖြစ်စေနိုင်ပါသည်။",
+  "@name_wth_result_absolutely_slim": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_wth_result_healthy": "သင် W2H အချိုးတွင် အကောင်းဆုံးရလဒ်ရရှိထားပါသည်။ အခြားတိုင်းတာမှုများဖြင့် သင့်ခန္ဓာကိုယ်အခြေအနေကို စစ်ဆေးပြီး \"ဂုဏ်ယူပါတယ်\" ဟု ပြောလိုက်ပါ။",
+  "name_wth_result_healthy": "{name} သည် W2H အချိုးတွင် အကောင်းဆုံးရလဒ်ရရှိထားပါသည်။ အခြားတိုင်းတာမှုများဖြင့် သူ၏ခန္ဓာကိုယ်အခြေအနေကို စစ်ဆေးပြီး \"ဂုဏ်ယူပါတယ်\" ဟု ပြောလိုက်ပါ။",
+  "@name_wth_result_healthy": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_wth_result_overweight": "သင့်ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် သင့်ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။",
+  "name_wth_result_overweight": "ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။",
+  "your_wth_result_extremely_overweight": "ဤအလွန်အဝများသော W2H အချိုးရလဒ်ဖြင့် သင့်ကိုယ်သင် ကျန်းမာသည်ဟု မဆိုနိုင်ပါ။ မတော်တဆဖြစ်မလာမီ ကိုယ်အလေးချိန် လျှော့ချရန် စတင်သင့်ပါသည်။",
+  "name_wth_result_extremely_overweight": "{name} သည် ဤအလွန်အဝများသော W2H အချိုးရလဒ်ဖြင့် ကျန်းမာသည်ဟု မဆိုနိုင်ပါ။ မတော်တဆဖြစ်မလာမီ ကိုယ်အလေးချိန် လျှော့ချရန် စတင်သင့်ပါသည်။",
+  "@name_wth_result_extremely_overweight": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_wth_result_unheathy": "သင့်တွင် အလွန်မကျန်းမာသော W2H ရလဒ်ရှိပါသည်။ W2H အချိုးသည် အခြားတိုင်းတာမှုများထက် ပိုမိုအသုံးဝင်ရခြင်း၏ အကြောင်းရင်းမှာ ၎င်းသည် သင့်ခါးတစ်ဝိုက် (သင့်အတွင်းအင်္ဂါများတစ်ဝိုက်) တွင် အန္တရာယ်ရှိသော အဆီပမာဏကို ဖော်ပြနိုင်သောကြောင့်ဖြစ်သည်။ ဗဟိုအဝလွန်ခြင်းသည် နှလုံးနှင့်သွေးကြောဆိုင်ရာ ရောဂါများ ဖြစ်ပွားနိုင်ခြေကို မြင့်တက်စေပါသည်။ ဤအချက်ကို သတိထားပြီး အလေးအနက်ထား ဆောင်ရွက်ပါ။",
+  "name_wth_result_unheathy": "{name} တွင် အလွန်မကျန်းမာသော W2H ရလဒ်ရှိပါသည်။ W2H အချိုးသည် အခြားတိုင်းတာမှုများထက် ပိုမိုအသုံးဝင်ရခြင်း၏ အကြောင်းရင်းမှာ ၎င်းသည် သူ၏ခါးတစ်ဝိုက် (သူ၏အတွင်းအင်္ဂါများတစ်ဝိုက်) တွင် အန္တရာယ်ရှိသော အဆီပမာဏကို ဖော်ပြနိုင်သောကြောင့်ဖြစ်သည်။ ဗဟိုအဝလွန်ခြင်းသည် နှလုံးနှင့်သွေးကြောဆိုင်ရာ ရောဂါများ ဖြစ်ပွားနိုင်ခြေကို မြင့်တက်စေပါသည်။ ဤအချက်ကို သတိထားပြီး အလေးအနက်ထား ဆောင်ရွက်ပါ။",
+  "@name_wth_result_unheathy": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_bfp_result_lean": "သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် အဆီနှင့်ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။ အဓိက အဆီများကို တိုးမြှင့်ကြပါစို့။",
+  "name_bfp_result_lean": "{name} သည် ပိုမိုကျန်းမာသန်စွမ်းစေရန် အဆီနှင့်ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။ အဓိက အဆီများကို တိုးမြှင့်ကြပါစို့။",
+  "@name_bfp_result_lean": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_bfp_result_healthy": "သင် ပုံမှန်ကျန်းမာသန်စွမ်းသော အဆင့်တွင် ရှိနေပါသည်။ ဤအတိုင်း ဆက်လက်ထိန်းသိမ်းထားပါ။",
+  "name_bfp_result_healthy": "{name} သည် ပုံမှန်ကျန်းမာသန်စွမ်းသော အဆင့်တွင် ရှိနေပါသည်။ ဤအတိုင်း ဆက်လက်ထိန်းသိမ်းထားပါ။",
+  "@name_bfp_result_healthy": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_bfp_result_overfat": "သင့်ခန္ဓာကိုယ်တွင် အဆီပိုအနည်းငယ် ရှိနေပါသည်။ မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။",
+  "name_bfp_result_overfat": "{name} ၏ ခန္ဓာကိုယ်တွင် အဆီပိုအနည်းငယ် ရှိနေပါသည်။ မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။",
+  "@name_bfp_result_overfat": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "your_bfp_result_bad": "သင့်တွင် BFP နှင့်ပတ်သက်၍ မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် အဆီများကို လောင်ကျွမ်းစေရန် ချက်ချင်းလုပ်ဆောင်ပါ။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။",
+  "name_bfp_result_bad": "{name} တွင် BFP နှင့်ပတ်သက်၍ မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် အဆီများကို လောင်ကျွမ်းစေရန် ချက်ချင်းလုပ်ဆောင်ပါ။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။",
+  "@name_bfp_result_bad": {
+    "description": "အမည်ကို ပြသသည်",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "calculate_bfp": "BFP တွက်ရန်",
+  "title_meal_plan": "အစားအစာစီမံချက်",
+  "choose_meal_plan": "အစားအစာစီမံချက်ကို ရွေးချယ်ပါ",
+  "break_fast": "မနက်စာ",
+  "lunch": "နေ့လယ်စာ",
+  "dinner": "ညနေစာ",
+   "calories_with_unit": "({value, plural, =0{ကယ်လိုရီ} =1{1 ကယ်လိုရီ} other{{value} ကယ်လိုရီ}})",
+  "@calories_with_unit": {
+    "description": "ကယ်လိုရီပြသခြင်း",
+    "placeholders": {
+      "value": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "calories_with_unit_but_no_parentheses": "{value, plural, =0{ကယ်လိုရီ} =1{1 ကယ်လိုရီ} other{{value} ကယ်လိုရီ}}",
+  "@calories_with_unit_but_no_parentheses": {
+    "description": "ကယ်လိုရီပြသခြင်း",
+    "placeholders": {
+      "value": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "calories_with_value": "ကယ်လိုရီ: {value}",
+  "@calories_with_value": {
+    "description": "ကယ်လိုရီပြသခြင်း",
+    "placeholders": {
+      "value": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "started_date": "စတင်သည့်ရက်: {date}",
+  "@started_date": {
+    "description": "ရက်စွဲပြသခြင်း",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "ဇူလိုင် 4, 2025"
+      }
+    }
+  },
+  "day": "နေ့: {day}",
+  "@day": {
+    "description": "နေ့ပြသခြင်း",
+    "placeholders": {
+      "day": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "no_meal_plan_for_today": "ယနေ့အတွက် အစားအစာစီမံချက် မရှိပါ။",
+  "eaten_date": "စားသုံးသည့်ရက်: ",
+  "btn_mark_as_done": "ပြီးပါပြီအဖြစ် အမှတ်အသားပြုပါ",
+  "label_done": "ပြီးပြီ",
+  "btn_mark_as_eaten": "စားပြီးအဖြစ် အမှတ်အသားပြုပါ",
+  "no_product_found": "{query} အတွက် ထုတ်ကုန်မတွေ့ပါ။",
+  "@no_product_found": {
+    "description": "အမည်ပြသခြင်း",
+    "placeholders": {
+      "query": {
+        "type": "String",
+        "example": "လှလှ"
+      }
+    }
+  },
+  "type_to_search_product": "ရှာဖွေရန်အကွက်တွင် ထုတ်ကုန်များရှာရန် ရိုက်ထည့်ပါ။",
+  "search_hint": "ရှာဖွေရန်...",
+  "nutrient_fat": "အဆီ",
+  "nutrient_carbohydrate": "ကာဗိုဟိုက်ဒရိတ်",
+  "nutrient_protein": "ပရိုတင်း",
+  "label_dish": "ဟင်း: {dish}",
+  "@label_dish": {
+    "description": "ဟင်းပြသခြင်း",
+    "placeholders": {
+      "dish": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "label_ingredient": "ပါဝင်ပစ္စည်းများ",
+  "label_instruction": "ညွှန်ကြားချက်",
+  "btn_eaten": "စားပြီး",
+  "label_bmi": "BMI: ",
+  "label_weight": "ကိုယ်အလေးချိန်: ",
+  "label_height": "အရပ်အမြင့်: ",
+  "label_preconditions": "ကြိုတင်အခြေအနေများ: ",
+  "label_meals": "အစားအစာများ",
+  "first": "ပထမ",
+  "second": "ဒုတိယ",
+  "third": "တတိယ",
+  "fourth": "စတုတ္ထ",
+  "fifth": "ပဉ္စမ",
+  "sixth": "ဆဋ္ဌမ",
+  "seventh": "သတ္တမ",
+  "eighth": "အဋ္ဌမ",
+  "nineth": "နဝမ",
+  "tenth": "ဒသမ",
+  "require_weight_to_generate_meal_plan": "သင့်လက်ရှိကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများကို ထည့်သွင်းရန် လိုအပ်ပါသည်။ သင့်ကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများနှင့် ကိုက်ညီသော အစားအစာစီမံချက်များကို ထုတ်ပေးရန် လိုအပ်ပါသည်။",
+  "no_chat_message_found": "စာတိုပေးပို့ချက် မတွေ့ပါ။",
+  "title_chat": "စကားပြောခန်း",
+  "type_a_message": "စာတိုရိုက်ထည့်ရန်...",
+  "empty_chat": "စာတိုမရှိပါ။",
+  "chatYesterday": "မနေ့က",
+  "chatHrAgo": "{hr, plural, =0{အခုပဲ} one{1 နာရီက} other{{hr} နာရီက}}",
+  "@chatHrAgo": {
+    "description": "မည်မျှနာရီအကြာက ပြသခြင်း။",
+    "placeholders": {
+      "hr": {
+        "type": "int",
+        "example": "2",
+        "description": "နာရီအရေအတွက်"
+      }
+    }
+  },
+  "chatMinAgo": "{min, plural, =0{အခုပဲ} one{1 မိနစ်က} other{{min} မိနစ်က}}",
+  "@chatMinAgo": {
+    "description": "မည်မျှမိနစ်အကြာက ပြသခြင်း။",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "5",
+        "description": "မိနစ်အရေအတွက်"
+      }
+    }
+  },
+  "chatSecAgo": "{sec, plural, =0{အခုပဲ} one{1 စက္ကန့်က} other{{sec} စက္ကန့်က}}",
+  "@chatSecAgo": {
+    "description": "မည်မျှစက္ကန့်အကြာက ပြသခြင်း။",
+    "placeholders": {
+      "sec": {
+        "type": "int",
+        "example": "30",
+        "description": "စက္ကန့်အရေအတွက်"
+      }
+    }
+  },
+  "chatNow": "အခုပဲ",
+  "loginWithFacebook": "Facebook ဖြင့် ဝင်ရောက်ပါ",
+  "errorSomethingWentWrong": "တစ်ခုခုမှားယွင်းနေပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။",
+  "errorFacebookLoginCancelled": "Facebook ဝင်ရောက်မှု ပယ်ဖျက်လိုက်ပါပြီ။",
+  "skip_login_and_register": "ဝင်ရောက်ခြင်းနှင့် မှတ်ပုံတင်ခြင်းကို ကျော်ပါ",
+  "errorInvalidPhoneFormat": "ဖုန်းနံပါတ် မှားနေပါသည်။",
+  "empty_favorite_list": "အကြိုက်ဆုံး အရာများ မရှိပါ။",
+  "login_to_continue": "ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ရန် အကောင့်ဝင်ရန် လိုအပ်ပါသည်။",
+  "title_login_required": "ဝင်ရောက်ရန် လိုအပ်ပါသည်",
+  "btn_login": "ဝင်ရောက်ပါ",
+  "empty_meal_plan": "အစားအစာစီမံချက် မရှိပါ။",
+  "error_in_the_following_fields": "အောက်ပါအမှားများကို စစ်ဆေးပါ။"
 }

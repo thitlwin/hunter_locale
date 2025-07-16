@@ -26,8 +26,8 @@ class LanguageSwitcherDialog extends ConsumerWidget {
                 _getLanguageName(locale),
                 style: TextStyle(
                   fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-                  color:
-                      isSelected ? Theme.of(context).colorScheme.primary : null,
+                  // color:
+                  //     isSelected ? Theme.of(context).colorScheme.primary : null,
                 ),
               ),
               trailing: isSelected ? const Icon(Icons.check) : null,

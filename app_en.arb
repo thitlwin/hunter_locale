@@ -1,21 +1,36 @@
 {
-  "@@locale": "en",
-  "helloWorld": "Hello World!",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
-  },
+  "@@locale": "en",  
+  "title_announcement": "Announcements",
+  "confirm_reminder_has_done": "Are you sure you want to mark this as done?",
+  "label_finish": "Finish",
+  "title_bfp_calculator": "BFP Calculator",
+  "title_wth_calculator": "W2H Calculator",
+  "title_calorie_calculator": "Calorie Calculator",
+  "title_bmi_calculator": "BMI Calculator",
+  "btn_add_to_cart": "Add to Cart",
+  "no_healthy_tips": "No healthy tips available.",
+  "label_select_from_meal_plan":"Select from meal plan?",
+  "title_record_meal_plan": "Record Meal Plan",
+  "title_select_a_meal_plan": "Select a Meal Plan",  
+  "select_meal_plan": "Select Meal Plan",
+  "label_see_all_meal_plan": "See All Meal Plan",
+  "label_total_calories": "Total Calories : ",  
   "home": "Home",
+  "today": "Today",
   "profile": "Profile",
   "selectLanguage": "Language Selection",
   "login": "Login",
   "register": "Register",
   "or": "Or",
+  "hint_what_did_you_eat": "What did you eat?",
+  "label_eat_own_meal": "Eat own meal?",
   "signin_with_google": "Sign in with Google",
   "signin_with_facebook": "Sign in with Facebook",
   "lets_build_healthy_lifestyle_with_joy_en":"Let's build healthy lifestyle with joy",
   "lets_build_healthy_lifestyle_with_joy_my":"ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့",
   "dontHaveAccount":"Don't have Account?",
   "signUp": "Register",
+  "btn_select": "Select",
   "forgotYourPassword": "Forgot your password?",
   "password": "Password",
   "phoneNumber": "Phone Number",
@@ -37,6 +52,7 @@
   "error_phone_required": "Phone number is required",
   "error_password_required": "Password is required",
   "btn_resend_otp": "Resend OTP",
+  "btn_request_otp": "Request OTP",
   "title_create_new_password": "Create New Password",
   "btn_create_password": "Create Password",
   "confirm_password": "Confirm Password",
@@ -48,8 +64,8 @@
   "title_home": "Home",
   "title_profile": "Profile",
   "title_favorite": "Favorite",
-  "meal_plan": "Meal Plan",
-  "juice_plan": "Juice Plan",
+  "meal_box_program": "Meal Box Program",
+  "juice_plan": "Juice Program",
   "challenge": "Challenge",
   "our_products": "Our Products",
   "healthy_tips": "Healthy Tips",
@@ -226,12 +242,12 @@
   "errorFeetRequired": "Feet is required.",
   "errorInchesRequired": "Inches is required.",
   "requireGoalSelection": "Please select your goal.",
-  "active_programs": "Active Programs",
+  "active_programs": "My Programs",
   "calculators": "Calculators",
-  "meal_plans": "Meal Plan",
-  "challenges": "Challenges",
-  "no_active_meal_plan": "No active meal plan",
-  "no_active_challenge": "No active challenge",
+  "product_programs": "Product Programs",  
+  "service_programs": "Service Programs",  
+  "no_active_meal_plan": "No active products.",
+  "no_active_challenge": "No active services.",
   "start_date": "Start: {startDate}",
   "@start_date": {
     "description": "Start: date",
@@ -571,8 +587,8 @@
     "successSavingCalculatorResult": "The result has been successfully saved to the profile.",
     "calculate_cr": "Calculate CR",
     "title_calorie_requirement": "Calorie Requirement",
-    "title_wth_ratio": "Waist to Height Ratio",
-    "calculate_wth_ratio": "Calculate WTH Ratio",
+    "title_wth_ratio": "Waist to Height (W2H) Ratio",
+    "calculate_wth_ratio": "Calculate W2H Ratio",
     "title_bfp": "Body Fat Percentage",
     "waist": "Waist",
     "stress_factor": "Stress Factor",
@@ -769,6 +785,16 @@
                 }
       }       
     },
+    "calories_with_unit_but_no_parentheses": "{value, plural, =0{cal} =1{1 cal} other{{value} cals}}",
+    "@calories_with_unit_but_no_parentheses": {
+      "description": "Display calories",
+      "placeholders": {
+        "value": {
+                  "type": "int",
+                  "example": "4"
+                }
+      }       
+    },
     "calories_with_value": "Calories: {value}",
     "@calories_with_value": {
       "description": "Display calories",
@@ -776,6 +802,16 @@
         "value": {
                   "type": "int",
                   "example": "4"
+                }
+      }       
+    },
+    "started_date": "Started : {date}",
+    "@started_date": {
+      "description": "Display date",
+      "placeholders": {
+        "date": {
+                  "type": "String",
+                  "example": "July 4, 2025"
                 }
       }       
     },
@@ -789,8 +825,10 @@
                 }
       }       
     },
-    "no_meal_plan_for_today":"There is no meal for today.",
+    "no_meal_plan_for_today":"There is no meal plan for today.",
     "eaten_date": "Eaten Date: ",
+    "btn_mark_as_done": "Mark as Done",
+    "label_done": "Done",
     "btn_mark_as_eaten": "Mark as Eaten",
     "no_product_found": "No products found for {query}.",
      "@no_product_found": {
@@ -835,5 +873,55 @@
     "eighth": "eighth",
     "nineth": "nineth",
     "tenth": "tenth",
-    "require_weight_to_generate_meal_plan":"You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions."
+    "require_weight_to_generate_meal_plan":"You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions.",
+    "no_chat_message_found": "No chat messages found.",
+    "title_chat": "Chat",
+    "type_a_message": "Type a message...",
+    "empty_chat": "Empty chat.",
+    "chatYesterday": "Yesterday",
+    "chatHrAgo": "{hr, plural, =0{Just now} one{1 hr ago} other{{hr} hrs ago}}",
+    "@chatHrAgo": {
+      "description": "Displays the number of hours ago.",
+      "placeholders": {
+        "hr": {
+          "type": "int",
+          "example": "2",
+          "description": "Number of hours ago"
+        }
+      }
+    },
+    "chatMinAgo": "{min, plural, =0{Just now} one{1 min ago} other{{min} mins ago}}",
+    "@chatMinAgo": {
+      "description": "Displays the number of minutes ago.",
+      "placeholders": {
+        "min": {
+          "type": "int",
+          "example": "5",
+          "description": "Number of minutes ago" 
+        }
+      }
+    },
+    "chatSecAgo": "{sec, plural, =0{Just now} one{1 sec ago} other{{sec} secs ago}}",
+    "@chatSecAgo": {
+      "description": "Displays the number of seconds ago.",
+      "placeholders": {
+        "sec": {
+          "type": "int",
+          "example": "30",
+          "description": "Number of seconds ago"
+        }
+      }
+    },
+    "chatNow": "just now",
+    "loginWithFacebook": "Login with Facebook",
+    "errorSomethingWentWrong": "Something went wrong. Please try again later.",
+    "errorFacebookLoginCancelled": "Facebook login cancelled.",
+    "skip_login_and_register": "Skip Login & Register",
+    "errorInvalidPhoneFormat": "Invalid phone number format.",
+    "empty_favorite_list": "Empty favorite item.",
+    "login_to_continue": "You need to be logged in to perform this action.",
+    "title_login_required": "Login Required",
+    "btn_login": "Login",
+    "empty_meal_plan":"Empty meal plans.",
+    "error_in_the_following_fields": "Check the following field errors."
   }

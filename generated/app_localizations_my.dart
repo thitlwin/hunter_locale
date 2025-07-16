@@ -9,19 +9,64 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
-  String get helloWorld => 'မင်္ဂလာပါ!';
+  String get title_announcement => 'ကြေငြာချက်များ';
+
+  @override
+  String get confirm_reminder_has_done => 'ဤအရာကို ပြီးပြီဟု အမှတ်အသားပြုလိုသည်မှာ သေချာပါသလား?';
+
+  @override
+  String get label_finish => 'ပြီးမည်';
+
+  @override
+  String get title_bfp_calculator => 'ခန္ဓာကိုယ်အဆီပါဝင်မှု တွက်ချက်ရန်';
+
+  @override
+  String get title_wth_calculator => 'ခါးနှင့်အရပ်အချိုး တွက်ချက်ရန်';
+
+  @override
+  String get title_calorie_calculator => 'ကယ်လိုရီ တွက်ချက်ရန်';
+
+  @override
+  String get title_bmi_calculator => 'BMI တွက်ချက်ရန်';
+
+  @override
+  String get btn_add_to_cart => 'စျေးခြင်းထဲထည့်မည်';
+
+  @override
+  String get no_healthy_tips => 'ကျန်းမာရေးအကြံပြုချက်များ မရှိပါ။';
+
+  @override
+  String get label_select_from_meal_plan => 'အစားအစာအစီအစဉ်မှ ရွေးချယ်မည်လား?';
+
+  @override
+  String get title_record_meal_plan => 'အစားအစာအစီအစဉ် မှတ်တမ်းတင်မည်';
+
+  @override
+  String get title_select_a_meal_plan => 'အစားအစာအစီအစဉ် ရွေးချယ်မည်';
+
+  @override
+  String get select_meal_plan => 'အစားအစာအစီအစဉ် ရွေးချယ်မည်';
+
+  @override
+  String get label_see_all_meal_plan => 'အစားအစာအစီအစဉ်အားလုံးကို ကြည့်ရန်';
+
+  @override
+  String get label_total_calories => 'စုစုပေါင်းကယ်လိုရီ : ';
 
   @override
   String get home => 'ပင်မ';
 
   @override
+  String get today => 'ယနေ့';
+
+  @override
   String get profile => 'ကိုယ်ရေးအချက်အလက်';
 
   @override
-  String get selectLanguage => 'ဘာသာစကားရွေးချယ်မှု';
+  String get selectLanguage => 'ဘာသာစကား ရွေးချယ်မည်';
 
   @override
-  String get login => 'ဝင်ရောက်မည်';
+  String get login => 'ဝင်မည်';
 
   @override
   String get register => 'မှတ်ပုံတင်မည်';
@@ -30,10 +75,16 @@ class AppLocalizationsMy extends AppLocalizations {
   String get or => 'သို့မဟုတ်';
 
   @override
-  String get signin_with_google => 'Google ဖြင့် ဝင်မည်။';
+  String get hint_what_did_you_eat => 'ဘာစားခဲ့ပါသလဲ?';
 
   @override
-  String get signin_with_facebook => 'Facebookဖြင့် ဝင်မည်။';
+  String get label_eat_own_meal => 'ကိုယ်ပိုင်အစားအစာ စားမည်လား?';
+
+  @override
+  String get signin_with_google => 'Google ဖြင့် ဝင်မည်';
+
+  @override
+  String get signin_with_facebook => 'Facebook ဖြင့် ဝင်မည်';
 
   @override
   String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with joy';
@@ -48,6 +99,9 @@ class AppLocalizationsMy extends AppLocalizations {
   String get signUp => 'မှတ်ပုံတင်မည်';
 
   @override
+  String get btn_select => 'ရွေးချယ်မည်';
+
+  @override
   String get forgotYourPassword => 'စကားဝှက်မေ့နေပါသလား?';
 
   @override
@@ -57,7 +111,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get phoneNumber => 'ဖုန်းနံပါတ်';
 
   @override
-  String get loginToYourAccount => 'သင့်အကောင့်ထဲသို့ဝင်ရောက်ပါ';
+  String get loginToYourAccount => 'သင့်အကောင့်သို့ ဝင်ရောက်မည်';
 
   @override
   String get welcomeBack => 'ပြန်လည်ကြိုဆိုပါသည်!';
@@ -66,7 +120,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get title_forgot_password => 'စကားဝှက်မေ့နေပါသလား';
 
   @override
-  String get enter_your_phone => 'စကားဝှက်ပြန်လည်သတ်မှတ်ရန် သင့်ဖုန်းနံပါတ်ထည့်ပါ';
+  String get enter_your_phone => 'စကားဝှက်ပြန်လည်သတ်မှတ်ရန် ဖုန်းနံပါတ်ထည့်ပါ';
 
   @override
   String get btn_reset_password => 'စကားဝှက်ပြန်သတ်မှတ်မည်';
@@ -78,25 +132,25 @@ class AppLocalizationsMy extends AppLocalizations {
   String get already_have_an_account => 'အကောင့်ရှိပြီးသားလား?';
 
   @override
-  String get we_will_send_otp => 'သင့်ဖုန်းကို OTP ကုဒ်ပို့ပေးပါမည်။';
+  String get we_will_send_otp => 'သင့်ဖုန်းသို့ OTP ကုဒ်ပို့ပေးပါမည်။';
 
   @override
-  String get title_create_account => 'အကောင့်အသစ်ဖွင့်ရန်';
+  String get title_create_account => 'အကောင့်အသစ်ဖန်တီးမည်';
 
   @override
   String get title_phone_verification => 'ဖုန်းနံပါတ် အတည်ပြုခြင်း';
 
   @override
-  String get enter_your_otp => 'OTP ကုဒ်ကို ဤနေရာတွင် ထည့်ပါ';
+  String get enter_your_otp => 'OTP ကုဒ်ကို ဤနေရာတွင် ထည့်သွင်းပါ';
 
   @override
-  String get we_have_sent_opt_code => 'သင့်ဖုန်းနံပါတ်သို့ OTP ကုဒ် ပို့ပြီးပါပြီ။';
+  String get we_have_sent_opt_code => 'သင့်ဖုန်းနံပါတ်သို့ OTP ကုဒ်ပို့ပြီးပါပြီ။';
 
   @override
-  String get didnt_get_the_otp => 'OTP ကုဒ် မရရှိပါသလား?';
+  String get didnt_get_the_otp => 'OTP မရရှိပါက';
 
   @override
-  String get error_fill_in_all_fields => 'ကျေးဇူးပြု၍ အကွက်အားလုံးကို ဖြည့်ပါ';
+  String get error_fill_in_all_fields => 'ကျေးဇူးပြု၍ အားလုံးဖြည့်စွက်ပါ';
 
   @override
   String get success_login => 'အကောင့်ဝင်ရောက်မှု အောင်မြင်ပါသည်';
@@ -108,46 +162,49 @@ class AppLocalizationsMy extends AppLocalizations {
   String get error_password_required => 'စကားဝှက် လိုအပ်ပါသည်';
 
   @override
-  String get btn_resend_otp => 'OTP ကိုပြန်လည်ပို့ပါ';
+  String get btn_resend_otp => 'OTP ပြန်ပို့မည်';
 
   @override
-  String get title_create_new_password => 'စကားဝှက်အသစ်ဖန်တီးရန်';
+  String get btn_request_otp => 'OTP တောင်းမည်';
 
   @override
-  String get btn_create_password => 'စကားဝှက်ဖန်တီးပါ';
+  String get title_create_new_password => 'စကားဝှက်အသစ်ဖန်တီးမည်';
 
   @override
-  String get confirm_password => 'စကားဝှက်အတည်ပြုပါ';
+  String get btn_create_password => 'စကားဝှက်ဖန်တီးမည်';
 
   @override
-  String get error_password_mismatch => 'စကားဝှက်မကိုက်ညီပါ';
+  String get confirm_password => 'စကားဝှက်အတည်ပြုမည်';
 
   @override
-  String get title_reset_password => 'စကားဝှက်ပြန်လည်သတ်မှတ်ရန်';
+  String get error_password_mismatch => 'စကားဝှက် မကိုက်ညီပါ';
 
   @override
-  String get error_confirm_password_required => 'စကားဝှက်အတည်ပြုရန်လိုအပ်ပါသည်';
+  String get title_reset_password => 'စကားဝှက်ပြန်သတ်မှတ်မည်';
 
   @override
-  String get error_confirm_password_mismatch => 'စကားဝှက်အတည်ပြုမှုမကိုက်ညီပါ';
+  String get error_confirm_password_required => 'စကားဝှက်အတည်ပြုရန် လိုအပ်ပါသည်';
 
   @override
-  String get success_password_reset => 'စကားဝှက်ပြန်လည်သတ်မှတ်မှုအောင်မြင်ပါသည်';
+  String get error_confirm_password_mismatch => 'စကားဝှက်အတည်ပြုချက် မကိုက်ညီပါ';
+
+  @override
+  String get success_password_reset => 'စကားဝှက်ပြန်သတ်မှတ်မှု အောင်မြင်ပါသည်';
 
   @override
   String get title_home => 'ပင်မ';
 
   @override
-  String get title_profile => 'ပရိုဖိုင်';
+  String get title_profile => 'ကိုယ်ရေးအချက်အလက်';
 
   @override
-  String get title_favorite => 'အကြိုက်ဆုံး';
+  String get title_favorite => 'အကြိုက်ဆုံးများ';
 
   @override
-  String get meal_plan => 'အစားအစာ အစီအစဉ်';
+  String get meal_box_program => 'အစားအစာပါသော ပရိုဂရမ်';
 
   @override
-  String get juice_plan => 'ဖျော်ရည် အစီအစဉ်';
+  String get juice_plan => 'ဖျော်ရည် ပရိုဂရမ်';
 
   @override
   String get challenge => 'စိန်ခေါ်မှု';
@@ -156,10 +213,10 @@ class AppLocalizationsMy extends AppLocalizations {
   String get our_products => 'ကျွန်ုပ်တို့၏ ထုတ်ကုန်များ';
 
   @override
-  String get healthy_tips => 'ကျန်းမာရေး အကြံပြုချက်များ';
+  String get healthy_tips => 'ကျန်းမာရေးအကြံပြုချက်များ';
 
   @override
-  String get upcoming_live => 'တိုက်ရိုက်ထုတ်လွှင့်မှု';
+  String get upcoming_live => 'ရောက်ရှိလာမည့် တိုက်ရိုက်ထုတ်လွှင့်မှုများ';
 
   @override
   String get see_all => 'အားလုံးကြည့်ရန်';
@@ -168,13 +225,13 @@ class AppLocalizationsMy extends AppLocalizations {
   String get btn_purchase => 'ဝယ်ယူမည်';
 
   @override
-  String get no_products_available => 'ပစ္စည်းမရှိသေးဘူး';
+  String get no_products_available => 'ရရှိနိုင်သော ထုတ်ကုန်မရှိပါ';
 
   @override
-  String get try_again => 'ပြန်ကြိုးစားကြည့်ပါ';
+  String get try_again => 'ထပ်ကြိုးစားမည်';
 
   @override
-  String get an_error_occurred => 'အမှားအယွင်းဖြစ်ပွားနေပါသည်';
+  String get an_error_occurred => 'အမှားတစ်ခုဖြစ်ပွားနေပါသည်!';
 
   @override
   String get label_description => 'ဖော်ပြချက်';
@@ -183,13 +240,13 @@ class AppLocalizationsMy extends AppLocalizations {
   String get label_price => 'စျေးနှုန်း';
 
   @override
-  String get empty_profile => 'အချက်အလက်မရှိသောပရိုဖိုင်';
+  String get empty_profile => 'အချက်အလက်မရှိသေးပါ';
 
   @override
   String get btn_reload => 'ပြန်ဖွင့်မည်';
 
   @override
-  String get label_member => 'အသင်းဝင်';
+  String get label_member => 'အသင်း၀င်';
 
   @override
   String get joy_coupon => 'လက်ရှိ JOY \$';
@@ -207,7 +264,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get height => 'အရပ်အမြင့်';
 
   @override
-  String get phone => 'ဖုန်းနံပါတ်';
+  String get phone => 'ဖုန်း';
 
   @override
   String get gender => 'လိင်';
@@ -216,7 +273,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get nrc => 'မှတ်ပုံတင်နံပါတ်';
 
   @override
-  String get delivery_address => 'ပို့ဆောင်ရန်လိပ်စာ';
+  String get delivery_address => 'ပို့ဆောင်မည့်လိပ်စာ';
 
   @override
   String get primary_address => 'ပင်မလိပ်စာ';
@@ -230,10 +287,10 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get select_gender => 'သင့်လိင် ရွေးချယ်ပါ';
+  String get select_gender => 'လိင် ရွေးချယ်ပါ';
 
   @override
-  String get title_edit_profile => 'ပရိုဖိုင်းပြင်ဆင်ရန်';
+  String get title_edit_profile => 'ကိုယ်ရေးအချက်အလက် ပြင်ဆင်မည်';
 
   @override
   String get optional => 'ရွေးချယ်နိုင်သည်';
@@ -245,7 +302,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get btn_save => 'သိမ်းမည်';
 
   @override
-  String get required_name => 'အမည်ဖြည့်ရန် လိုအပ်ပါသည်';
+  String get required_name => 'အမည် လိုအပ်ပါသည်';
 
   @override
   String get male => 'ကျား';
@@ -257,10 +314,10 @@ class AppLocalizationsMy extends AppLocalizations {
   String get other => 'အခြား';
 
   @override
-  String get active_plan_count => 'လက်ရှိ Plan';
+  String get active_plan_count => 'တက်ကြွသော အစီအစဉ်';
 
   @override
-  String get active_challenge_count => 'လက်ရှိ Challenge';
+  String get active_challenge_count => 'တက်ကြွသော စိန်ခေါ်မှု';
 
   @override
   String get order_list_label => 'အော်ဒါများ';
@@ -275,7 +332,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get language_label => 'ဘာသာစကား';
 
   @override
-  String get logout_confirmation => 'အကောင့်မှ ထွက်ရန် အတည်ပြုခြင်း';
+  String get logout_confirmation => 'အကောင့်မှ ထွက်မည်';
 
   @override
   String get logout_confirmation_message => 'အကောင့်မှ ထွက်ရန် သေချာပါသလား?';
@@ -297,240 +354,240 @@ class AppLocalizationsMy extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       unReadCount,
       locale: localeName,
-      other: 'အသိပေးချက်အသစ် $unReadCount ခုရှိသည်',
-      one: 'အသိပေးချက်အသစ် ၁ ခုရှိသည်',
+      other: 'အသိပေးချက်အသစ် $unReadCount ခု',
+      one: 'အသိပေးချက်အသစ် ၁ ခု',
       zero: 'အသိပေးချက်အသစ်မရှိပါ',
     );
     return '$_temp0';
   }
 
   @override
-  String get btn_checkout => 'Checkout';
+  String get btn_checkout => 'ငွေရှင်းမည်';
 
   @override
-  String get total => 'Total';
+  String get total => 'စုစုပေါင်း';
 
   @override
-  String get title_shopping_cart => 'Cart';
+  String get title_shopping_cart => 'စျေးခြင်းထည့်စရာ';
 
   @override
-  String get title_checkout => 'Checkout';
+  String get title_checkout => 'ငွေရှင်းမည်';
 
   @override
-  String get other_methods => 'Other Methods';
+  String get other_methods => 'အခြားနည်းလမ်းများ';
 
   @override
-  String get title_payment_methods => 'Payment Methods';
+  String get title_payment_methods => 'ငွေပေးချေမှုနည်းလမ်းများ';
 
   @override
-  String get bank_transfer => 'Bank Transfer';
+  String get bank_transfer => 'ဘဏ်လွှဲ';
 
   @override
-  String get payment_method => 'Payment Method';
+  String get payment_method => 'ငွေပေးချေမှုနည်းလမ်း';
 
   @override
-  String get btn_change => 'Change';
+  String get btn_change => 'ပြောင်းမည်';
 
   @override
-  String get btn_confirm_order => 'Confirm Order';
+  String get btn_confirm_order => 'အော်ဒါအတည်ပြုမည်';
 
   @override
-  String get order_information => 'Order Information';
+  String get order_information => 'အော်ဒါအချက်အလက်';
 
   @override
-  String get total_amount => 'Total Amount';
+  String get total_amount => 'စုစုပေါင်းပမာဏ';
 
   @override
-  String get label_point => 'Point';
+  String get label_point => 'အမှတ်';
 
   @override
   String point_value(int pointCount) {
     String _temp0 = intl.Intl.pluralLogic(
       pointCount,
       locale: localeName,
-      other: '$pointCount points',
-      one: '1 point',
-      zero: 'no points',
+      other: 'အမှတ် $pointCount ခု',
+      one: 'အမှတ် ၁ ခု',
+      zero: 'အမှတ်မရှိပါ',
     );
     return '$_temp0';
   }
 
   @override
-  String get net_amount => 'Net Amount';
+  String get net_amount => 'အသားတင်ပမာဏ';
 
   @override
-  String get add_new_address => 'Add New Address';
+  String get add_new_address => 'လိပ်စာအသစ်ထည့်မည်';
 
   @override
-  String get no_bank_accounts_available => 'No bank accounts available';
+  String get no_bank_accounts_available => 'ရရှိနိုင်သော ဘဏ်အကောင့်မရှိပါ';
 
   @override
-  String get btn_confirm => 'Confirm';
+  String get btn_confirm => 'အတည်ပြုမည်';
 
   @override
-  String get btn_ok => 'Ok';
+  String get btn_ok => 'အိုကေ';
 
   @override
-  String get title_error => 'Error';
+  String get title_error => 'အမှား';
 
   @override
-  String get title_warning => 'Warning';
+  String get title_warning => 'သတိပေးချက်';
 
   @override
-  String get error_delivery_address_required => 'Delivery address is required.';
+  String get error_delivery_address_required => 'ပို့ဆောင်မည့်လိပ်စာ လိုအပ်ပါသည်။';
 
   @override
-  String get title_order_detail => 'Order Detail';
+  String get title_order_detail => 'အော်ဒါအသေးစိတ်';
 
   @override
-  String get empty_cart => 'Empty cart';
+  String get empty_cart => 'စျေးခြင်းထည့်စရာ မရှိပါ';
 
   @override
-  String get bank_account_copied => 'Account number copied to clipboard!';
+  String get bank_account_copied => 'ဘဏ်အကောင့်နံပါတ်ကို clipboard သို့ ကူးထည့်ပြီးပါပြီ!';
 
   @override
-  String get order_number => 'Order';
+  String get order_number => 'အော်ဒါ';
 
   @override
-  String get used_coupon_amount => 'Used Coupon';
+  String get used_coupon_amount => 'အသုံးပြုထားသော ကူပွန်';
 
   @override
-  String get title_orders => 'Orders';
+  String get title_orders => 'အော်ဒါများ';
 
   @override
-  String get empty_order => 'Empty order list';
+  String get empty_order => 'အော်ဒါစာရင်း မရှိပါ';
 
   @override
-  String get payment_confirmed => 'Payment Confirmed';
+  String get payment_confirmed => 'ငွေပေးချေမှု အတည်ပြုပြီး';
 
   @override
-  String get order_confirmed => 'Order Confirmed';
+  String get order_confirmed => 'အော်ဒါ အတည်ပြုပြီး';
 
   @override
-  String get payment_rejected => 'Payment Rejected';
+  String get payment_rejected => 'ငွေပေးချေမှု ပယ်ချခံရ';
 
   @override
-  String get order_completed => 'Order Completed';
+  String get order_completed => 'အော်ဒါ ပြီးစီးပြီး';
 
   @override
-  String get cancelled => 'Order Cancelled';
+  String get cancelled => 'အော်ဒါ ပယ်ဖျက်ပြီး';
 
   @override
-  String get pending => 'Pending Order';
+  String get pending => 'ဆိုင်းငံ့ထားသော အော်ဒါ';
 
   @override
-  String get order_created => 'Order Created';
+  String get order_created => 'အော်ဒါ ဖန်တီးပြီး';
 
   @override
-  String get upload_payment_screenshot => 'Upload payment screenshot';
+  String get upload_payment_screenshot => 'ငွေပေးချေမှု screenshot တင်မည်';
 
   @override
-  String get take_photo => 'Take Photo';
+  String get take_photo => 'ဓာတ်ပုံရိုက်မည်';
 
   @override
-  String get gallery => 'Gallery';
+  String get gallery => 'ပြခန်း';
 
   @override
-  String get error_payment_screenshot_required => 'Payment screenshot is required.';
+  String get error_payment_screenshot_required => 'ငွေပေးချေမှု screenshot လိုအပ်ပါသည်။';
 
   @override
-  String get error_name_required => 'Name is required.';
+  String get error_name_required => 'အမည် လိုအပ်ပါသည်။';
 
   @override
-  String get success_profile_update => 'Profile updated successfully.';
+  String get success_profile_update => 'ကိုယ်ရေးအချက်အလက် အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ။';
 
   @override
-  String get title_success => 'Success';
+  String get title_success => 'အောင်မြင်မှု';
 
   @override
-  String get errorRegionRequired => 'Region is required.';
+  String get errorRegionRequired => 'တိုင်းဒေသကြီး လိုအပ်ပါသည်။';
 
   @override
-  String get errorTownshipRequired => 'Township is required.';
+  String get errorTownshipRequired => 'မြို့နယ် လိုအပ်ပါသည်။';
 
   @override
-  String get errorStressAddressRequired => 'Street is required';
+  String get errorStressAddressRequired => 'လမ်း လိုအပ်ပါသည်';
 
   @override
-  String get successAddressCreate => 'Address created successfully.';
+  String get successAddressCreate => 'လိပ်စာ အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။';
 
   @override
-  String get successAddressUpdate => 'Address updated successfully.';
+  String get successAddressUpdate => 'လိပ်စာ အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ။';
 
   @override
-  String get title_add_new_address => 'Add New Address';
+  String get title_add_new_address => 'လိပ်စာအသစ်ထည့်မည်';
 
   @override
-  String get select_region => 'Select Region';
+  String get select_region => 'တိုင်းဒေသကြီး ရွေးချယ်ပါ';
 
   @override
-  String get select_township => 'Select Township';
+  String get select_township => 'မြို့နယ် ရွေးချယ်ပါ';
 
   @override
-  String get stress_address => 'Street';
+  String get stress_address => 'လမ်း';
 
   @override
-  String get is_primary_address => 'Is Primary Address?';
+  String get is_primary_address => 'ပင်မလိပ်စာ ဖြစ်ပါသလား?';
 
   @override
-  String get btn_delete => 'Delete';
+  String get btn_delete => 'ဖျက်မည်';
 
   @override
-  String get delete_confiration => 'Are you sure you want to delete this address?';
+  String get delete_confiration => 'ဤလိပ်စာကို ဖျက်ရန် သေချာပါသလား?';
 
   @override
-  String get title_confirmation => 'Confirmation';
+  String get title_confirmation => 'အတည်ပြုချက်';
 
   @override
-  String get btn_edit => 'Edit';
+  String get btn_edit => 'ပြင်ဆင်မည်';
 
   @override
-  String get delete_success => 'Successfully deleted.';
+  String get delete_success => 'အောင်မြင်စွာ ဖျက်ပြီးပါပြီ။';
 
   @override
-  String get delete_error => 'Failed to delete.';
+  String get delete_error => 'ဖျက်ရန် မအောင်မြင်ပါ။';
 
   @override
-  String get title_edit_address => 'Edit Address';
+  String get title_edit_address => 'လိပ်စာ ပြင်ဆင်မည်';
 
   @override
-  String get btn_update => 'Update';
+  String get btn_update => 'မွမ်းမံမည်';
 
   @override
-  String get levelMember => 'Member';
+  String get levelMember => 'အသင်း၀င်';
 
   @override
-  String get levelSilver => 'Silver';
+  String get levelSilver => 'ငွေ';
 
   @override
-  String get levelGold => 'Gold';
+  String get levelGold => 'ရွှေ';
 
   @override
-  String get levelPlatinum => 'Platinum';
+  String get levelPlatinum => 'ပလက်တီနမ်';
 
   @override
-  String get levelDiamond => 'Diamond';
+  String get levelDiamond => 'စိန်';
 
   @override
-  String get underWeight => 'Underweight';
+  String get underWeight => 'ပုံမှန်ထက် ပိန်သည်';
 
   @override
-  String get normal => 'Normal';
+  String get normal => 'ပုံမှန်';
 
   @override
-  String get overWeight => 'Overweight';
+  String get overWeight => 'ပုံမှန်ထက် ဝသည်';
 
   @override
-  String get obese => 'Obese';
+  String get obese => 'အဝလွန်သည်';
 
   @override
   String year(int count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count Yrs',
-      one: '1 Yr',
-      zero: 'Yrs',
+      other: '$count နှစ်',
+      one: '၁ နှစ်',
+      zero: 'နှစ်',
     );
     return '$_temp0';
   }
@@ -540,115 +597,115 @@ class AppLocalizationsMy extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count Lbs',
-      one: '1 Lb',
-      zero: 'Lbs',
+      other: '$count ပေါင်',
+      one: '၁ ပေါင်',
+      zero: 'ပေါင်',
     );
     return '$_temp0';
   }
 
   @override
-  String get let_start => 'Let\'s Start\nTogether';
+  String get let_start => 'အတူတူ စတင်ကြရအောင်';
 
   @override
-  String get feet => 'Feet';
+  String get feet => 'ပေ';
 
   @override
-  String get inches => 'Inches';
+  String get inches => 'လက်မ';
 
   @override
-  String get dob => 'Date of birth';
+  String get dob => 'မွေးနေ့';
 
   @override
-  String get select_your_goal => 'Please Select\nYour Goal';
+  String get select_your_goal => 'သင့်ရည်မှန်းချက်ကို ရွေးချယ်ပါ';
 
   @override
-  String get btn_start => 'Start';
+  String get btn_start => 'စတင်မည်';
 
   @override
-  String get errorDobRequired => 'Date of birth is required.';
+  String get errorDobRequired => 'မွေးနေ့ လိုအပ်ပါသည်။';
 
   @override
-  String get errorWeightRequired => 'Weight is required.';
+  String get errorWeightRequired => 'ကိုယ်အလေးချိန် လိုအပ်ပါသည်။';
 
   @override
-  String get errorFeetRequired => 'Feet is required.';
+  String get errorFeetRequired => 'ပေ လိုအပ်ပါသည်။';
 
   @override
-  String get errorInchesRequired => 'Inches is required.';
+  String get errorInchesRequired => 'လက်မ လိုအပ်ပါသည်။';
 
   @override
-  String get requireGoalSelection => 'Please select your goal.';
+  String get requireGoalSelection => 'ကျေးဇူးပြု၍ သင့်ရည်မှန်းချက်ကို ရွေးချယ်ပါ။';
 
   @override
-  String get active_programs => 'Active Programs';
+  String get active_programs => 'ကျွန်ုပ်၏ ပရိုဂရမ်များ';
 
   @override
-  String get calculators => 'Calculators';
+  String get calculators => 'တွက်ချက်ကိရိယာများ';
 
   @override
-  String get meal_plans => 'Meal Plan';
+  String get product_programs => 'ထုတ်ကုန်ပရိုဂရမ်များ';
 
   @override
-  String get challenges => 'Challenges';
+  String get service_programs => 'ဝန်ဆောင်မှုပရိုဂရမ်များ';
 
   @override
-  String get no_active_meal_plan => 'No active meal plan';
+  String get no_active_meal_plan => 'တက်ကြွသော ထုတ်ကုန်မရှိပါ။';
 
   @override
-  String get no_active_challenge => 'No active challenge';
+  String get no_active_challenge => 'တက်ကြွသော ဝန်ဆောင်မှုမရှိပါ။';
 
   @override
   String start_date(String startDate) {
-    return 'Start: $startDate';
+    return 'စတင်မည်: $startDate';
   }
 
   @override
   String batch_number(int batchNumber) {
-    return 'Batch: $batchNumber';
+    return 'အသုတ်: $batchNumber';
   }
 
   @override
-  String get label_schedule => 'Schedule';
+  String get label_schedule => 'အချိန်ဇယား';
 
   @override
-  String get empty_reminder => 'There is no reminder!';
+  String get empty_reminder => 'သတိပေးချက် မရှိပါ!';
 
   @override
-  String get label_tracker => 'Tracker';
+  String get label_tracker => 'ခြေရာခံ';
 
   @override
-  String get label_meal_plan => 'Meal Plan';
+  String get label_meal_plan => 'အစားအစာအစီအစဉ်';
 
   @override
-  String get label_news_feed => 'News Feed';
+  String get label_news_feed => 'သတင်းများ';
 
   @override
-  String get title_active_challenge => 'Active Challenge';
+  String get title_active_challenge => 'တက်ကြွသော စိန်ခေါ်မှု';
 
   @override
-  String get btn_add => 'Add';
+  String get btn_add => 'ထည့်မည်';
 
   @override
   String label_selected_ml(int selectedMl) {
-    return 'Selected amount: $selectedMl';
+    return 'ရွေးချယ်ထားသော ပမာဏ: $selectedMl';
   }
 
   @override
-  String get title_water_intake => 'Water Intake';
+  String get title_water_intake => 'ရေသောက်သုံးမှု';
 
   @override
-  String get today_water_intake => 'Today Water Intake';
+  String get today_water_intake => 'ယနေ့ ရေသောက်သုံးမှု';
 
   @override
-  String get title_water_record => 'Record drinking water';
+  String get title_water_record => 'ရေသောက်သုံးမှု မှတ်တမ်းတင်မည်';
 
   @override
-  String get goal => 'Goal';
+  String get goal => 'ရည်မှန်းချက်';
 
   @override
   String completed_percentage(int percentage) {
-    return '$percentage% completed.';
+    return '$percentage% ပြီးစီးပြီး။';
   }
 
   @override
@@ -656,153 +713,153 @@ class AppLocalizationsMy extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count comments',
-      one: '1 comment',
-      zero: 'No comments',
+      other: 'မှတ်ချက် $count ခု',
+      one: 'မှတ်ချက် ၁ ခု',
+      zero: 'မှတ်ချက်မရှိပါ',
     );
     return '$_temp0';
   }
 
   @override
-  String get what_is_on_your_mind => 'What is on your mind?';
+  String get what_is_on_your_mind => 'စိတ်ထဲမှာ ဘာတွေရှိလဲ?';
 
   @override
-  String get btn_post => 'Post';
+  String get btn_post => 'တင်မည်';
 
   @override
-  String get like => 'Like';
+  String get like => 'နှစ်သက်သည်';
 
   @override
-  String get camera_source => 'Camera';
+  String get camera_source => 'ကင်မရာ';
 
   @override
-  String get gallery_source => 'Gallery';
+  String get gallery_source => 'ပြခန်း';
 
   @override
-  String get success_news_feed_create => 'News feed created successfully. It will be published after admin approval.';
+  String get success_news_feed_create => 'သတင်းများ အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။ အက်ဒ်မင်အတည်ပြုပြီးနောက် ထုတ်ဝေပါမည်။';
 
   @override
-  String get likedUsers => 'People who liked this post';
+  String get likedUsers => 'ဤပို့စ်ကို နှစ်သက်သူများ';
 
   @override
   String title_feed_of_user(String username) {
-    return '$username\'s Post';
+    return '$username ၏ ပို့စ်';
   }
 
   @override
-  String get noComments => 'No comments yet';
+  String get noComments => 'မှတ်ချက်မရှိသေးပါ';
 
   @override
-  String get beFirstToComment => 'Be the first to comment';
+  String get beFirstToComment => 'ပထမဆုံး မှတ်ချက်ပေးသူဖြစ်ပါစေ';
 
   @override
   String comment_as(String username) {
-    return 'Comment as $username';
+    return '$username အဖြစ် မှတ်ချက်ပေးမည်';
   }
 
   @override
-  String get comment => 'Comment';
+  String get comment => 'မှတ်ချက်';
 
   @override
-  String get empty_news_feed => 'No news feed available';
+  String get empty_news_feed => 'ရရှိနိုင်သော သတင်းများ မရှိပါ';
 
   @override
   String replyCount(int count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count replies',
-      one: '1 reply',
-      zero: 'Reply',
+      other: 'ပြန်ကြားချက် $count ခု',
+      one: 'ပြန်ကြားချက် ၁ ခု',
+      zero: 'ပြန်ကြားချက်',
     );
     return '$_temp0';
   }
 
   @override
-  String get success_comment_create => 'Comment created successfully.';
+  String get success_comment_create => 'မှတ်ချက် အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။';
 
   @override
   String you_have_finished_your_meal_plan_part(String numberOrdinal) {
-    return 'You have finished $numberOrdinal part of your meal plan.';
+    return 'သင့်အစားအစာအစီအစဉ်၏ $numberOrdinal အပိုင်းကို ပြီးမြောက်ပြီးပါပြီ။';
   }
 
   @override
   String enter_your_current_weight(int weight) {
-    return 'Your previous weight was $weight lb. \nYou need to enter your current weight to generate most suitable meal plans according to your new weight.';
+    return 'သင့်ယခင်ကိုယ်အလေးချိန်မှာ $weight ပေါင်ဖြစ်ပါသည်။ \nသင့်လက်ရှိကိုယ်အလေးချိန်ကို ထည့်သွင်းရန် လိုအပ်ပါသည်။';
   }
 
   @override
-  String get btn_enter_new_weight => 'Enter New Weight';
+  String get btn_enter_new_weight => 'ကိုယ်အလေးချိန်အသစ်ထည့်မည်';
 
   @override
-  String get select_precondition_you_have => 'Select Pre-conditions you have';
+  String get select_precondition_you_have => 'သင့်တွင် ရှိသော ကြိုတင်အခြေအနေများကို ရွေးချယ်ပါ';
 
   @override
   String your_previous_weight(String updatedDate, num weight) {
-    return 'Your weight at $updatedDate was $weight lb.';
+    return '$updatedDate တွင် သင့်ကိုယ်အလေးချိန်မှာ $weight ပေါင်ဖြစ်ပါသည်။';
   }
 
   @override
-  String get your_today_weight => 'Your weight measured at today';
+  String get your_today_weight => 'ယနေ့တိုင်းတာထားသော သင့်ကိုယ်အလေးချိန်';
 
   @override
-  String get title_sleep_schedule => 'Sleep Schedule';
+  String get title_sleep_schedule => 'အိပ်စက်မှုအချိန်ဇယား';
 
   @override
   String sleep_time(String sleepTime) {
-    return 'Sleep Time = $sleepTime';
+    return 'အိပ်ချိန် = $sleepTime';
   }
 
   @override
-  String get your_sleep_time_is => 'Your sleep time is ';
+  String get your_sleep_time_is => 'သင့်အိပ်ချိန်မှာ ';
 
   @override
-  String get title_add_sleep_schedule => 'Add Sleep Schedule';
+  String get title_add_sleep_schedule => 'အိပ်စက်မှုအချိန်ဇယား ထည့်မည်';
 
   @override
-  String get great => 'great';
+  String get great => 'ကောင်းသည်';
 
   @override
-  String get late => 'late';
+  String get late => 'နောက်ကျသည်';
 
   @override
-  String get title_choose_today_mood => 'Select Today Mood';
+  String get title_choose_today_mood => 'ယနေ့စိတ်အခြေအနေ ရွေးချယ်ပါ';
 
   @override
-  String get today_feeling_note => 'Write Today Feelings';
+  String get today_feeling_note => 'ယနေ့ခံစားချက်များကို ရေးသားပါ';
 
   @override
-  String get title_today_feeling => 'Today Feeling';
+  String get title_today_feeling => 'ယနေ့ခံစားချက်';
 
   @override
-  String get write_total_feeling => 'Record Today Feeling';
+  String get write_total_feeling => 'ယနေ့ခံစားချက် မှတ်တမ်းတင်မည်';
 
   @override
-  String get feeling_note => 'Feeling note';
+  String get feeling_note => 'ခံစားချက်မှတ်စု';
 
   @override
-  String get record_activities => 'Record activities';
+  String get record_activities => 'လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ';
 
   @override
-  String get title_dance_and_workout_activity => 'Dance & Workout Activities';
+  String get title_dance_and_workout_activity => 'အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများ';
 
   @override
   String total_workout_time(int hour, int minute) {
     String _temp0 = intl.Intl.pluralLogic(
       hour,
       locale: localeName,
-      one: '1 hr',
-      zero: '0 hrs',
-      other: '$hour hrs',
+      one: '1 နာရီ',
+      zero: '0 နာရီ',
+      other: '$hour နာရီ',
     );
     String _temp1 = intl.Intl.pluralLogic(
       minute,
       locale: localeName,
-      one: '1 min',
-      zero: '0 mins',
-      other: '$minute mins',
+      one: '1 မိနစ်',
+      zero: '0 မိနစ်',
+      other: '$minute မိနစ်',
     );
-    return 'Total workout time:  $_temp0 : $_temp1';
+    return 'စုစုပေါင်း လေ့ကျင့်ခန်းအချိန် - $_temp0 : $_temp1';
   }
 
   @override
@@ -810,418 +867,528 @@ class AppLocalizationsMy extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       hour,
       locale: localeName,
-      other: '$hour hrs',
-      one: '1 hr',
-      zero: '0 hrs',
+      other: '$hour နာရီ',
+      one: '1 နာရီ',
+      zero: '0 နာရီ',
     );
     String _temp1 = intl.Intl.pluralLogic(
       minute,
       locale: localeName,
-      other: '$minute mins',
-      one: '1 min',
-      zero: '0 mins',
+      other: '$minute မိနစ်',
+      one: '1 မိနစ်',
+      zero: '0 မိနစ်',
     );
     return ' ($_temp0 : $_temp1)';
   }
 
   @override
-  String get label_select_activity_type => 'Select Activity Type';
+  String get label_select_activity_type => 'လှုပ်ရှားမှုအမျိုးအစားကို ရွေးချယ်ပါ';
 
   @override
-  String get label_select_total_time => 'Select Total Time';
+  String get label_select_total_time => 'စုစုပေါင်းအချိန်ကို ရွေးချယ်ပါ';
 
   @override
-  String get title_record_workout_activity => 'Record Dance & Workout Activiy';
+  String get title_record_workout_activity => 'အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ';
 
   @override
   String your_last_bmi(String value) {
-    return 'Your latest BMI : $value';
+    return 'သင့်နောက်ဆုံး BMI - $value';
   }
 
   @override
   String your_last_calorie(String value) {
-    return 'Your latest CR : $value';
+    return 'သင့်နောက်ဆုံး CR - $value';
   }
 
   @override
   String your_last_whr(String value) {
-    return 'Your latest WHR : $value';
+    return 'သင့်နောက်ဆုံး WHR - $value';
   }
 
   @override
   String your_last_bfp(String value) {
-    return 'Your latest BFP : $value';
+    return 'သင့်နောက်ဆုံး BFP - $value';
   }
 
   @override
-  String get title_calculators => 'Calculators';
+  String get title_calculators => 'တွက်ချက်ကိရိယာများ';
 
   @override
-  String get title_bmi => 'Body Mass Index';
+  String get title_bmi => 'ခန္ဓာကိုယ်ထုထည်ညွှန်းကိန်း';
 
   @override
-  String get calculate_bmi => 'Calculate BMI';
+  String get calculate_bmi => 'BMI တွက်ရန်';
 
   @override
-  String get history => 'History';
+  String get history => 'မှတ်တမ်း';
 
   @override
-  String get for_myself => 'For Myself';
+  String get for_myself => 'ကိုယ်တိုင်';
 
   @override
-  String get result_can_be_saved_to_profile => '(The result can be saved to profile)';
+  String get result_can_be_saved_to_profile => '(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်းနိုင်သည်)';
 
   @override
-  String get for_other => 'For Other';
+  String get for_other => 'အခြားသူများ';
 
   @override
-  String get result_can_not_be_saved_to_profile => '(The result can not be saved to profile)';
+  String get result_can_not_be_saved_to_profile => '(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်း၍မရပါ)';
 
   @override
-  String get btn_calculate => 'Calculate';
+  String get btn_calculate => 'တွက်ရန်';
 
   @override
-  String get btn_back_to_home => 'Back To Home';
+  String get btn_back_to_home => 'ပင်မစာမျက်နှာသို့ ပြန်သွားရန်';
 
   @override
-  String get title_result => 'Result';
+  String get title_result => 'ရလဒ်';
 
   @override
   String name_bmi_is(String name, num value) {
-    return '$name BMI is $value ';
+    return '$name ၏ BMI မှာ $value ဖြစ်သည်';
   }
 
   @override
   String your_bmi_is(num value) {
-    return 'Your BMI is $value ';
+    return 'သင့် BMI မှာ $value ဖြစ်သည်';
   }
 
   @override
   String bmi_underweight_description_for_other(String name) {
-    return '$name needs to gain some muscle for a stronger and healthier version.';
+    return '$name သည် ပိုမိုကျန်းမာသန်စွမ်းစေရန် ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။';
   }
 
   @override
-  String get bmi_underweight_description_for_you => 'You need to gain some muscle for a stronger and healthier version of you.';
+  String get bmi_underweight_description_for_you => 'သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။';
 
   @override
-  String get bmi_normalweight_description_for_you => 'You are on your normal weight. Try to keep it better.';
+  String get bmi_normalweight_description_for_you => 'သင့်တွင် ပုံမှန်ကိုယ်အလေးချိန် ရှိပါသည်။ ပိုမိုကောင်းမွန်အောင် ထိန်းသိမ်းပါ။';
 
   @override
   String bmi_normalweight_description_for_other(String name) {
-    return '$name is on normal weight. Try to keep it better.';
+    return '$name တွင် ပုံမှန်ကိုယ်အလေးချိန် ရှိပါသည်။ ပိုမိုကောင်းမွန်အောင် ထိန်းသိမ်းပါ။';
   }
 
   @override
-  String get bmi_overweight_description_for_you => 'There is a slight increase in your weight currently. If this is because of some extra fat, you need to remove them before it\'s too late.';
+  String get bmi_overweight_description_for_you => 'သင့်တွင် ကိုယ်အလေးချိန် အနည်းငယ် တိုးနေပါသည်။ အဆီပိုများကြောင့် ဖြစ်ပါက မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။';
 
   @override
   String bmi_overweight_description_for_other(String name) {
-    return 'There is a slight increase in $name\'s weight currently. If this is because of some extra fat, you need to remove them before it\'s too late.';
+    return '$name တွင် ကိုယ်အလေးချိန် အနည်းငယ် တိုးနေပါသည်။ အဆီပိုများကြောင့် ဖြစ်ပါက မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။';
   }
 
   @override
-  String get bmi_obesity_description_for_you => 'BMI cannot show the exact status of your health. But if you are fat with this BMI result, you really need to try to lose some weight';
+  String get bmi_obesity_description_for_you => 'BMI သည် သင့်ကျန်းမာရေး အခြေအနေကို တိတိကျကျ မဖော်ပြနိုင်ပါ။ သို့သော် ဤ BMI ရလဒ်ဖြင့် အဝလွန်နေပါက ကိုယ်အလေးချိန် လျှော့ချရန် ကြိုးစားသင့်ပါသည်။';
 
   @override
   String bmi_obesity_description_for_other(String name) {
-    return 'BMI cannot show the exact status of $name\'s health. But if you are fat with this BMI result, you really need to try to lose some weight';
+    return 'BMI သည် $name ၏ ကျန်းမာရေး အခြေအနေကို တိတိကျကျ မဖော်ပြနိုင်ပါ။ သို့သော် ဤ BMI ရလဒ်ဖြင့် အဝလွန်နေပါက ကိုယ်အလေးချိန် လျှော့ချရန် ကြိုးစားသင့်ပါသည်။';
   }
 
   @override
-  String get bmi_bad_result_description_for_you => 'You have a bad result with your BMI. Please take action to lose weight immediately to live longer, to live healthier.';
+  String get bmi_bad_result_description_for_you => 'သင့် BMI တွင် မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် ကိုယ်အလေးချိန် လျှော့ချရန် ချက်ချင်းလုပ်ဆောင်ပါ။';
 
   @override
-  String get you_look_fantastic => 'You look fantastic!';
+  String get you_look_fantastic => 'သင် အလွန်လှပနေပါသည်!';
 
   @override
   String name_looks_fantastic(String name) {
-    return '$name looks fantastic!';
+    return '$name အလွန်လှပနေပါသည်!';
   }
 
   @override
-  String get you_need_improvement => 'You need improvement!';
+  String get you_need_improvement => 'သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
 
   @override
   String name_needs_improvement(String name) {
-    return '$name needs improvement!';
+    return '$name တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
   }
 
   @override
-  String get btn_save_result => 'Save Result';
+  String get btn_save_result => 'ရလဒ်ကို သိမ်းဆည်းရန်';
 
   @override
-  String get successSavingCalculatorResult => 'The result has been successfully saved to the profile.';
+  String get successSavingCalculatorResult => 'ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။';
 
   @override
-  String get calculate_cr => 'Calculate CR';
+  String get calculate_cr => 'CR တွက်ရန်';
 
   @override
-  String get title_calorie_requirement => 'Calorie Requirement';
+  String get title_calorie_requirement => 'ကယ်လိုရီလိုအပ်ချက်';
 
   @override
-  String get title_wth_ratio => 'Waist to Height Ratio';
+  String get title_wth_ratio => 'ခါးနှင့်အရပ်အချိုး (W2H)';
 
   @override
-  String get calculate_wth_ratio => 'Calculate WTH Ratio';
+  String get calculate_wth_ratio => 'W2H အချိုးကို တွက်ရန်';
 
   @override
-  String get title_bfp => 'Body Fat Percentage';
+  String get title_bfp => 'ခန္ဓာကိုယ်အဆီအချိုးအစား';
 
   @override
-  String get waist => 'Waist';
+  String get waist => 'ခါး';
 
   @override
-  String get stress_factor => 'Stress Factor';
+  String get stress_factor => 'စိတ်ဖိစီးမှုအချက်';
 
   @override
-  String get lifestyle => 'Life Style';
+  String get lifestyle => 'နေထိုင်မှုပုံစံ';
 
   @override
-  String get your => 'Your';
+  String get your => 'သင့်';
 
   @override
   String your_bfp_result_is(String name, num bfp) {
-    return '$name Body Fat Percentage is $bfp%';
+    return '$name ၏ ခန္ဓာကိုယ်အဆီအချိုးအစားမှာ $bfp% ဖြစ်သည်';
   }
 
   @override
   String your_calorie_requirement_is(int calorie) {
-    return 'Your calorie requirement is $calorie';
+    return 'သင့်ကယ်လိုရီလိုအပ်ချက်မှာ $calorie ဖြစ်သည်';
   }
 
   @override
   String name_calorie_requirement_is(String name, int calorie) {
-    return '$name\'s calorie requirement is $calorie';
+    return '$name ၏ ကယ်လိုရီလိုအပ်ချက်မှာ $calorie ဖြစ်သည်';
   }
 
   @override
-  String get calorie_requirement_description => 'Pay attention to your daily calorie intake because \"3500calories = 1 lb\".';
+  String get calorie_requirement_description => 'သင့်နေ့စဉ် ကယ်လိုရီစားသုံးမှုကို ဂရုပြုပါ၊ အကြောင်းမှာ \"3500 ကယ်လိုရီ = 1 ပေါင်\" ဖြစ်သောကြောင့်ဖြစ်သည်။';
 
   @override
   String your_waist_to_height_ratio_is(num value) {
-    return 'Your Waist to Height ratio is $value';
+    return 'သင့်ခါးနှင့်အရပ်အချိုးမှာ $value ဖြစ်သည်';
   }
 
   @override
   String name_waist_to_height_ratio_is(String name, num value) {
-    return '$name\'s Waist to Height ratio is $value';
+    return '$name ၏ ခါးနှင့်အရပ်အချိုးမှာ $value ဖြစ်သည်';
   }
 
   @override
-  String get you_need_an_improvement => 'Your need an improvement!';
+  String get you_need_an_improvement => 'သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
 
   @override
   String name_needs_an_improvement(String name) {
-    return '$name needs an improvement!';
+    return '$name တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
   }
 
   @override
-  String get your_wth_result_extremely_slim => 'You need to put on some weight to get a healthy body. More protein, more carbs and more strength training will transform you into an ideal body.';
+  String get your_wth_result_extremely_slim => 'ကျန်းမာသော ခန္ဓာကိုယ်ရရှိရန် ကိုယ်အလေးချိန် တိုးရန် လိုအပ်ပါသည်။ ပရိုတင်းဓာတ်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ကြွက်သားတည်ဆောက်မှု လေ့ကျင့်ခန်းများ ပိုမိုလုပ်ဆောင်ခြင်းဖြင့် အကောင်းဆုံးခန္ဓာကိုယ်ကို ရရှိနိုင်ပါသည်။';
 
   @override
   String name_wth_result_extremely_slim(String name) {
-    return '$name need to put on some weight to get a healthy body. More protein, more carbs and more strength training will transform him/her into an ideal body.';
+    return '$name သည် ကျန်းမာသော ခန္ဓာကိုယ်ရရှိရန် ကိုယ်အလေးချိန် တိုးရန် လိုအပ်ပါသည်။ ပရိုတင်းဓာတ်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ကြွက်သားတည်ဆောက်မှု လေ့ကျင့်ခန်းများ ပိုမိုလုပ်ဆောင်ခြင်းဖြင့် အကောင်းဆုံးခန္ဓာကိုယ်ကို ရရှိနိုင်ပါသည်။';
   }
 
   @override
-  String get your_wth_result_absolutely_slim => 'Your body is very thin for your height. Slimming may reduce obesity related diseases by extremely slim can give you lower immunity, not good-looking appearance and weak endurance.';
+  String get your_wth_result_absolutely_slim => 'သင့်အရပ်နှင့်နှိုင်းယှဉ်လျှင် ခန္ဓာကိုယ်မှာ အလွန်ပိန်နေပါသည်။ ပိန်ခြင်းသည် အဝလွန်ခြင်းနှင့်ဆက်စပ်သော ရောဂါများကို လျှော့ချနိုင်သော်လည်း အလွန်အမင်းပိန်ခြင်းသည် ကိုယ်ခံအားနည်းခြင်း၊ အလှအပနည်းခြင်းနှင့် သည်းခံနိုင်စွမ်းနည်းခြင်းတို့ကို ဖြစ်စေနိုင်ပါသည်။';
 
   @override
   String name_wth_result_absolutely_slim(String name) {
-    return '$name\'s body is very thin for height. Slimming may reduce obesity related diseases by extremely slim can give you lower immunity, not good-looking appearance and weak endurance.';
+    return '$name ၏ အရပ်နှင့်နှိုင်းယှဉ်လျှင် ခန္ဓာကိုယ်မှာ အလွန်ပိန်နေပါသည်။ ပိန်ခြင်းသည် အဝလွန်ခြင်းနှင့်ဆက်စပ်သော ရောဂါများကို လျှော့ချနိုင်သော်လည်း အလွန်အမင်းပိန်ခြင်းသည် ကိုယ်ခံအားနည်းခြင်း၊ အလှအပနည်းခြင်းနှင့် သည်းခံနိုင်စွမ်းနည်းခြင်းတို့ကို ဖြစ်စေနိုင်ပါသည်။';
   }
 
   @override
-  String get your_wth_result_healthy => 'You are on your best result in Waist to Height Ratio. Check your body’s status for other measurements and say “Cheers”';
+  String get your_wth_result_healthy => 'သင် W2H အချိုးတွင် အကောင်းဆုံးရလဒ်ရရှိထားပါသည်။ အခြားတိုင်းတာမှုများဖြင့် သင့်ခန္ဓာကိုယ်အခြေအနေကို စစ်ဆေးပြီး \"ဂုဏ်ယူပါတယ်\" ဟု ပြောလိုက်ပါ။';
 
   @override
   String name_wth_result_healthy(String name) {
-    return '$name is on his/her best result in Waist to Height Ratio. Check his/her body’s status for other measurements and say “Cheers”';
+    return '$name သည် W2H အချိုးတွင် အကောင်းဆုံးရလဒ်ရရှိထားပါသည်။ အခြားတိုင်းတာမှုများဖြင့် သူ၏ခန္ဓာကိုယ်အခြေအနေကို စစ်ဆေးပြီး \"ဂုဏ်ယူပါတယ်\" ဟု ပြောလိုက်ပါ။';
   }
 
   @override
-  String get your_wth_result_overweight => 'There is slight increase in your fat around your waist. Try to lose it coz these will be the potential threat to your health!';
+  String get your_wth_result_overweight => 'သင့်ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် သင့်ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။';
 
   @override
-  String get name_wth_result_overweight => 'There is slight increase in fat around the waist. Try to lose it coz these will be the potential threat to health!';
+  String get name_wth_result_overweight => 'ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။';
 
   @override
-  String get your_wth_result_extremely_overweight => 'You cannot say healthy if your result is in this range of Very Overweight. Before it is too late, you’d better start losing some weight.';
+  String get your_wth_result_extremely_overweight => 'ဤအလွန်အဝများသော W2H အချိုးရလဒ်ဖြင့် သင့်ကိုယ်သင် ကျန်းမာသည်ဟု မဆိုနိုင်ပါ။ မတော်တဆဖြစ်မလာမီ ကိုယ်အလေးချိန် လျှော့ချရန် စတင်သင့်ပါသည်။';
 
   @override
   String name_wth_result_extremely_overweight(String name) {
-    return '$name cannot say healthy if your result is in this range of Very Overweight. Before it is too late, he/she’d better start losing some weight.';
+    return '$name သည် ဤအလွန်အဝများသော W2H အချိုးရလဒ်ဖြင့် ကျန်းမာသည်ဟု မဆိုနိုင်ပါ။ မတော်တဆဖြစ်မလာမီ ကိုယ်အလေးချိန် လျှော့ချရန် စတင်သင့်ပါသည်။';
   }
 
   @override
-  String get your_wth_result_unheathy => 'You have a very unhealthy result in here. There is a reason why Waist to Height Ratio is more useful than other types of body measurements. It can indicate the level of dangerous fat around your waist (around your internal organ) than other types. Central obesity will cause you at higher risk of cardiovascular diseases. Please note it and take it seriously.';
+  String get your_wth_result_unheathy => 'သင့်တွင် အလွန်မကျန်းမာသော W2H ရလဒ်ရှိပါသည်။ W2H အချိုးသည် အခြားတိုင်းတာမှုများထက် ပိုမိုအသုံးဝင်ရခြင်း၏ အကြောင်းရင်းမှာ ၎င်းသည် သင့်ခါးတစ်ဝိုက် (သင့်အတွင်းအင်္ဂါများတစ်ဝိုက်) တွင် အန္တရာယ်ရှိသော အဆီပမာဏကို ဖော်ပြနိုင်သောကြောင့်ဖြစ်သည်။ ဗဟိုအဝလွန်ခြင်းသည် နှလုံးနှင့်သွေးကြောဆိုင်ရာ ရောဂါများ ဖြစ်ပွားနိုင်ခြေကို မြင့်တက်စေပါသည်။ ဤအချက်ကို သတိထားပြီး အလေးအနက်ထား ဆောင်ရွက်ပါ။';
 
   @override
   String name_wth_result_unheathy(String name) {
-    return '$name has a very unhealthy result in here. There is a reason why Waist to Height Ratio is more useful than other types of body measurements. It can indicate the level of dangerous fat around his/her waist (around his/her internal organ) than other types. Central obesity will cause you at higher risk of cardiovascular diseases. Please note it and take it seriously.';
+    return '$name တွင် အလွန်မကျန်းမာသော W2H ရလဒ်ရှိပါသည်။ W2H အချိုးသည် အခြားတိုင်းတာမှုများထက် ပိုမိုအသုံးဝင်ရခြင်း၏ အကြောင်းရင်းမှာ ၎င်းသည် သူ၏ခါးတစ်ဝိုက် (သူ၏အတွင်းအင်္ဂါများတစ်ဝိုက်) တွင် အန္တရာယ်ရှိသော အဆီပမာဏကို ဖော်ပြနိုင်သောကြောင့်ဖြစ်သည်။ ဗဟိုအဝလွန်ခြင်းသည် နှလုံးနှင့်သွေးကြောဆိုင်ရာ ရောဂါများ ဖြစ်ပွားနိုင်ခြေကို မြင့်တက်စေပါသည်။ ဤအချက်ကို သတိထားပြီး အလေးအနက်ထား ဆောင်ရွက်ပါ။';
   }
 
   @override
-  String get your_bfp_result_lean => 'You need to gain some fat and muscle for a stronger and healthier version of you. Let\'s Boost the Essential Fat.';
+  String get your_bfp_result_lean => 'သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် အဆီနှင့်ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။ အဓိက အဆီများကို တိုးမြှင့်ကြပါစို့။';
 
   @override
   String name_bfp_result_lean(String name) {
-    return '$name needs to gain some fat and muscle for a stronger and healthier version. Let\'s Boost the Essential Fat.';
+    return '$name သည် ပိုမိုကျန်းမာသန်စွမ်းစေရန် အဆီနှင့်ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။ အဓိက အဆီများကို တိုးမြှင့်ကြပါစို့။';
   }
 
   @override
-  String get your_bfp_result_healthy => 'You are on your normal fit stage. Let\'s keep it up.';
+  String get your_bfp_result_healthy => 'သင် ပုံမှန်ကျန်းမာသန်စွမ်းသော အဆင့်တွင် ရှိနေပါသည်။ ဤအတိုင်း ဆက်လက်ထိန်းသိမ်းထားပါ။';
 
   @override
   String name_bfp_result_healthy(String name) {
-    return '$name is on normal fit stage. Let\'s keep it up.';
+    return '$name သည် ပုံမှန်ကျန်းမာသန်စွမ်းသော အဆင့်တွင် ရှိနေပါသည်။ ဤအတိုင်း ဆက်လက်ထိန်းသိမ်းထားပါ။';
   }
 
   @override
-  String get your_bfp_result_overfat => 'There are some extra fat in your body, you need to remove them before it\'s too late. Let\'s burn the Notty Fat with exercises.';
+  String get your_bfp_result_overfat => 'သင့်ခန္ဓာကိုယ်တွင် အဆီပိုအနည်းငယ် ရှိနေပါသည်။ မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
 
   @override
   String name_bfp_result_overfat(String name) {
-    return 'There are some extra fat in $name body, he/she needs to remove them before it\'s too late. Let\'s burn the Notty Fat with exercises.';
+    return '$name ၏ ခန္ဓာကိုယ်တွင် အဆီပိုအနည်းငယ် ရှိနေပါသည်။ မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
   }
 
   @override
-  String get your_bfp_result_bad => 'You have a bad result with your BFP. Please take action to burn fat immediately to live longer, to live healthier.Let\'s burn the Notty Fat with exercises.';
+  String get your_bfp_result_bad => 'သင့်တွင် BFP နှင့်ပတ်သက်၍ မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် အဆီများကို လောင်ကျွမ်းစေရန် ချက်ချင်းလုပ်ဆောင်ပါ။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
 
   @override
   String name_bfp_result_bad(String name) {
-    return '$name has a bad result with BFP. Please take action to burn fat immediately to live longer, to live healthier.Let\'s burn the Notty Fat with exercises.';
+    return '$name တွင် BFP နှင့်ပတ်သက်၍ မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် အဆီများကို လောင်ကျွမ်းစေရန် ချက်ချင်းလုပ်ဆောင်ပါ။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
   }
 
   @override
-  String get calculate_bfp => 'Calculate BFP';
+  String get calculate_bfp => 'BFP တွက်ရန်';
 
   @override
-  String get title_meal_plan => 'Meal Plan';
+  String get title_meal_plan => 'အစားအစာစီမံချက်';
 
   @override
-  String get choose_meal_plan => 'Select Meal Plan';
+  String get choose_meal_plan => 'အစားအစာစီမံချက်ကို ရွေးချယ်ပါ';
 
   @override
-  String get break_fast => 'Breakfast';
+  String get break_fast => 'မနက်စာ';
 
   @override
-  String get lunch => 'Lunch';
+  String get lunch => 'နေ့လယ်စာ';
 
   @override
-  String get dinner => 'Dinner';
+  String get dinner => 'ညနေစာ';
 
   @override
   String calories_with_unit(int value) {
     String _temp0 = intl.Intl.pluralLogic(
       value,
       locale: localeName,
-      other: '$value cals',
-      one: '1 cal',
-      zero: 'cal',
+      other: '$value ကယ်လိုရီ',
+      one: '1 ကယ်လိုရီ',
+      zero: 'ကယ်လိုရီ',
     );
     return '($_temp0)';
   }
 
   @override
+  String calories_with_unit_but_no_parentheses(int value) {
+    String _temp0 = intl.Intl.pluralLogic(
+      value,
+      locale: localeName,
+      other: '$value ကယ်လိုရီ',
+      one: '1 ကယ်လိုရီ',
+      zero: 'ကယ်လိုရီ',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String calories_with_value(int value) {
-    return 'Calories: $value';
+    return 'ကယ်လိုရီ: $value';
+  }
+
+  @override
+  String started_date(String date) {
+    return 'စတင်သည့်ရက်: $date';
   }
 
   @override
   String day(int day) {
-    return 'Day : $day';
+    return 'နေ့: $day';
   }
 
   @override
-  String get no_meal_plan_for_today => 'There is no meal for today.';
+  String get no_meal_plan_for_today => 'ယနေ့အတွက် အစားအစာစီမံချက် မရှိပါ။';
 
   @override
-  String get eaten_date => 'Eaten Date: ';
+  String get eaten_date => 'စားသုံးသည့်ရက်: ';
 
   @override
-  String get btn_mark_as_eaten => 'Mark as Eaten';
+  String get btn_mark_as_done => 'ပြီးပါပြီအဖြစ် အမှတ်အသားပြုပါ';
+
+  @override
+  String get label_done => 'ပြီးပြီ';
+
+  @override
+  String get btn_mark_as_eaten => 'စားပြီးအဖြစ် အမှတ်အသားပြုပါ';
 
   @override
   String no_product_found(String query) {
-    return 'No products found for $query.';
+    return '$query အတွက် ထုတ်ကုန်မတွေ့ပါ။';
   }
 
   @override
-  String get type_to_search_product => 'Type to search products from the search box.';
+  String get type_to_search_product => 'ရှာဖွေရန်အကွက်တွင် ထုတ်ကုန်များရှာရန် ရိုက်ထည့်ပါ။';
 
   @override
-  String get search_hint => 'Search...';
+  String get search_hint => 'ရှာဖွေရန်...';
 
   @override
-  String get nutrient_fat => 'Fat';
+  String get nutrient_fat => 'အဆီ';
 
   @override
-  String get nutrient_carbohydrate => 'Carbohydrate';
+  String get nutrient_carbohydrate => 'ကာဗိုဟိုက်ဒရိတ်';
 
   @override
-  String get nutrient_protein => 'Protein';
+  String get nutrient_protein => 'ပရိုတင်း';
 
   @override
   String label_dish(int dish) {
-    return 'Dish : $dish';
+    return 'ဟင်း: $dish';
   }
 
   @override
-  String get label_ingredient => 'Ingredient';
+  String get label_ingredient => 'ပါဝင်ပစ္စည်းများ';
 
   @override
-  String get label_instruction => 'Instruction';
+  String get label_instruction => 'ညွှန်ကြားချက်';
 
   @override
-  String get btn_eaten => 'Eaten';
+  String get btn_eaten => 'စားပြီး';
 
   @override
-  String get label_bmi => 'BMI : ';
+  String get label_bmi => 'BMI: ';
 
   @override
-  String get label_weight => 'Weight : ';
+  String get label_weight => 'ကိုယ်အလေးချိန်: ';
 
   @override
-  String get label_height => 'Height : ';
+  String get label_height => 'အရပ်အမြင့်: ';
 
   @override
-  String get label_preconditions => 'Preconditions : ';
+  String get label_preconditions => 'ကြိုတင်အခြေအနေများ: ';
 
   @override
-  String get label_meals => 'Meals';
+  String get label_meals => 'အစားအစာများ';
 
   @override
-  String get first => 'first';
+  String get first => 'ပထမ';
 
   @override
-  String get second => 'second';
+  String get second => 'ဒုတိယ';
 
   @override
-  String get third => 'third';
+  String get third => 'တတိယ';
 
   @override
-  String get fourth => 'fourth';
+  String get fourth => 'စတုတ္ထ';
 
   @override
-  String get fifth => 'fifth';
+  String get fifth => 'ပဉ္စမ';
 
   @override
-  String get sixth => 'sixth';
+  String get sixth => 'ဆဋ္ဌမ';
 
   @override
-  String get seventh => 'seventh';
+  String get seventh => 'သတ္တမ';
 
   @override
-  String get eighth => 'eighth';
+  String get eighth => 'အဋ္ဌမ';
 
   @override
-  String get nineth => 'nineth';
+  String get nineth => 'နဝမ';
 
   @override
-  String get tenth => 'tenth';
+  String get tenth => 'ဒသမ';
 
   @override
-  String get require_weight_to_generate_meal_plan => 'You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions.';
+  String get require_weight_to_generate_meal_plan => 'သင့်လက်ရှိကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများကို ထည့်သွင်းရန် လိုအပ်ပါသည်။ သင့်ကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများနှင့် ကိုက်ညီသော အစားအစာစီမံချက်များကို ထုတ်ပေးရန် လိုအပ်ပါသည်။';
+
+  @override
+  String get no_chat_message_found => 'စာတိုပေးပို့ချက် မတွေ့ပါ။';
+
+  @override
+  String get title_chat => 'စကားပြောခန်း';
+
+  @override
+  String get type_a_message => 'စာတိုရိုက်ထည့်ရန်...';
+
+  @override
+  String get empty_chat => 'စာတိုမရှိပါ။';
+
+  @override
+  String get chatYesterday => 'မနေ့က';
+
+  @override
+  String chatHrAgo(int hr) {
+    String _temp0 = intl.Intl.pluralLogic(
+      hr,
+      locale: localeName,
+      other: '$hr နာရီက',
+      one: '1 နာရီက',
+      zero: 'အခုပဲ',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String chatMinAgo(int min) {
+    String _temp0 = intl.Intl.pluralLogic(
+      min,
+      locale: localeName,
+      other: '$min မိနစ်က',
+      one: '1 မိနစ်က',
+      zero: 'အခုပဲ',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String chatSecAgo(int sec) {
+    String _temp0 = intl.Intl.pluralLogic(
+      sec,
+      locale: localeName,
+      other: '$sec စက္ကန့်က',
+      one: '1 စက္ကန့်က',
+      zero: 'အခုပဲ',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get chatNow => 'အခုပဲ';
+
+  @override
+  String get loginWithFacebook => 'Facebook ဖြင့် ဝင်ရောက်ပါ';
+
+  @override
+  String get errorSomethingWentWrong => 'တစ်ခုခုမှားယွင်းနေပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။';
+
+  @override
+  String get errorFacebookLoginCancelled => 'Facebook ဝင်ရောက်မှု ပယ်ဖျက်လိုက်ပါပြီ။';
+
+  @override
+  String get skip_login_and_register => 'ဝင်ရောက်ခြင်းနှင့် မှတ်ပုံတင်ခြင်းကို ကျော်ပါ';
+
+  @override
+  String get errorInvalidPhoneFormat => 'ဖုန်းနံပါတ် မှားနေပါသည်။';
+
+  @override
+  String get empty_favorite_list => 'အကြိုက်ဆုံး အရာများ မရှိပါ။';
+
+  @override
+  String get login_to_continue => 'ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ရန် အကောင့်ဝင်ရန် လိုအပ်ပါသည်။';
+
+  @override
+  String get title_login_required => 'ဝင်ရောက်ရန် လိုအပ်ပါသည်';
+
+  @override
+  String get btn_login => 'ဝင်ရောက်ပါ';
+
+  @override
+  String get empty_meal_plan => 'အစားအစာစီမံချက် မရှိပါ။';
+
+  @override
+  String get error_in_the_following_fields => 'အောက်ပါအမှားများကို စစ်ဆေးပါ။';
 }

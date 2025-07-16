@@ -49,6 +49,12 @@ extension LocalizationHelper on BuildContext {
       L10nConstants.success_comment_create => l10n.success_comment_create,
       L10nConstants.successSavingCalculatorResult =>
         l10n.successSavingCalculatorResult,
+      L10nConstants.errorSomethingWentWrong => l10n.errorSomethingWentWrong,
+      L10nConstants.errorFacebookLoginCancelled =>
+        l10n.errorFacebookLoginCancelled,
+      L10nConstants.errorInvalidPhoneFormat => l10n.errorInvalidPhoneFormat,
+      L10nConstants.errorInTheFollowingFields =>
+        l10n.error_in_the_following_fields,
       _ => errorKey, // fallback
     };
   }

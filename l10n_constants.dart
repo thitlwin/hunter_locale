@@ -10,6 +10,8 @@ class L10nConstants {
       "error_confirm_password_mismatch";
   static const String errorPasswordRequired = 'error_password_required';
   static const String errorFillInAllFields = 'error_fill_in_all_fields';
+  static const String errorInTheFollowingFields =
+      'error_in_the_following_fields';
 
   static const String successOtpRequest = 'success_otp_request';
   static const String successOtpVerification = 'success_otp_verification';
@@ -63,6 +65,13 @@ class L10nConstants {
   static const success_comment_create = "success_comment_create";
 
   static const successSavingCalculatorResult = "successSavingCalculatorResult";
+
+  static const String errorSomethingWentWrong = "errorSomethingWentWrong";
+
+  static const String errorFacebookLoginCancelled =
+      "errorFacebookLoginCancelled";
+
+  static const String errorInvalidPhoneFormat = "errorInvalidPhoneFormat";
 }
 
 class UiFieldConstants {

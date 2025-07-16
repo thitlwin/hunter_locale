@@ -9,10 +9,55 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get helloWorld => 'Hello World!';
+  String get title_announcement => 'Announcements';
+
+  @override
+  String get confirm_reminder_has_done => 'Are you sure you want to mark this as done?';
+
+  @override
+  String get label_finish => 'Finish';
+
+  @override
+  String get title_bfp_calculator => 'BFP Calculator';
+
+  @override
+  String get title_wth_calculator => 'W2H Calculator';
+
+  @override
+  String get title_calorie_calculator => 'Calorie Calculator';
+
+  @override
+  String get title_bmi_calculator => 'BMI Calculator';
+
+  @override
+  String get btn_add_to_cart => 'Add to Cart';
+
+  @override
+  String get no_healthy_tips => 'No healthy tips available.';
+
+  @override
+  String get label_select_from_meal_plan => 'Select from meal plan?';
+
+  @override
+  String get title_record_meal_plan => 'Record Meal Plan';
+
+  @override
+  String get title_select_a_meal_plan => 'Select a Meal Plan';
+
+  @override
+  String get select_meal_plan => 'Select Meal Plan';
+
+  @override
+  String get label_see_all_meal_plan => 'See All Meal Plan';
+
+  @override
+  String get label_total_calories => 'Total Calories : ';
 
   @override
   String get home => 'Home';
+
+  @override
+  String get today => 'Today';
 
   @override
   String get profile => 'Profile';
@@ -28,6 +73,12 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get or => 'Or';
+
+  @override
+  String get hint_what_did_you_eat => 'What did you eat?';
+
+  @override
+  String get label_eat_own_meal => 'Eat own meal?';
 
   @override
   String get signin_with_google => 'Sign in with Google';
@@ -46,6 +97,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get signUp => 'Register';
+
+  @override
+  String get btn_select => 'Select';
 
   @override
   String get forgotYourPassword => 'Forgot your password?';
@@ -111,6 +165,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get btn_resend_otp => 'Resend OTP';
 
   @override
+  String get btn_request_otp => 'Request OTP';
+
+  @override
   String get title_create_new_password => 'Create New Password';
 
   @override
@@ -144,10 +201,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get title_favorite => 'Favorite';
 
   @override
-  String get meal_plan => 'Meal Plan';
+  String get meal_box_program => 'Meal Box Program';
 
   @override
-  String get juice_plan => 'Juice Plan';
+  String get juice_plan => 'Juice Program';
 
   @override
   String get challenge => 'Challenge';
@@ -581,22 +638,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get requireGoalSelection => 'Please select your goal.';
 
   @override
-  String get active_programs => 'Active Programs';
+  String get active_programs => 'My Programs';
 
   @override
   String get calculators => 'Calculators';
 
   @override
-  String get meal_plans => 'Meal Plan';
+  String get product_programs => 'Product Programs';
 
   @override
-  String get challenges => 'Challenges';
+  String get service_programs => 'Service Programs';
 
   @override
-  String get no_active_meal_plan => 'No active meal plan';
+  String get no_active_meal_plan => 'No active products.';
 
   @override
-  String get no_active_challenge => 'No active challenge';
+  String get no_active_challenge => 'No active services.';
 
   @override
   String start_date(String startDate) {
@@ -960,10 +1017,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get title_calorie_requirement => 'Calorie Requirement';
 
   @override
-  String get title_wth_ratio => 'Waist to Height Ratio';
+  String get title_wth_ratio => 'Waist to Height (W2H) Ratio';
 
   @override
-  String get calculate_wth_ratio => 'Calculate WTH Ratio';
+  String get calculate_wth_ratio => 'Calculate W2H Ratio';
 
   @override
   String get title_bfp => 'Body Fat Percentage';
@@ -1125,8 +1182,25 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String calories_with_unit_but_no_parentheses(int value) {
+    String _temp0 = intl.Intl.pluralLogic(
+      value,
+      locale: localeName,
+      other: '$value cals',
+      one: '1 cal',
+      zero: 'cal',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String calories_with_value(int value) {
     return 'Calories: $value';
+  }
+
+  @override
+  String started_date(String date) {
+    return 'Started : $date';
   }
 
   @override
@@ -1135,10 +1209,16 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get no_meal_plan_for_today => 'There is no meal for today.';
+  String get no_meal_plan_for_today => 'There is no meal plan for today.';
 
   @override
   String get eaten_date => 'Eaten Date: ';
+
+  @override
+  String get btn_mark_as_done => 'Mark as Done';
+
+  @override
+  String get label_done => 'Done';
 
   @override
   String get btn_mark_as_eaten => 'Mark as Eaten';
@@ -1224,4 +1304,91 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get require_weight_to_generate_meal_plan => 'You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions.';
+
+  @override
+  String get no_chat_message_found => 'No chat messages found.';
+
+  @override
+  String get title_chat => 'Chat';
+
+  @override
+  String get type_a_message => 'Type a message...';
+
+  @override
+  String get empty_chat => 'Empty chat.';
+
+  @override
+  String get chatYesterday => 'Yesterday';
+
+  @override
+  String chatHrAgo(int hr) {
+    String _temp0 = intl.Intl.pluralLogic(
+      hr,
+      locale: localeName,
+      other: '$hr hrs ago',
+      one: '1 hr ago',
+      zero: 'Just now',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String chatMinAgo(int min) {
+    String _temp0 = intl.Intl.pluralLogic(
+      min,
+      locale: localeName,
+      other: '$min mins ago',
+      one: '1 min ago',
+      zero: 'Just now',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String chatSecAgo(int sec) {
+    String _temp0 = intl.Intl.pluralLogic(
+      sec,
+      locale: localeName,
+      other: '$sec secs ago',
+      one: '1 sec ago',
+      zero: 'Just now',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get chatNow => 'just now';
+
+  @override
+  String get loginWithFacebook => 'Login with Facebook';
+
+  @override
+  String get errorSomethingWentWrong => 'Something went wrong. Please try again later.';
+
+  @override
+  String get errorFacebookLoginCancelled => 'Facebook login cancelled.';
+
+  @override
+  String get skip_login_and_register => 'Skip Login & Register';
+
+  @override
+  String get errorInvalidPhoneFormat => 'Invalid phone number format.';
+
+  @override
+  String get empty_favorite_list => 'Empty favorite item.';
+
+  @override
+  String get login_to_continue => 'You need to be logged in to perform this action.';
+
+  @override
+  String get title_login_required => 'Login Required';
+
+  @override
+  String get btn_login => 'Login';
+
+  @override
+  String get empty_meal_plan => 'Empty meal plans.';
+
+  @override
+  String get error_in_the_following_fields => 'Check the following field errors.';
 }

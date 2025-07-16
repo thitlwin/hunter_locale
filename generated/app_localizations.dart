@@ -95,17 +95,107 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
-  /// The conventional newborn programmer greeting
+  /// No description provided for @title_announcement.
   ///
   /// In en, this message translates to:
-  /// **'Hello World!'**
-  String get helloWorld;
+  /// **'Announcements'**
+  String get title_announcement;
+
+  /// No description provided for @confirm_reminder_has_done.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to mark this as done?'**
+  String get confirm_reminder_has_done;
+
+  /// No description provided for @label_finish.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish'**
+  String get label_finish;
+
+  /// No description provided for @title_bfp_calculator.
+  ///
+  /// In en, this message translates to:
+  /// **'BFP Calculator'**
+  String get title_bfp_calculator;
+
+  /// No description provided for @title_wth_calculator.
+  ///
+  /// In en, this message translates to:
+  /// **'W2H Calculator'**
+  String get title_wth_calculator;
+
+  /// No description provided for @title_calorie_calculator.
+  ///
+  /// In en, this message translates to:
+  /// **'Calorie Calculator'**
+  String get title_calorie_calculator;
+
+  /// No description provided for @title_bmi_calculator.
+  ///
+  /// In en, this message translates to:
+  /// **'BMI Calculator'**
+  String get title_bmi_calculator;
+
+  /// No description provided for @btn_add_to_cart.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Cart'**
+  String get btn_add_to_cart;
+
+  /// No description provided for @no_healthy_tips.
+  ///
+  /// In en, this message translates to:
+  /// **'No healthy tips available.'**
+  String get no_healthy_tips;
+
+  /// No description provided for @label_select_from_meal_plan.
+  ///
+  /// In en, this message translates to:
+  /// **'Select from meal plan?'**
+  String get label_select_from_meal_plan;
+
+  /// No description provided for @title_record_meal_plan.
+  ///
+  /// In en, this message translates to:
+  /// **'Record Meal Plan'**
+  String get title_record_meal_plan;
+
+  /// No description provided for @title_select_a_meal_plan.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a Meal Plan'**
+  String get title_select_a_meal_plan;
+
+  /// No description provided for @select_meal_plan.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Meal Plan'**
+  String get select_meal_plan;
+
+  /// No description provided for @label_see_all_meal_plan.
+  ///
+  /// In en, this message translates to:
+  /// **'See All Meal Plan'**
+  String get label_see_all_meal_plan;
+
+  /// No description provided for @label_total_calories.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Calories : '**
+  String get label_total_calories;
 
   /// No description provided for @home.
   ///
   /// In en, this message translates to:
   /// **'Home'**
   String get home;
+
+  /// No description provided for @today.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get today;
 
   /// No description provided for @profile.
   ///
@@ -136,6 +226,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Or'**
   String get or;
+
+  /// No description provided for @hint_what_did_you_eat.
+  ///
+  /// In en, this message translates to:
+  /// **'What did you eat?'**
+  String get hint_what_did_you_eat;
+
+  /// No description provided for @label_eat_own_meal.
+  ///
+  /// In en, this message translates to:
+  /// **'Eat own meal?'**
+  String get label_eat_own_meal;
 
   /// No description provided for @signin_with_google.
   ///
@@ -172,6 +274,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Register'**
   String get signUp;
+
+  /// No description provided for @btn_select.
+  ///
+  /// In en, this message translates to:
+  /// **'Select'**
+  String get btn_select;
 
   /// No description provided for @forgotYourPassword.
   ///
@@ -299,6 +407,12 @@ abstract class AppLocalizations {
   /// **'Resend OTP'**
   String get btn_resend_otp;
 
+  /// No description provided for @btn_request_otp.
+  ///
+  /// In en, this message translates to:
+  /// **'Request OTP'**
+  String get btn_request_otp;
+
   /// No description provided for @title_create_new_password.
   ///
   /// In en, this message translates to:
@@ -365,16 +479,16 @@ abstract class AppLocalizations {
   /// **'Favorite'**
   String get title_favorite;
 
-  /// No description provided for @meal_plan.
+  /// No description provided for @meal_box_program.
   ///
   /// In en, this message translates to:
-  /// **'Meal Plan'**
-  String get meal_plan;
+  /// **'Meal Box Program'**
+  String get meal_box_program;
 
   /// No description provided for @juice_plan.
   ///
   /// In en, this message translates to:
-  /// **'Juice Plan'**
+  /// **'Juice Program'**
   String get juice_plan;
 
   /// No description provided for @challenge.
@@ -1166,7 +1280,7 @@ abstract class AppLocalizations {
   /// No description provided for @active_programs.
   ///
   /// In en, this message translates to:
-  /// **'Active Programs'**
+  /// **'My Programs'**
   String get active_programs;
 
   /// No description provided for @calculators.
@@ -1175,28 +1289,28 @@ abstract class AppLocalizations {
   /// **'Calculators'**
   String get calculators;
 
-  /// No description provided for @meal_plans.
+  /// No description provided for @product_programs.
   ///
   /// In en, this message translates to:
-  /// **'Meal Plan'**
-  String get meal_plans;
+  /// **'Product Programs'**
+  String get product_programs;
 
-  /// No description provided for @challenges.
+  /// No description provided for @service_programs.
   ///
   /// In en, this message translates to:
-  /// **'Challenges'**
-  String get challenges;
+  /// **'Service Programs'**
+  String get service_programs;
 
   /// No description provided for @no_active_meal_plan.
   ///
   /// In en, this message translates to:
-  /// **'No active meal plan'**
+  /// **'No active products.'**
   String get no_active_meal_plan;
 
   /// No description provided for @no_active_challenge.
   ///
   /// In en, this message translates to:
-  /// **'No active challenge'**
+  /// **'No active services.'**
   String get no_active_challenge;
 
   /// Start: date
@@ -1736,13 +1850,13 @@ abstract class AppLocalizations {
   /// No description provided for @title_wth_ratio.
   ///
   /// In en, this message translates to:
-  /// **'Waist to Height Ratio'**
+  /// **'Waist to Height (W2H) Ratio'**
   String get title_wth_ratio;
 
   /// No description provided for @calculate_wth_ratio.
   ///
   /// In en, this message translates to:
-  /// **'Calculate WTH Ratio'**
+  /// **'Calculate W2H Ratio'**
   String get calculate_wth_ratio;
 
   /// No description provided for @title_bfp.
@@ -1988,8 +2102,20 @@ abstract class AppLocalizations {
   /// Display calories
   ///
   /// In en, this message translates to:
+  /// **'{value, plural, =0{cal} =1{1 cal} other{{value} cals}}'**
+  String calories_with_unit_but_no_parentheses(int value);
+
+  /// Display calories
+  ///
+  /// In en, this message translates to:
   /// **'Calories: {value}'**
   String calories_with_value(int value);
+
+  /// Display date
+  ///
+  /// In en, this message translates to:
+  /// **'Started : {date}'**
+  String started_date(String date);
 
   /// Display day
   ///
@@ -2000,7 +2126,7 @@ abstract class AppLocalizations {
   /// No description provided for @no_meal_plan_for_today.
   ///
   /// In en, this message translates to:
-  /// **'There is no meal for today.'**
+  /// **'There is no meal plan for today.'**
   String get no_meal_plan_for_today;
 
   /// No description provided for @eaten_date.
@@ -2008,6 +2134,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Eaten Date: '**
   String get eaten_date;
+
+  /// No description provided for @btn_mark_as_done.
+  ///
+  /// In en, this message translates to:
+  /// **'Mark as Done'**
+  String get btn_mark_as_done;
+
+  /// No description provided for @label_done.
+  ///
+  /// In en, this message translates to:
+  /// **'Done'**
+  String get label_done;
 
   /// No description provided for @btn_mark_as_eaten.
   ///
@@ -2170,6 +2308,126 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions.'**
   String get require_weight_to_generate_meal_plan;
+
+  /// No description provided for @no_chat_message_found.
+  ///
+  /// In en, this message translates to:
+  /// **'No chat messages found.'**
+  String get no_chat_message_found;
+
+  /// No description provided for @title_chat.
+  ///
+  /// In en, this message translates to:
+  /// **'Chat'**
+  String get title_chat;
+
+  /// No description provided for @type_a_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Type a message...'**
+  String get type_a_message;
+
+  /// No description provided for @empty_chat.
+  ///
+  /// In en, this message translates to:
+  /// **'Empty chat.'**
+  String get empty_chat;
+
+  /// No description provided for @chatYesterday.
+  ///
+  /// In en, this message translates to:
+  /// **'Yesterday'**
+  String get chatYesterday;
+
+  /// Displays the number of hours ago.
+  ///
+  /// In en, this message translates to:
+  /// **'{hr, plural, =0{Just now} one{1 hr ago} other{{hr} hrs ago}}'**
+  String chatHrAgo(int hr);
+
+  /// Displays the number of minutes ago.
+  ///
+  /// In en, this message translates to:
+  /// **'{min, plural, =0{Just now} one{1 min ago} other{{min} mins ago}}'**
+  String chatMinAgo(int min);
+
+  /// Displays the number of seconds ago.
+  ///
+  /// In en, this message translates to:
+  /// **'{sec, plural, =0{Just now} one{1 sec ago} other{{sec} secs ago}}'**
+  String chatSecAgo(int sec);
+
+  /// No description provided for @chatNow.
+  ///
+  /// In en, this message translates to:
+  /// **'just now'**
+  String get chatNow;
+
+  /// No description provided for @loginWithFacebook.
+  ///
+  /// In en, this message translates to:
+  /// **'Login with Facebook'**
+  String get loginWithFacebook;
+
+  /// No description provided for @errorSomethingWentWrong.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong. Please try again later.'**
+  String get errorSomethingWentWrong;
+
+  /// No description provided for @errorFacebookLoginCancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Facebook login cancelled.'**
+  String get errorFacebookLoginCancelled;
+
+  /// No description provided for @skip_login_and_register.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip Login & Register'**
+  String get skip_login_and_register;
+
+  /// No description provided for @errorInvalidPhoneFormat.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid phone number format.'**
+  String get errorInvalidPhoneFormat;
+
+  /// No description provided for @empty_favorite_list.
+  ///
+  /// In en, this message translates to:
+  /// **'Empty favorite item.'**
+  String get empty_favorite_list;
+
+  /// No description provided for @login_to_continue.
+  ///
+  /// In en, this message translates to:
+  /// **'You need to be logged in to perform this action.'**
+  String get login_to_continue;
+
+  /// No description provided for @title_login_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Login Required'**
+  String get title_login_required;
+
+  /// No description provided for @btn_login.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get btn_login;
+
+  /// No description provided for @empty_meal_plan.
+  ///
+  /// In en, this message translates to:
+  /// **'Empty meal plans.'**
+  String get empty_meal_plan;
+
+  /// No description provided for @error_in_the_following_fields.
+  ///
+  /// In en, this message translates to:
+  /// **'Check the following field errors.'**
+  String get error_in_the_following_fields;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
