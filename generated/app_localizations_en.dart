@@ -9,6 +9,9 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get no_announcements => 'No announcements available.';
+
+  @override
   String get title_announcement => 'Announcements';
 
   @override
@@ -207,7 +210,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get juice_plan => 'Juice Program';
 
   @override
-  String get challenge => 'Challenge';
+  String get challenge => 'Service Program';
 
   @override
   String get our_products => 'Our Products';

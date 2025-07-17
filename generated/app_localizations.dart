@@ -95,6 +95,12 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @no_announcements.
+  ///
+  /// In en, this message translates to:
+  /// **'No announcements available.'**
+  String get no_announcements;
+
   /// No description provided for @title_announcement.
   ///
   /// In en, this message translates to:
@@ -494,7 +500,7 @@ abstract class AppLocalizations {
   /// No description provided for @challenge.
   ///
   /// In en, this message translates to:
-  /// **'Challenge'**
+  /// **'Service Program'**
   String get challenge;
 
   /// No description provided for @our_products.

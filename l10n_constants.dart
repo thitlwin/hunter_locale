@@ -16,6 +16,7 @@ class L10nConstants {
   static const String successOtpRequest = 'success_otp_request';
   static const String successOtpVerification = 'success_otp_verification';
   static const String successLogin = 'success_login';
+  static const String successRegisteration = 'success_registeration';
   static const String errorLogin = 'error_login';
   static const String confirmPassword = 'confirm_password';
   static const String successPasswordReset = 'success_password_reset';

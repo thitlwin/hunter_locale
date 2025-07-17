@@ -9,6 +9,9 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get no_announcements => 'No announcements available.';
+
+  @override
   String get title_announcement => 'ကြေငြာချက်များ';
 
   @override
@@ -207,7 +210,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get juice_plan => 'ဖျော်ရည် ပရိုဂရမ်';
 
   @override
-  String get challenge => 'စိန်ခေါ်မှု';
+  String get challenge => 'ဝန်ဆောင်မှု ပရိုဂရမ်';
 
   @override
   String get our_products => 'ကျွန်ုပ်တို့၏ ထုတ်ကုန်များ';

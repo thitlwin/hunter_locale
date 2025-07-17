@@ -1,5 +1,6 @@
 {
   "@@locale": "en",  
+  "no_announcements": "No announcements available.",
   "title_announcement": "Announcements",
   "confirm_reminder_has_done": "Are you sure you want to mark this as done?",
   "label_finish": "Finish",
@@ -66,7 +67,7 @@
   "title_favorite": "Favorite",
   "meal_box_program": "Meal Box Program",
   "juice_plan": "Juice Program",
-  "challenge": "Challenge",
+  "challenge": "Service Program",
   "our_products": "Our Products",
   "healthy_tips": "Healthy Tips",
   "upcoming_live": "Upcoming Live",
