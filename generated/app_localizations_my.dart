@@ -416,10 +416,10 @@ class AppLocalizationsMy extends AppLocalizations {
   String get other => 'အခြား';
 
   @override
-  String get active_plan_count => 'တက်ကြွသော အစီအစဉ်';
+  String get active_plan_count => 'Active ဖြစ်သော အစီအစဉ်';
 
   @override
-  String get active_challenge_count => 'တက်ကြွသော စိန်ခေါ်မှု';
+  String get active_challenge_count => 'Active ဖြစ်သော စိန်ခေါ်မှု';
 
   @override
   String get order_list_label => 'အော်ဒါများ';
