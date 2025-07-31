@@ -3,10 +3,10 @@ import 'package:joy_app/l10n/generated/app_localizations.dart';
 import 'package:joy_app/l10n/l10n_constants.dart';
 
 extension LocalizationHelper on BuildContext {
-  String? getL10nMessage(String? errorKey) {
+  String? getL10nMessage(String? messageKey) {
     final l10n = AppLocalizations.of(this);
 
-    return switch (errorKey) {
+    return switch (messageKey) {
       L10nConstants.errorPhoneRequired => l10n.error_phone_required,
       L10nConstants.errorPasswordRequired => l10n.error_password_required,
       L10nConstants.errorFillInAllFields => l10n.error_fill_in_all_fields,
@@ -55,7 +55,8 @@ extension LocalizationHelper on BuildContext {
       L10nConstants.errorInvalidPhoneFormat => l10n.errorInvalidPhoneFormat,
       L10nConstants.errorInTheFollowingFields =>
         l10n.error_in_the_following_fields,
-      _ => errorKey, // fallback
+      L10nConstants.successGoalUpdate => l10n.successGoalUpdate,
+      _ => messageKey, // fallback
     };
   }
 }

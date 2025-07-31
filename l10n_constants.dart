@@ -73,6 +73,8 @@ class L10nConstants {
       "errorFacebookLoginCancelled";
 
   static const String errorInvalidPhoneFormat = "errorInvalidPhoneFormat";
+
+  static const String successGoalUpdate = "successGoalUpdate";
 }
 
 class UiFieldConstants {
@@ -84,4 +86,5 @@ class UiFieldConstants {
   static var inches = "inches";
   static var dob = "dob";
   static var weight = "weight";
+  static var name = "name";
 }

@@ -9,6 +9,105 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get weight_in_lb => 'အလေးချိန် (ပေါင်ဖြင့်)';
+
+  @override
+  String get title_account_deleted => 'အကောင့်ဖျက်ပြီး';
+
+  @override
+  String get automatically_logged_out_message => 'အလိုအလျောက် JOY App မှ ထွက်ပါတော့မည်။';
+
+  @override
+  String get label_delete_account => 'ကျွန်ုပ်၏ JOY အကောင့်ကို ဖျက်ရန်';
+
+  @override
+  String get title_delete_account => 'အကောင့်ဖျက်ရန်';
+
+  @override
+  String get delete_account_confirmation => 'သင့် JOY အကောင့်ကို ဖျက်လိုသည်မှာ သေချာပါသလား？ ဤလုပ်ဆောင်ချက်ကို ပြန်လည်မပြုလုပ်နိုင်ပါ။';
+
+  @override
+  String get permission_storage_denied_permanently => 'သိမ်းဆည်းခွင့်ကို အပြီးအပိုင်ငြင်းဆန်ထားသည်။ ဓာတ်ပုံများဆွဲယူရန် အက်ပ်ချိန်ညှိထဲတွင် ဖွင့်ပေးပါ။';
+
+  @override
+  String get btn_open_app_settings => 'ချိန်ညှိချက်များကိုဖွင့်ရန်';
+
+  @override
+  String get upcoming => 'Upcoming';
+
+  @override
+  String get active => 'Active';
+
+  @override
+  String get completed => 'Completed';
+
+  @override
+  String get label_program_details => 'အစီအစဉ် အသေးစိတ်';
+
+  @override
+  String end_date(String endDate) {
+    return 'ပြီးဆုံးမည့်ရက်: $endDate';
+  }
+
+  @override
+  String file_size_too_large(int mb) {
+    return 'ဖိုင်အရွယ်အစားသည် $mb MB ထက် ကြီးမနေရပါ။';
+  }
+
+  @override
+  String get successGoalUpdate => 'သင့်ရည်မှန်းချက်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။';
+
+  @override
+  String get my_bmi => 'ကျွန်ုပ်၏ BMI';
+
+  @override
+  String get my_goal => 'ကျွန်ုပ်၏ ရည်မှန်းချက်';
+
+  @override
+  String my_favorite_product_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'အကြိုက်ဆုံး ပစ္စည်း $count ခု',
+      one: 'အကြိုက်ဆုံး ပစ္စည်း ၁ ခု',
+      zero: 'အကြိုက်ဆုံး ပစ္စည်းများ',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String my_shipping_address_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'လိပ်စာ $count ခု',
+      one: 'လိပ်စာ ၁ ခု',
+      zero: 'လိပ်စာများ',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String my_active_program_count_label(int productCount, int serviceCount) {
+    String _temp0 = intl.Intl.pluralLogic(
+      productCount,
+      locale: localeName,
+      other: 'ပစ္စည်း $productCount ခု',
+      one: 'ပစ္စည်း ၁ ခု',
+    );
+    String _temp1 = intl.Intl.pluralLogic(
+      serviceCount,
+      locale: localeName,
+      other: 'ဝန်ဆောင်မှု အစီအစဉ် $serviceCount ခု',
+      one: 'ဝန်ဆောင်မှု အစီအစဉ် ၁ ခု',
+    );
+    return '$_temp0 & $_temp1';
+  }
+
+  @override
+  String get select_primary_address => 'ပင်မလိပ်စာတစ်ခုကို ရွေးချယ်ပါ';
+
+  @override
   String get no_announcements => 'No announcements available.';
 
   @override
@@ -90,7 +189,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get signin_with_facebook => 'Facebook ဖြင့် ဝင်မည်';
 
   @override
-  String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with joy';
+  String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with JOY';
 
   @override
   String get lets_build_healthy_lifestyle_with_joy_my => 'ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့';

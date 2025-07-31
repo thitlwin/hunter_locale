@@ -95,6 +95,132 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @weight_in_lb.
+  ///
+  /// In en, this message translates to:
+  /// **'Weight(in lb)'**
+  String get weight_in_lb;
+
+  /// No description provided for @title_account_deleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Deleted'**
+  String get title_account_deleted;
+
+  /// No description provided for @automatically_logged_out_message.
+  ///
+  /// In en, this message translates to:
+  /// **'You will be automatically logged out.'**
+  String get automatically_logged_out_message;
+
+  /// No description provided for @label_delete_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete my JOY account'**
+  String get label_delete_account;
+
+  /// No description provided for @title_delete_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Account'**
+  String get title_delete_account;
+
+  /// No description provided for @delete_account_confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete your JOY account? This action cannot be undone.'**
+  String get delete_account_confirmation;
+
+  /// No description provided for @permission_storage_denied_permanently.
+  ///
+  /// In en, this message translates to:
+  /// **'Storage permission is permanently denied. Please enable it in app settings to download images.'**
+  String get permission_storage_denied_permanently;
+
+  /// No description provided for @btn_open_app_settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Settings'**
+  String get btn_open_app_settings;
+
+  /// No description provided for @upcoming.
+  ///
+  /// In en, this message translates to:
+  /// **'Upcoming'**
+  String get upcoming;
+
+  /// No description provided for @active.
+  ///
+  /// In en, this message translates to:
+  /// **'Active'**
+  String get active;
+
+  /// No description provided for @completed.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get completed;
+
+  /// No description provided for @label_program_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Program Details'**
+  String get label_program_details;
+
+  /// End: date
+  ///
+  /// In en, this message translates to:
+  /// **'End: {endDate}'**
+  String end_date(String endDate);
+
+  /// Displays alert message with the MB
+  ///
+  /// In en, this message translates to:
+  /// **'The file size can not be larger than {mb} MB.'**
+  String file_size_too_large(int mb);
+
+  /// No description provided for @successGoalUpdate.
+  ///
+  /// In en, this message translates to:
+  /// **'Your goal has been successfully updated.'**
+  String get successGoalUpdate;
+
+  /// No description provided for @my_bmi.
+  ///
+  /// In en, this message translates to:
+  /// **'My BMI'**
+  String get my_bmi;
+
+  /// No description provided for @my_goal.
+  ///
+  /// In en, this message translates to:
+  /// **'My Goal'**
+  String get my_goal;
+
+  /// Displays the number of favorite products.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{No favorite products} =1{1 favorite product} other{{count} favorite products}}'**
+  String my_favorite_product_count(int count);
+
+  /// Displays the number of addresses.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{No addresses} =1{1 address} other{{count} addresses}}'**
+  String my_shipping_address_count(int count);
+
+  /// Displays the number of product & service counts.
+  ///
+  /// In en, this message translates to:
+  /// **'{productCount, plural, =1{1 Product} other{{productCount} Products}} & {serviceCount, plural, =1{1 Service Program} other{{serviceCount} Service Programs}}'**
+  String my_active_program_count_label(int productCount, int serviceCount);
+
+  /// No description provided for @select_primary_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a Primary Address'**
+  String get select_primary_address;
+
   /// No description provided for @no_announcements.
   ///
   /// In en, this message translates to:
@@ -260,7 +386,7 @@ abstract class AppLocalizations {
   /// No description provided for @lets_build_healthy_lifestyle_with_joy_en.
   ///
   /// In en, this message translates to:
-  /// **'Let\'s build healthy lifestyle with joy'**
+  /// **'Let\'s build healthy lifestyle with JOY'**
   String get lets_build_healthy_lifestyle_with_joy_en;
 
   /// No description provided for @lets_build_healthy_lifestyle_with_joy_my.

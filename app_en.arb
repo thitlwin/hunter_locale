@@ -1,5 +1,75 @@
 {
-  "@@locale": "en",  
+  "@@locale": "en",   
+  "weight_in_lb": "Weight(in lb)",
+  "title_account_deleted": "Account Deleted",
+  "automatically_logged_out_message": "You will be automatically logged out.",
+  "label_delete_account": "Delete my JOY account",
+  "title_delete_account": "Delete Account",
+  "delete_account_confirmation": "Are you sure you want to delete your JOY account? This action cannot be undone.",
+  "permission_storage_denied_permanently": "Storage permission is permanently denied. Please enable it in app settings to download images.",
+  "btn_open_app_settings": "Open Settings",
+  "upcoming": "Upcoming",
+  "active": "Active",
+  "completed": "Completed",
+  "label_program_details": "Program Details",
+  "end_date": "End: {endDate}",
+  "@end_date": {
+    "description": "End: date",
+    "placeholders": {
+      "endDate": {
+        "type": "String",
+        "example": "1 May 2023"
+      }
+    }
+  },
+  "file_size_too_large": "The file size can not be larger than {mb} MB.",
+  "@file_size_too_large": {
+    "description": "Displays alert message with the MB",
+    "placeholders": {
+      "mb": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },  
+  "successGoalUpdate": "Your goal has been successfully updated.",
+  "my_bmi": "My BMI",
+  "my_goal": "My Goal",
+  "my_favorite_product_count": "{count, plural, =0{No favorite products} =1{1 favorite product} other{{count} favorite products}}", 
+  "@my_favorite_product_count": {
+    "description": "Displays the number of favorite products.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },  
+  "my_shipping_address_count": "{count, plural, =0{No addresses} =1{1 address} other{{count} addresses}}", 
+  "@my_shipping_address_count": {
+    "description": "Displays the number of addresses.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "my_active_program_count_label": "{productCount, plural, =1{1 Product} other{{productCount} Products}} & {serviceCount, plural, =1{1 Service Program} other{{serviceCount} Service Programs}}", 
+  "@my_active_program_count_label": {
+    "description": "Displays the number of product & service counts.",
+    "placeholders": {
+      "productCount": {
+        "type": "int",
+        "example": "5"
+      },
+      "serviceCount": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },  
+  "select_primary_address": "Select a Primary Address",
   "no_announcements": "No announcements available.",
   "title_announcement": "Announcements",
   "confirm_reminder_has_done": "Are you sure you want to mark this as done?",
@@ -27,7 +97,7 @@
   "label_eat_own_meal": "Eat own meal?",
   "signin_with_google": "Sign in with Google",
   "signin_with_facebook": "Sign in with Facebook",
-  "lets_build_healthy_lifestyle_with_joy_en":"Let's build healthy lifestyle with joy",
+  "lets_build_healthy_lifestyle_with_joy_en":"Let's build healthy lifestyle with JOY",
   "lets_build_healthy_lifestyle_with_joy_my":"ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့",
   "dontHaveAccount":"Don't have Account?",
   "signUp": "Register",

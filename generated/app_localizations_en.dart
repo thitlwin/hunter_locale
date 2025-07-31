@@ -9,6 +9,105 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get weight_in_lb => 'Weight(in lb)';
+
+  @override
+  String get title_account_deleted => 'Account Deleted';
+
+  @override
+  String get automatically_logged_out_message => 'You will be automatically logged out.';
+
+  @override
+  String get label_delete_account => 'Delete my JOY account';
+
+  @override
+  String get title_delete_account => 'Delete Account';
+
+  @override
+  String get delete_account_confirmation => 'Are you sure you want to delete your JOY account? This action cannot be undone.';
+
+  @override
+  String get permission_storage_denied_permanently => 'Storage permission is permanently denied. Please enable it in app settings to download images.';
+
+  @override
+  String get btn_open_app_settings => 'Open Settings';
+
+  @override
+  String get upcoming => 'Upcoming';
+
+  @override
+  String get active => 'Active';
+
+  @override
+  String get completed => 'Completed';
+
+  @override
+  String get label_program_details => 'Program Details';
+
+  @override
+  String end_date(String endDate) {
+    return 'End: $endDate';
+  }
+
+  @override
+  String file_size_too_large(int mb) {
+    return 'The file size can not be larger than $mb MB.';
+  }
+
+  @override
+  String get successGoalUpdate => 'Your goal has been successfully updated.';
+
+  @override
+  String get my_bmi => 'My BMI';
+
+  @override
+  String get my_goal => 'My Goal';
+
+  @override
+  String my_favorite_product_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count favorite products',
+      one: '1 favorite product',
+      zero: 'No favorite products',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String my_shipping_address_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count addresses',
+      one: '1 address',
+      zero: 'No addresses',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String my_active_program_count_label(int productCount, int serviceCount) {
+    String _temp0 = intl.Intl.pluralLogic(
+      productCount,
+      locale: localeName,
+      other: '$productCount Products',
+      one: '1 Product',
+    );
+    String _temp1 = intl.Intl.pluralLogic(
+      serviceCount,
+      locale: localeName,
+      other: '$serviceCount Service Programs',
+      one: '1 Service Program',
+    );
+    return '$_temp0 & $_temp1';
+  }
+
+  @override
+  String get select_primary_address => 'Select a Primary Address';
+
+  @override
   String get no_announcements => 'No announcements available.';
 
   @override
@@ -90,7 +189,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get signin_with_facebook => 'Sign in with Facebook';
 
   @override
-  String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with joy';
+  String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with JOY';
 
   @override
   String get lets_build_healthy_lifestyle_with_joy_my => 'ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့';
