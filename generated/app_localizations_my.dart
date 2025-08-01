@@ -15,7 +15,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get title_account_deleted => 'အကောင့်ဖျက်ပြီး';
 
   @override
-  String get automatically_logged_out_message => 'အလိုအလျောက် JOY App မှ ထွက်ပါတော့မည်။';
+  String get automatically_logged_out_message =>
+      'အလိုအလျောက် JOY App မှ ထွက်ပါတော့မည်။';
 
   @override
   String get label_delete_account => 'ကျွန်ုပ်၏ JOY အကောင့်ကို ဖျက်ရန်';
@@ -24,10 +25,12 @@ class AppLocalizationsMy extends AppLocalizations {
   String get title_delete_account => 'အကောင့်ဖျက်ရန်';
 
   @override
-  String get delete_account_confirmation => 'သင့် JOY အကောင့်ကို ဖျက်လိုသည်မှာ သေချာပါသလား？ ဤလုပ်ဆောင်ချက်ကို ပြန်လည်မပြုလုပ်နိုင်ပါ။';
+  String get delete_account_confirmation =>
+      'သင့် JOY အကောင့်ကို ဖျက်လိုသည်မှာ သေချာပါသလား？ ဤလုပ်ဆောင်ချက်ကို ပြန်လည်မပြုလုပ်နိုင်ပါ။';
 
   @override
-  String get permission_storage_denied_permanently => 'သိမ်းဆည်းခွင့်ကို အပြီးအပိုင်ငြင်းဆန်ထားသည်။ ဓာတ်ပုံများဆွဲယူရန် အက်ပ်ချိန်ညှိထဲတွင် ဖွင့်ပေးပါ။';
+  String get permission_storage_denied_permanently =>
+      'သိမ်းဆည်းခွင့်ကို အပြီးအပိုင်ငြင်းဆန်ထားသည်။ ဓာတ်ပုံများဆွဲယူရန် အက်ပ်ချိန်ညှိထဲတွင် ဖွင့်ပေးပါ။';
 
   @override
   String get btn_open_app_settings => 'ချိန်ညှိချက်များကိုဖွင့်ရန်';
@@ -55,7 +58,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get successGoalUpdate => 'သင့်ရည်မှန်းချက်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။';
+  String get successGoalUpdate =>
+      'သင့်ရည်မှန်းချက်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။';
 
   @override
   String get my_bmi => 'ကျွန်ုပ်၏ BMI';
@@ -114,7 +118,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get title_announcement => 'ကြေငြာချက်များ';
 
   @override
-  String get confirm_reminder_has_done => 'ဤအရာကို ပြီးပြီဟု အမှတ်အသားပြုလိုသည်မှာ သေချာပါသလား?';
+  String get confirm_reminder_has_done =>
+      'ဤအရာကို ပြီးပြီဟု အမှတ်အသားပြုလိုသည်မှာ သေချာပါသလား?';
 
   @override
   String get label_finish => 'ပြီးမည်';
@@ -189,10 +194,12 @@ class AppLocalizationsMy extends AppLocalizations {
   String get signin_with_facebook => 'Facebook ဖြင့် ဝင်မည်';
 
   @override
-  String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with JOY';
+  String get lets_build_healthy_lifestyle_with_joy_en =>
+      'Let\'s build healthy lifestyle with JOY';
 
   @override
-  String get lets_build_healthy_lifestyle_with_joy_my => 'ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့';
+  String get lets_build_healthy_lifestyle_with_joy_my =>
+      'ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့';
 
   @override
   String get dontHaveAccount => 'အကောင့်မရှိသေးဘူးလား?';
@@ -246,7 +253,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get enter_your_otp => 'OTP ကုဒ်ကို ဤနေရာတွင် ထည့်သွင်းပါ';
 
   @override
-  String get we_have_sent_opt_code => 'သင့်ဖုန်းနံပါတ်သို့ OTP ကုဒ်ပို့ပြီးပါပြီ။';
+  String get we_have_sent_opt_code =>
+      'သင့်ဖုန်းနံပါတ်သို့ OTP ကုဒ်ပို့ပြီးပါပြီ။';
 
   @override
   String get didnt_get_the_otp => 'OTP မရရှိပါက';
@@ -285,10 +293,12 @@ class AppLocalizationsMy extends AppLocalizations {
   String get title_reset_password => 'စကားဝှက်ပြန်သတ်မှတ်မည်';
 
   @override
-  String get error_confirm_password_required => 'စကားဝှက်အတည်ပြုရန် လိုအပ်ပါသည်';
+  String get error_confirm_password_required =>
+      'စကားဝှက်အတည်ပြုရန် လိုအပ်ပါသည်';
 
   @override
-  String get error_confirm_password_mismatch => 'စကားဝှက်အတည်ပြုချက် မကိုက်ညီပါ';
+  String get error_confirm_password_mismatch =>
+      'စကားဝှက်အတည်ပြုချက် မကိုက်ညီပါ';
 
   @override
   String get success_password_reset => 'စကားဝှက်ပြန်သတ်မှတ်မှု အောင်မြင်ပါသည်';
@@ -536,7 +546,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get title_warning => 'သတိပေးချက်';
 
   @override
-  String get error_delivery_address_required => 'ပို့ဆောင်မည့်လိပ်စာ လိုအပ်ပါသည်။';
+  String get error_delivery_address_required =>
+      'ပို့ဆောင်မည့်လိပ်စာ လိုအပ်ပါသည်။';
 
   @override
   String get title_order_detail => 'အော်ဒါအသေးစိတ်';
@@ -545,7 +556,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get empty_cart => 'စျေးခြင်းထည့်စရာ မရှိပါ';
 
   @override
-  String get bank_account_copied => 'ဘဏ်အကောင့်နံပါတ်ကို clipboard သို့ ကူးထည့်ပြီးပါပြီ!';
+  String get bank_account_copied =>
+      'ဘဏ်အကောင့်နံပါတ်ကို clipboard သို့ ကူးထည့်ပြီးပါပြီ!';
 
   @override
   String get order_number => 'အော်ဒါ';
@@ -590,13 +602,15 @@ class AppLocalizationsMy extends AppLocalizations {
   String get gallery => 'ပြခန်း';
 
   @override
-  String get error_payment_screenshot_required => 'ငွေပေးချေမှု screenshot လိုအပ်ပါသည်။';
+  String get error_payment_screenshot_required =>
+      'ငွေပေးချေမှု screenshot လိုအပ်ပါသည်။';
 
   @override
   String get error_name_required => 'အမည် လိုအပ်ပါသည်။';
 
   @override
-  String get success_profile_update => 'ကိုယ်ရေးအချက်အလက် အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ။';
+  String get success_profile_update =>
+      'ကိုယ်ရေးအချက်အလက် အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ။';
 
   @override
   String get title_success => 'အောင်မြင်မှု';
@@ -737,7 +751,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get errorInchesRequired => 'လက်မ လိုအပ်ပါသည်။';
 
   @override
-  String get requireGoalSelection => 'ကျေးဇူးပြု၍ သင့်ရည်မှန်းချက်ကို ရွေးချယ်ပါ။';
+  String get requireGoalSelection =>
+      'ကျေးဇူးပြု၍ သင့်ရည်မှန်းချက်ကို ရွေးချယ်ပါ။';
 
   @override
   String get active_programs => 'ကျွန်ုပ်၏ ပရိုဂရမ်များ';
@@ -838,7 +853,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get gallery_source => 'ပြခန်း';
 
   @override
-  String get success_news_feed_create => 'သတင်းများ အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။ အက်ဒ်မင်အတည်ပြုပြီးနောက် ထုတ်ဝေပါမည်။';
+  String get success_news_feed_create =>
+      'သတင်းများ အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ။ အက်ဒ်မင်အတည်ပြုပြီးနောက် ထုတ်ဝေပါမည်။';
 
   @override
   String get likedUsers => 'ဤပို့စ်ကို နှစ်သက်သူများ';
@@ -894,7 +910,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get btn_enter_new_weight => 'ကိုယ်အလေးချိန်အသစ်ထည့်မည်';
 
   @override
-  String get select_precondition_you_have => 'သင့်တွင် ရှိသော ကြိုတင်အခြေအနေများကို ရွေးချယ်ပါ';
+  String get select_precondition_you_have =>
+      'သင့်တွင် ရှိသော ကြိုတင်အခြေအနေများကို ရွေးချယ်ပါ';
 
   @override
   String your_previous_weight(String updatedDate, num weight) {
@@ -943,7 +960,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get record_activities => 'လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ';
 
   @override
-  String get title_dance_and_workout_activity => 'အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများ';
+  String get title_dance_and_workout_activity =>
+      'အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများ';
 
   @override
   String total_workout_time(int hour, int minute) {
@@ -984,13 +1002,15 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get label_select_activity_type => 'လှုပ်ရှားမှုအမျိုးအစားကို ရွေးချယ်ပါ';
+  String get label_select_activity_type =>
+      'လှုပ်ရှားမှုအမျိုးအစားကို ရွေးချယ်ပါ';
 
   @override
   String get label_select_total_time => 'စုစုပေါင်းအချိန်ကို ရွေးချယ်ပါ';
 
   @override
-  String get title_record_workout_activity => 'အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ';
+  String get title_record_workout_activity =>
+      'အားကစားနှင့် ကခုန်ခြင်း လှုပ်ရှားမှုများကို မှတ်တမ်းတင်ပါ';
 
   @override
   String your_last_bmi(String value) {
@@ -1028,13 +1048,15 @@ class AppLocalizationsMy extends AppLocalizations {
   String get for_myself => 'ကိုယ်တိုင်';
 
   @override
-  String get result_can_be_saved_to_profile => '(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်းနိုင်သည်)';
+  String get result_can_be_saved_to_profile =>
+      '(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်းနိုင်သည်)';
 
   @override
   String get for_other => 'အခြားသူများ';
 
   @override
-  String get result_can_not_be_saved_to_profile => '(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်း၍မရပါ)';
+  String get result_can_not_be_saved_to_profile =>
+      '(ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် သိမ်းဆည်း၍မရပါ)';
 
   @override
   String get btn_calculate => 'တွက်ရန်';
@@ -1061,10 +1083,12 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get bmi_underweight_description_for_you => 'သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။';
+  String get bmi_underweight_description_for_you =>
+      'သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။';
 
   @override
-  String get bmi_normalweight_description_for_you => 'သင့်တွင် ပုံမှန်ကိုယ်အလေးချိန် ရှိပါသည်။ ပိုမိုကောင်းမွန်အောင် ထိန်းသိမ်းပါ။';
+  String get bmi_normalweight_description_for_you =>
+      'သင့်တွင် ပုံမှန်ကိုယ်အလေးချိန် ရှိပါသည်။ ပိုမိုကောင်းမွန်အောင် ထိန်းသိမ်းပါ။';
 
   @override
   String bmi_normalweight_description_for_other(String name) {
@@ -1072,7 +1096,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get bmi_overweight_description_for_you => 'သင့်တွင် ကိုယ်အလေးချိန် အနည်းငယ် တိုးနေပါသည်။ အဆီပိုများကြောင့် ဖြစ်ပါက မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။';
+  String get bmi_overweight_description_for_you =>
+      'သင့်တွင် ကိုယ်အလေးချိန် အနည်းငယ် တိုးနေပါသည်။ အဆီပိုများကြောင့် ဖြစ်ပါက မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။';
 
   @override
   String bmi_overweight_description_for_other(String name) {
@@ -1080,7 +1105,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get bmi_obesity_description_for_you => 'BMI သည် သင့်ကျန်းမာရေး အခြေအနေကို တိတိကျကျ မဖော်ပြနိုင်ပါ။ သို့သော် ဤ BMI ရလဒ်ဖြင့် အဝလွန်နေပါက ကိုယ်အလေးချိန် လျှော့ချရန် ကြိုးစားသင့်ပါသည်။';
+  String get bmi_obesity_description_for_you =>
+      'BMI သည် သင့်ကျန်းမာရေး အခြေအနေကို တိတိကျကျ မဖော်ပြနိုင်ပါ။ သို့သော် ဤ BMI ရလဒ်ဖြင့် အဝလွန်နေပါက ကိုယ်အလေးချိန် လျှော့ချရန် ကြိုးစားသင့်ပါသည်။';
 
   @override
   String bmi_obesity_description_for_other(String name) {
@@ -1088,7 +1114,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get bmi_bad_result_description_for_you => 'သင့် BMI တွင် မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် ကိုယ်အလေးချိန် လျှော့ချရန် ချက်ချင်းလုပ်ဆောင်ပါ။';
+  String get bmi_bad_result_description_for_you =>
+      'သင့် BMI တွင် မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် ကိုယ်အလေးချိန် လျှော့ချရန် ချက်ချင်းလုပ်ဆောင်ပါ။';
 
   @override
   String get you_look_fantastic => 'သင် အလွန်လှပနေပါသည်!';
@@ -1099,7 +1126,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get you_need_improvement => 'သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
+  String get you_need_improvement =>
+      'သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
 
   @override
   String name_needs_improvement(String name) {
@@ -1110,7 +1138,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get btn_save_result => 'ရလဒ်ကို သိမ်းဆည်းရန်';
 
   @override
-  String get successSavingCalculatorResult => 'ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။';
+  String get successSavingCalculatorResult =>
+      'ရလဒ်ကို ကိုယ်ရေးအချက်အလက်တွင် အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။';
 
   @override
   String get calculate_cr => 'CR တွက်ရန်';
@@ -1155,7 +1184,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get calorie_requirement_description => 'သင့်နေ့စဉ် ကယ်လိုရီစားသုံးမှုကို ဂရုပြုပါ၊ အကြောင်းမှာ \"3500 ကယ်လိုရီ = 1 ပေါင်\" ဖြစ်သောကြောင့်ဖြစ်သည်။';
+  String get calorie_requirement_description =>
+      'သင့်နေ့စဉ် ကယ်လိုရီစားသုံးမှုကို ဂရုပြုပါ၊ အကြောင်းမှာ \"3500 ကယ်လိုရီ = 1 ပေါင်\" ဖြစ်သောကြောင့်ဖြစ်သည်။';
 
   @override
   String your_waist_to_height_ratio_is(num value) {
@@ -1168,7 +1198,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get you_need_an_improvement => 'သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
+  String get you_need_an_improvement =>
+      'သင် တိုးတက်အောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်!';
 
   @override
   String name_needs_an_improvement(String name) {
@@ -1176,7 +1207,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_extremely_slim => 'ကျန်းမာသော ခန္ဓာကိုယ်ရရှိရန် ကိုယ်အလေးချိန် တိုးရန် လိုအပ်ပါသည်။ ပရိုတင်းဓာတ်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ကြွက်သားတည်ဆောက်မှု လေ့ကျင့်ခန်းများ ပိုမိုလုပ်ဆောင်ခြင်းဖြင့် အကောင်းဆုံးခန္ဓာကိုယ်ကို ရရှိနိုင်ပါသည်။';
+  String get your_wth_result_extremely_slim =>
+      'ကျန်းမာသော ခန္ဓာကိုယ်ရရှိရန် ကိုယ်အလေးချိန် တိုးရန် လိုအပ်ပါသည်။ ပရိုတင်းဓာတ်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ကြွက်သားတည်ဆောက်မှု လေ့ကျင့်ခန်းများ ပိုမိုလုပ်ဆောင်ခြင်းဖြင့် အကောင်းဆုံးခန္ဓာကိုယ်ကို ရရှိနိုင်ပါသည်။';
 
   @override
   String name_wth_result_extremely_slim(String name) {
@@ -1184,7 +1216,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_absolutely_slim => 'သင့်အရပ်နှင့်နှိုင်းယှဉ်လျှင် ခန္ဓာကိုယ်မှာ အလွန်ပိန်နေပါသည်။ ပိန်ခြင်းသည် အဝလွန်ခြင်းနှင့်ဆက်စပ်သော ရောဂါများကို လျှော့ချနိုင်သော်လည်း အလွန်အမင်းပိန်ခြင်းသည် ကိုယ်ခံအားနည်းခြင်း၊ အလှအပနည်းခြင်းနှင့် သည်းခံနိုင်စွမ်းနည်းခြင်းတို့ကို ဖြစ်စေနိုင်ပါသည်။';
+  String get your_wth_result_absolutely_slim =>
+      'သင့်အရပ်နှင့်နှိုင်းယှဉ်လျှင် ခန္ဓာကိုယ်မှာ အလွန်ပိန်နေပါသည်။ ပိန်ခြင်းသည် အဝလွန်ခြင်းနှင့်ဆက်စပ်သော ရောဂါများကို လျှော့ချနိုင်သော်လည်း အလွန်အမင်းပိန်ခြင်းသည် ကိုယ်ခံအားနည်းခြင်း၊ အလှအပနည်းခြင်းနှင့် သည်းခံနိုင်စွမ်းနည်းခြင်းတို့ကို ဖြစ်စေနိုင်ပါသည်။';
 
   @override
   String name_wth_result_absolutely_slim(String name) {
@@ -1192,7 +1225,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_healthy => 'သင် W2H အချိုးတွင် အကောင်းဆုံးရလဒ်ရရှိထားပါသည်။ အခြားတိုင်းတာမှုများဖြင့် သင့်ခန္ဓာကိုယ်အခြေအနေကို စစ်ဆေးပြီး \"ဂုဏ်ယူပါတယ်\" ဟု ပြောလိုက်ပါ။';
+  String get your_wth_result_healthy =>
+      'သင် W2H အချိုးတွင် အကောင်းဆုံးရလဒ်ရရှိထားပါသည်။ အခြားတိုင်းတာမှုများဖြင့် သင့်ခန္ဓာကိုယ်အခြေအနေကို စစ်ဆေးပြီး \"ဂုဏ်ယူပါတယ်\" ဟု ပြောလိုက်ပါ။';
 
   @override
   String name_wth_result_healthy(String name) {
@@ -1200,13 +1234,16 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_overweight => 'သင့်ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် သင့်ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။';
+  String get your_wth_result_overweight =>
+      'သင့်ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် သင့်ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။';
 
   @override
-  String get name_wth_result_overweight => 'ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။';
+  String get name_wth_result_overweight =>
+      'ခါးတစ်ဝိုက်တွင် အဆီအနည်းငယ် တိုးနေပါသည်။ ဤအဆီများသည် ကျန်းမာရေးအတွက် အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖယ်ရှားရန် ကြိုးစားပါ။';
 
   @override
-  String get your_wth_result_extremely_overweight => 'ဤအလွန်အဝများသော W2H အချိုးရလဒ်ဖြင့် သင့်ကိုယ်သင် ကျန်းမာသည်ဟု မဆိုနိုင်ပါ။ မတော်တဆဖြစ်မလာမီ ကိုယ်အလေးချိန် လျှော့ချရန် စတင်သင့်ပါသည်။';
+  String get your_wth_result_extremely_overweight =>
+      'ဤအလွန်အဝများသော W2H အချိုးရလဒ်ဖြင့် သင့်ကိုယ်သင် ကျန်းမာသည်ဟု မဆိုနိုင်ပါ။ မတော်တဆဖြစ်မလာမီ ကိုယ်အလေးချိန် လျှော့ချရန် စတင်သင့်ပါသည်။';
 
   @override
   String name_wth_result_extremely_overweight(String name) {
@@ -1214,7 +1251,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_unheathy => 'သင့်တွင် အလွန်မကျန်းမာသော W2H ရလဒ်ရှိပါသည်။ W2H အချိုးသည် အခြားတိုင်းတာမှုများထက် ပိုမိုအသုံးဝင်ရခြင်း၏ အကြောင်းရင်းမှာ ၎င်းသည် သင့်ခါးတစ်ဝိုက် (သင့်အတွင်းအင်္ဂါများတစ်ဝိုက်) တွင် အန္တရာယ်ရှိသော အဆီပမာဏကို ဖော်ပြနိုင်သောကြောင့်ဖြစ်သည်။ ဗဟိုအဝလွန်ခြင်းသည် နှလုံးနှင့်သွေးကြောဆိုင်ရာ ရောဂါများ ဖြစ်ပွားနိုင်ခြေကို မြင့်တက်စေပါသည်။ ဤအချက်ကို သတိထားပြီး အလေးအနက်ထား ဆောင်ရွက်ပါ။';
+  String get your_wth_result_unheathy =>
+      'သင့်တွင် အလွန်မကျန်းမာသော W2H ရလဒ်ရှိပါသည်။ W2H အချိုးသည် အခြားတိုင်းတာမှုများထက် ပိုမိုအသုံးဝင်ရခြင်း၏ အကြောင်းရင်းမှာ ၎င်းသည် သင့်ခါးတစ်ဝိုက် (သင့်အတွင်းအင်္ဂါများတစ်ဝိုက်) တွင် အန္တရာယ်ရှိသော အဆီပမာဏကို ဖော်ပြနိုင်သောကြောင့်ဖြစ်သည်။ ဗဟိုအဝလွန်ခြင်းသည် နှလုံးနှင့်သွေးကြောဆိုင်ရာ ရောဂါများ ဖြစ်ပွားနိုင်ခြေကို မြင့်တက်စေပါသည်။ ဤအချက်ကို သတိထားပြီး အလေးအနက်ထား ဆောင်ရွက်ပါ။';
 
   @override
   String name_wth_result_unheathy(String name) {
@@ -1222,7 +1260,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_lean => 'သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် အဆီနှင့်ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။ အဓိက အဆီများကို တိုးမြှင့်ကြပါစို့။';
+  String get your_bfp_result_lean =>
+      'သင့်ကိုယ်သင် ပိုမိုကျန်းမာသန်စွမ်းစေရန် အဆီနှင့်ကြွက်သားများ တိုးပွားအောင် လုပ်ဆောင်ရန် လိုအပ်နေပါသည်။ အဓိက အဆီများကို တိုးမြှင့်ကြပါစို့။';
 
   @override
   String name_bfp_result_lean(String name) {
@@ -1230,7 +1269,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_healthy => 'သင် ပုံမှန်ကျန်းမာသန်စွမ်းသော အဆင့်တွင် ရှိနေပါသည်။ ဤအတိုင်း ဆက်လက်ထိန်းသိမ်းထားပါ။';
+  String get your_bfp_result_healthy =>
+      'သင် ပုံမှန်ကျန်းမာသန်စွမ်းသော အဆင့်တွင် ရှိနေပါသည်။ ဤအတိုင်း ဆက်လက်ထိန်းသိမ်းထားပါ။';
 
   @override
   String name_bfp_result_healthy(String name) {
@@ -1238,7 +1278,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_overfat => 'သင့်ခန္ဓာကိုယ်တွင် အဆီပိုအနည်းငယ် ရှိနေပါသည်။ မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
+  String get your_bfp_result_overfat =>
+      'သင့်ခန္ဓာကိုယ်တွင် အဆီပိုအနည်းငယ် ရှိနေပါသည်။ မတော်တဆဖြစ်မလာမီ ဖယ်ရှားသင့်ပါသည်။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
 
   @override
   String name_bfp_result_overfat(String name) {
@@ -1246,7 +1287,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_bad => 'သင့်တွင် BFP နှင့်ပတ်သက်၍ မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် အဆီများကို လောင်ကျွမ်းစေရန် ချက်ချင်းလုပ်ဆောင်ပါ။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
+  String get your_bfp_result_bad =>
+      'သင့်တွင် BFP နှင့်ပတ်သက်၍ မကောင်းသော ရလဒ်ရှိပါသည်။ ပိုမိုကျန်းမာစွာ အသက်ရှည်ရှည်နေထိုင်နိုင်ရန် အဆီများကို လောင်ကျွမ်းစေရန် ချက်ချင်းလုပ်ဆောင်ပါ။ လေ့ကျင့်ခန်းများဖြင့် အဆီများကို လောင်ကျွမ်းစေကြပါစို့။';
 
   @override
   String name_bfp_result_bad(String name) {
@@ -1331,7 +1373,8 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get type_to_search_product => 'ရှာဖွေရန်အကွက်တွင် ထုတ်ကုန်များရှာရန် ရိုက်ထည့်ပါ။';
+  String get type_to_search_product =>
+      'ရှာဖွေရန်အကွက်တွင် ထုတ်ကုန်များရှာရန် ရိုက်ထည့်ပါ။';
 
   @override
   String get search_hint => 'ရှာဖွေရန်...';
@@ -1405,7 +1448,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get tenth => 'ဒသမ';
 
   @override
-  String get require_weight_to_generate_meal_plan => 'သင့်လက်ရှိကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများကို ထည့်သွင်းရန် လိုအပ်ပါသည်။ သင့်ကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများနှင့် ကိုက်ညီသော အစားအစာစီမံချက်များကို ထုတ်ပေးရန် လိုအပ်ပါသည်။';
+  String get require_weight_to_generate_meal_plan =>
+      'သင့်လက်ရှိကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများကို ထည့်သွင်းရန် လိုအပ်ပါသည်။ သင့်ကိုယ်အလေးချိန်နှင့် ကြိုတင်အခြေအနေများနှင့် ကိုက်ညီသော အစားအစာစီမံချက်များကို ထုတ်ပေးရန် လိုအပ်ပါသည်။';
 
   @override
   String get no_chat_message_found => 'စာတိုပေးပို့ချက် မတွေ့ပါ။';
@@ -1465,13 +1509,16 @@ class AppLocalizationsMy extends AppLocalizations {
   String get loginWithFacebook => 'Facebook ဖြင့် ဝင်ရောက်ပါ';
 
   @override
-  String get errorSomethingWentWrong => 'တစ်ခုခုမှားယွင်းနေပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။';
+  String get errorSomethingWentWrong =>
+      'တစ်ခုခုမှားယွင်းနေပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။';
 
   @override
-  String get errorFacebookLoginCancelled => 'Facebook ဝင်ရောက်မှု ပယ်ဖျက်လိုက်ပါပြီ။';
+  String get errorFacebookLoginCancelled =>
+      'Facebook ဝင်ရောက်မှု ပယ်ဖျက်လိုက်ပါပြီ။';
 
   @override
-  String get skip_login_and_register => 'ဝင်ရောက်ခြင်းနှင့် မှတ်ပုံတင်ခြင်းကို ကျော်ပါ';
+  String get skip_login_and_register =>
+      'ဝင်ရောက်ခြင်းနှင့် မှတ်ပုံတင်ခြင်းကို ကျော်ပါ';
 
   @override
   String get errorInvalidPhoneFormat => 'ဖုန်းနံပါတ် မှားနေပါသည်။';
@@ -1480,7 +1527,8 @@ class AppLocalizationsMy extends AppLocalizations {
   String get empty_favorite_list => 'အကြိုက်ဆုံး အရာများ မရှိပါ။';
 
   @override
-  String get login_to_continue => 'ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ရန် အကောင့်ဝင်ရန် လိုအပ်ပါသည်။';
+  String get login_to_continue =>
+      'ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ရန် အကောင့်ဝင်ရန် လိုအပ်ပါသည်။';
 
   @override
   String get title_login_required => 'ဝင်ရောက်ရန် လိုအပ်ပါသည်';

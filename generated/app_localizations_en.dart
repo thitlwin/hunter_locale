@@ -15,7 +15,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get title_account_deleted => 'Account Deleted';
 
   @override
-  String get automatically_logged_out_message => 'You will be automatically logged out.';
+  String get automatically_logged_out_message =>
+      'You will be automatically logged out.';
 
   @override
   String get label_delete_account => 'Delete my JOY account';
@@ -24,10 +25,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get title_delete_account => 'Delete Account';
 
   @override
-  String get delete_account_confirmation => 'Are you sure you want to delete your JOY account? This action cannot be undone.';
+  String get delete_account_confirmation =>
+      'Are you sure you want to delete your JOY account? This action cannot be undone.';
 
   @override
-  String get permission_storage_denied_permanently => 'Storage permission is permanently denied. Please enable it in app settings to download images.';
+  String get permission_storage_denied_permanently =>
+      'Storage permission is permanently denied. Please enable it in app settings to download images.';
 
   @override
   String get btn_open_app_settings => 'Open Settings';
@@ -114,7 +117,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get title_announcement => 'Announcements';
 
   @override
-  String get confirm_reminder_has_done => 'Are you sure you want to mark this as done?';
+  String get confirm_reminder_has_done =>
+      'Are you sure you want to mark this as done?';
 
   @override
   String get label_finish => 'Finish';
@@ -189,10 +193,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get signin_with_facebook => 'Sign in with Facebook';
 
   @override
-  String get lets_build_healthy_lifestyle_with_joy_en => 'Let\'s build healthy lifestyle with JOY';
+  String get lets_build_healthy_lifestyle_with_joy_en =>
+      'Let\'s build healthy lifestyle with JOY';
 
   @override
-  String get lets_build_healthy_lifestyle_with_joy_my => 'ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့';
+  String get lets_build_healthy_lifestyle_with_joy_my =>
+      'ကျန်းမာသောနေထိုင်မှုဘဝကို JOY နှင့်အတူတည်ဆောက်ကြပါစို့';
 
   @override
   String get dontHaveAccount => 'Don\'t have Account?';
@@ -590,7 +596,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get gallery => 'Gallery';
 
   @override
-  String get error_payment_screenshot_required => 'Payment screenshot is required.';
+  String get error_payment_screenshot_required =>
+      'Payment screenshot is required.';
 
   @override
   String get error_name_required => 'Name is required.';
@@ -635,7 +642,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get btn_delete => 'Delete';
 
   @override
-  String get delete_confiration => 'Are you sure you want to delete this address?';
+  String get delete_confiration =>
+      'Are you sure you want to delete this address?';
 
   @override
   String get title_confirmation => 'Confirmation';
@@ -838,7 +846,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get gallery_source => 'Gallery';
 
   @override
-  String get success_news_feed_create => 'News feed created successfully. It will be published after admin approval.';
+  String get success_news_feed_create =>
+      'News feed created successfully. It will be published after admin approval.';
 
   @override
   String get likedUsers => 'People who liked this post';
@@ -1028,13 +1037,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get for_myself => 'For Myself';
 
   @override
-  String get result_can_be_saved_to_profile => '(The result can be saved to profile)';
+  String get result_can_be_saved_to_profile =>
+      '(The result can be saved to profile)';
 
   @override
   String get for_other => 'For Other';
 
   @override
-  String get result_can_not_be_saved_to_profile => '(The result can not be saved to profile)';
+  String get result_can_not_be_saved_to_profile =>
+      '(The result can not be saved to profile)';
 
   @override
   String get btn_calculate => 'Calculate';
@@ -1061,10 +1072,12 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get bmi_underweight_description_for_you => 'You need to gain some muscle for a stronger and healthier version of you.';
+  String get bmi_underweight_description_for_you =>
+      'You need to gain some muscle for a stronger and healthier version of you.';
 
   @override
-  String get bmi_normalweight_description_for_you => 'You are on your normal weight. Try to keep it better.';
+  String get bmi_normalweight_description_for_you =>
+      'You are on your normal weight. Try to keep it better.';
 
   @override
   String bmi_normalweight_description_for_other(String name) {
@@ -1072,7 +1085,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get bmi_overweight_description_for_you => 'There is a slight increase in your weight currently. If this is because of some extra fat, you need to remove them before it\'s too late.';
+  String get bmi_overweight_description_for_you =>
+      'There is a slight increase in your weight currently. If this is because of some extra fat, you need to remove them before it\'s too late.';
 
   @override
   String bmi_overweight_description_for_other(String name) {
@@ -1080,7 +1094,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get bmi_obesity_description_for_you => 'BMI cannot show the exact status of your health. But if you are fat with this BMI result, you really need to try to lose some weight';
+  String get bmi_obesity_description_for_you =>
+      'BMI cannot show the exact status of your health. But if you are fat with this BMI result, you really need to try to lose some weight';
 
   @override
   String bmi_obesity_description_for_other(String name) {
@@ -1088,7 +1103,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get bmi_bad_result_description_for_you => 'You have a bad result with your BMI. Please take action to lose weight immediately to live longer, to live healthier.';
+  String get bmi_bad_result_description_for_you =>
+      'You have a bad result with your BMI. Please take action to lose weight immediately to live longer, to live healthier.';
 
   @override
   String get you_look_fantastic => 'You look fantastic!';
@@ -1110,7 +1126,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get btn_save_result => 'Save Result';
 
   @override
-  String get successSavingCalculatorResult => 'The result has been successfully saved to the profile.';
+  String get successSavingCalculatorResult =>
+      'The result has been successfully saved to the profile.';
 
   @override
   String get calculate_cr => 'Calculate CR';
@@ -1155,7 +1172,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get calorie_requirement_description => 'Pay attention to your daily calorie intake because \"3500calories = 1 lb\".';
+  String get calorie_requirement_description =>
+      'Pay attention to your daily calorie intake because \"3500calories = 1 lb\".';
 
   @override
   String your_waist_to_height_ratio_is(num value) {
@@ -1176,7 +1194,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_extremely_slim => 'You need to put on some weight to get a healthy body. More protein, more carbs and more strength training will transform you into an ideal body.';
+  String get your_wth_result_extremely_slim =>
+      'You need to put on some weight to get a healthy body. More protein, more carbs and more strength training will transform you into an ideal body.';
 
   @override
   String name_wth_result_extremely_slim(String name) {
@@ -1184,7 +1203,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_absolutely_slim => 'Your body is very thin for your height. Slimming may reduce obesity related diseases by extremely slim can give you lower immunity, not good-looking appearance and weak endurance.';
+  String get your_wth_result_absolutely_slim =>
+      'Your body is very thin for your height. Slimming may reduce obesity related diseases by extremely slim can give you lower immunity, not good-looking appearance and weak endurance.';
 
   @override
   String name_wth_result_absolutely_slim(String name) {
@@ -1192,7 +1212,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_healthy => 'You are on your best result in Waist to Height Ratio. Check your body’s status for other measurements and say “Cheers”';
+  String get your_wth_result_healthy =>
+      'You are on your best result in Waist to Height Ratio. Check your body’s status for other measurements and say “Cheers”';
 
   @override
   String name_wth_result_healthy(String name) {
@@ -1200,13 +1221,16 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_overweight => 'There is slight increase in your fat around your waist. Try to lose it coz these will be the potential threat to your health!';
+  String get your_wth_result_overweight =>
+      'There is slight increase in your fat around your waist. Try to lose it coz these will be the potential threat to your health!';
 
   @override
-  String get name_wth_result_overweight => 'There is slight increase in fat around the waist. Try to lose it coz these will be the potential threat to health!';
+  String get name_wth_result_overweight =>
+      'There is slight increase in fat around the waist. Try to lose it coz these will be the potential threat to health!';
 
   @override
-  String get your_wth_result_extremely_overweight => 'You cannot say healthy if your result is in this range of Very Overweight. Before it is too late, you’d better start losing some weight.';
+  String get your_wth_result_extremely_overweight =>
+      'You cannot say healthy if your result is in this range of Very Overweight. Before it is too late, you’d better start losing some weight.';
 
   @override
   String name_wth_result_extremely_overweight(String name) {
@@ -1214,7 +1238,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_wth_result_unheathy => 'You have a very unhealthy result in here. There is a reason why Waist to Height Ratio is more useful than other types of body measurements. It can indicate the level of dangerous fat around your waist (around your internal organ) than other types. Central obesity will cause you at higher risk of cardiovascular diseases. Please note it and take it seriously.';
+  String get your_wth_result_unheathy =>
+      'You have a very unhealthy result in here. There is a reason why Waist to Height Ratio is more useful than other types of body measurements. It can indicate the level of dangerous fat around your waist (around your internal organ) than other types. Central obesity will cause you at higher risk of cardiovascular diseases. Please note it and take it seriously.';
 
   @override
   String name_wth_result_unheathy(String name) {
@@ -1222,7 +1247,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_lean => 'You need to gain some fat and muscle for a stronger and healthier version of you. Let\'s Boost the Essential Fat.';
+  String get your_bfp_result_lean =>
+      'You need to gain some fat and muscle for a stronger and healthier version of you. Let\'s Boost the Essential Fat.';
 
   @override
   String name_bfp_result_lean(String name) {
@@ -1230,7 +1256,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_healthy => 'You are on your normal fit stage. Let\'s keep it up.';
+  String get your_bfp_result_healthy =>
+      'You are on your normal fit stage. Let\'s keep it up.';
 
   @override
   String name_bfp_result_healthy(String name) {
@@ -1238,7 +1265,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_overfat => 'There are some extra fat in your body, you need to remove them before it\'s too late. Let\'s burn the Notty Fat with exercises.';
+  String get your_bfp_result_overfat =>
+      'There are some extra fat in your body, you need to remove them before it\'s too late. Let\'s burn the Notty Fat with exercises.';
 
   @override
   String name_bfp_result_overfat(String name) {
@@ -1246,7 +1274,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get your_bfp_result_bad => 'You have a bad result with your BFP. Please take action to burn fat immediately to live longer, to live healthier.Let\'s burn the Notty Fat with exercises.';
+  String get your_bfp_result_bad =>
+      'You have a bad result with your BFP. Please take action to burn fat immediately to live longer, to live healthier.Let\'s burn the Notty Fat with exercises.';
 
   @override
   String name_bfp_result_bad(String name) {
@@ -1331,7 +1360,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get type_to_search_product => 'Type to search products from the search box.';
+  String get type_to_search_product =>
+      'Type to search products from the search box.';
 
   @override
   String get search_hint => 'Search...';
@@ -1405,7 +1435,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tenth => 'tenth';
 
   @override
-  String get require_weight_to_generate_meal_plan => 'You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions.';
+  String get require_weight_to_generate_meal_plan =>
+      'You need to enter your current weight and pre-conditions to generate most suitable meal plans according to your weight and pre-conditions.';
 
   @override
   String get no_chat_message_found => 'No chat messages found.';
@@ -1465,7 +1496,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get loginWithFacebook => 'Login with Facebook';
 
   @override
-  String get errorSomethingWentWrong => 'Something went wrong. Please try again later.';
+  String get errorSomethingWentWrong =>
+      'Something went wrong. Please try again later.';
 
   @override
   String get errorFacebookLoginCancelled => 'Facebook login cancelled.';
@@ -1480,7 +1512,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get empty_favorite_list => 'Empty favorite item.';
 
   @override
-  String get login_to_continue => 'You need to be logged in to perform this action.';
+  String get login_to_continue =>
+      'You need to be logged in to perform this action.';
 
   @override
   String get title_login_required => 'Login Required';
@@ -1492,5 +1525,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get empty_meal_plan => 'Empty meal plans.';
 
   @override
-  String get error_in_the_following_fields => 'Check the following field errors.';
+  String get error_in_the_following_fields =>
+      'Check the following field errors.';
 }
