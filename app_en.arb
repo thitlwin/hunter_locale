@@ -1,5 +1,8 @@
 {
   "@@locale": "en",   
+  "empty_notification": "No notifications available.",
+  "citation_bmi_calculator": "BMI calculation based on CDC standards.",  
+  "no_internet_connection": "You are offline. Please connect to the internet and try again.",
   "weight_in_lb": "Weight(in lb)",
   "title_account_deleted": "Account Deleted",
   "automatically_logged_out_message": "You will be automatically logged out.",

@@ -9,6 +9,17 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get empty_notification => 'အသိပေးချက်များ မရှိပါ။';
+
+  @override
+  String get citation_bmi_calculator =>
+      'BMI တွက်ချက်မှုသည် CDC စံနှုန်းများအပေါ် အခြေခံပါသည်။';
+
+  @override
+  String get no_internet_connection =>
+      'အင်တာနက် ချိတ်ဆက်မှု မရှိပါ။ ကျေးဇူးပြု၍ အင်တာနက် ချိတ်ဆက်ပြီး ပြန်လည် ကြိုးစားပါ။';
+
+  @override
   String get weight_in_lb => 'အလေးချိန် (ပေါင်ဖြင့်)';
 
   @override

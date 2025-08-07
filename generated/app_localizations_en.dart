@@ -9,6 +9,17 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get empty_notification => 'No notifications available.';
+
+  @override
+  String get citation_bmi_calculator =>
+      'BMI calculation based on CDC standards.';
+
+  @override
+  String get no_internet_connection =>
+      'You are offline. Please connect to the internet and try again.';
+
+  @override
   String get weight_in_lb => 'Weight(in lb)';
 
   @override

@@ -98,6 +98,24 @@ abstract class AppLocalizations {
     Locale('my'),
   ];
 
+  /// No description provided for @empty_notification.
+  ///
+  /// In en, this message translates to:
+  /// **'No notifications available.'**
+  String get empty_notification;
+
+  /// No description provided for @citation_bmi_calculator.
+  ///
+  /// In en, this message translates to:
+  /// **'BMI calculation based on CDC standards.'**
+  String get citation_bmi_calculator;
+
+  /// No description provided for @no_internet_connection.
+  ///
+  /// In en, this message translates to:
+  /// **'You are offline. Please connect to the internet and try again.'**
+  String get no_internet_connection;
+
   /// No description provided for @weight_in_lb.
   ///
   /// In en, this message translates to:

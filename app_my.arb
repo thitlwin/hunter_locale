@@ -1,5 +1,8 @@
 {
   "@@locale": "my",  
+  "empty_notification": "အသိပေးချက်များ မရှိပါ။",
+  "citation_bmi_calculator": "BMI တွက်ချက်မှုသည် CDC စံနှုန်းများအပေါ် အခြေခံပါသည်။",
+  "no_internet_connection": "အင်တာနက် ချိတ်ဆက်မှု မရှိပါ။ ကျေးဇူးပြု၍ အင်တာနက် ချိတ်ဆက်ပြီး ပြန်လည် ကြိုးစားပါ။",
   "weight_in_lb": "အလေးချိန် (ပေါင်ဖြင့်)",
   "title_account_deleted": "အကောင့်ဖျက်ပြီး",
   "automatically_logged_out_message": "အလိုအလျောက် JOY App မှ ထွက်ပါတော့မည်။",
