@@ -63,7 +63,7 @@ import 'app_localizations_my.dart';
 /// property.
 abstract class AppLocalizations {
   AppLocalizations(String locale)
-    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -86,17 +86,41 @@ abstract class AppLocalizations {
   /// of delegates is preferred or required.
   static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
       <LocalizationsDelegate<dynamic>>[
-        delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ];
+    delegate,
+    GlobalMaterialLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+  ];
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('my'),
+    Locale('my')
   ];
+
+  /// No description provided for @references.
+  ///
+  /// In en, this message translates to:
+  /// **'References'**
+  String get references;
+
+  /// No description provided for @academic_reference.
+  ///
+  /// In en, this message translates to:
+  /// **'Academic Reference:'**
+  String get academic_reference;
+
+  /// No description provided for @public_health_reference.
+  ///
+  /// In en, this message translates to:
+  /// **'Public Health Reference:'**
+  String get public_health_reference;
+
+  /// No description provided for @calculator_disclaimer.
+  ///
+  /// In en, this message translates to:
+  /// **'Calculator results are for informational purposes only and do not constitute medical advice; consult a healthcare professional for guidance.'**
+  String get calculator_disclaimer;
 
   /// No description provided for @empty_notification.
   ///
@@ -107,7 +131,7 @@ abstract class AppLocalizations {
   /// No description provided for @citation_bmi_calculator.
   ///
   /// In en, this message translates to:
-  /// **'BMI calculation based on CDC standards.'**
+  /// **'BMI calculation based on Centers for Disease Control and Prevention (CDC) standards.'**
   String get citation_bmi_calculator;
 
   /// No description provided for @no_internet_connection.
@@ -2610,9 +2634,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   }
 
   throw FlutterError(
-    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
-    'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.',
-  );
+      'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+      'an issue with the localizations generation tool. Please file an issue '
+      'on GitHub with a reproducible sample app and the gen-l10n configuration '
+      'that was used.');
 }

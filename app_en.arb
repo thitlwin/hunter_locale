@@ -1,7 +1,11 @@
 {
   "@@locale": "en",   
+  "references": "References",
+  "academic_reference": "Academic Reference:",
+  "public_health_reference": "Public Health Reference:",
+  "calculator_disclaimer": "Calculator results are for informational purposes only and do not constitute medical advice; consult a healthcare professional for guidance.",
   "empty_notification": "No notifications available.",
-  "citation_bmi_calculator": "BMI calculation based on CDC standards.",  
+  "citation_bmi_calculator": "BMI calculation based on Centers for Disease Control and Prevention (CDC) standards.",  
   "no_internet_connection": "You are offline. Please connect to the internet and try again.",
   "weight_in_lb": "Weight(in lb)",
   "title_account_deleted": "Account Deleted",

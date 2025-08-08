@@ -9,6 +9,19 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get references => 'ကိုးကားချက်များ';
+
+  @override
+  String get academic_reference => 'ပညာရပ်ဆိုင်ရာ ကိုးကားချက်';
+
+  @override
+  String get public_health_reference => 'ပြည်သူ့ကျန်းမာရေး ကိုးကားချက်';
+
+  @override
+  String get calculator_disclaimer =>
+      'ရလဒ်များသည် အချက်အလက်အတွက်သာဖြစ်ပြီး ကျန်းမာရေးအကြံဉာဏ်မဟုတ်ပါ။ လမ်းညွှန်ချက်အတွက် ကျန်းမာရေးပညာရှင်နှင့် တိုင်ပင်ပါ။';
+
+  @override
   String get empty_notification => 'အသိပေးချက်များ မရှိပါ။';
 
   @override
@@ -437,10 +450,10 @@ class AppLocalizationsMy extends AppLocalizations {
   String get other => 'အခြား';
 
   @override
-  String get active_plan_count => 'Active ဖြစ်သော အစီအစဉ်';
+  String get active_plan_count => 'Active ဖြစ်သော ထုတ်ကုန် ပရိုဂရမ်';
 
   @override
-  String get active_challenge_count => 'Active ဖြစ်သော စိန်ခေါ်မှု';
+  String get active_challenge_count => 'Active ဖြစ်သော ဝန်ဆောင်မှု ပရိုဂရမ်';
 
   @override
   String get order_list_label => 'အော်ဒါများ';
@@ -778,10 +791,11 @@ class AppLocalizationsMy extends AppLocalizations {
   String get service_programs => 'ဝန်ဆောင်မှုပရိုဂရမ်များ';
 
   @override
-  String get no_active_meal_plan => 'တက်ကြွသော ထုတ်ကုန်မရှိပါ။';
+  String get no_active_meal_plan => 'ဝယ်ယူထားသော ထုတ်ကုန်ပရိုဂရမ်များ မရှိပါ။';
 
   @override
-  String get no_active_challenge => 'တက်ကြွသော ဝန်ဆောင်မှုမရှိပါ။';
+  String get no_active_challenge =>
+      'ဝယ်ယူထားသော ဝန်ဆောင်မှုပရိုဂရမ်များ မရှိပါ။';
 
   @override
   String start_date(String startDate) {
@@ -809,7 +823,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get label_news_feed => 'သတင်းများ';
 
   @override
-  String get title_active_challenge => 'တက်ကြွသော စိန်ခေါ်မှု';
+  String get title_active_challenge => 'Active ဖြစ်နေသော ဝန်ဆောင်မှုပရိုဂရမ်';
 
   @override
   String get btn_add => 'ထည့်မည်';

@@ -9,11 +9,24 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get references => 'References';
+
+  @override
+  String get academic_reference => 'Academic Reference:';
+
+  @override
+  String get public_health_reference => 'Public Health Reference:';
+
+  @override
+  String get calculator_disclaimer =>
+      'Calculator results are for informational purposes only and do not constitute medical advice; consult a healthcare professional for guidance.';
+
+  @override
   String get empty_notification => 'No notifications available.';
 
   @override
   String get citation_bmi_calculator =>
-      'BMI calculation based on CDC standards.';
+      'BMI calculation based on Centers for Disease Control and Prevention (CDC) standards.';
 
   @override
   String get no_internet_connection =>
