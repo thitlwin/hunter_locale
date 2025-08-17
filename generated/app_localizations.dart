@@ -98,6 +98,66 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming Soon'**
+  String get coming_soon;
+
+  /// No description provided for @message_for_coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'This program isn’t start yet. We’ll let you know once it’s ready. Stay tuned!'**
+  String get message_for_coming_soon;
+
+  /// No description provided for @no_calculators_available.
+  ///
+  /// In en, this message translates to:
+  /// **'No calculators available.'**
+  String get no_calculators_available;
+
+  /// No description provided for @label_gain_point.
+  ///
+  /// In en, this message translates to:
+  /// **'Gain Points'**
+  String get label_gain_point;
+
+  /// No description provided for @label_used_point.
+  ///
+  /// In en, this message translates to:
+  /// **'Used Points'**
+  String get label_used_point;
+
+  /// No description provided for @title_my_weight_height_waist.
+  ///
+  /// In en, this message translates to:
+  /// **'Weight, Height & Waist'**
+  String get title_my_weight_height_waist;
+
+  /// Displays the number of inches with emoji (👖).
+  ///
+  /// In en, this message translates to:
+  /// **'👖 {inches}\"'**
+  String waist_with_emoji(num inches);
+
+  /// Displays the number of lbs with emoji (📏).
+  ///
+  /// In en, this message translates to:
+  /// **'📏 {feet}\' {inches}\"'**
+  String height_with_emoji(num feet, num inches);
+
+  /// Displays the number of lbs with emoji (🏋️).
+  ///
+  /// In en, this message translates to:
+  /// **'🏋️ {count, plural, =0{Lbs} =1{1 Lb} other{{count} Lbs}}'**
+  String lb_with_emoji(num count);
+
+  /// No description provided for @my_weight_height_waist.
+  ///
+  /// In en, this message translates to:
+  /// **'My Weight(🏋️), Height(📏) & Waist(👖)'**
+  String get my_weight_height_waist;
+
   /// No description provided for @references.
   ///
   /// In en, this message translates to:
@@ -1109,7 +1169,7 @@ abstract class AppLocalizations {
   /// No description provided for @order_number.
   ///
   /// In en, this message translates to:
-  /// **'Order'**
+  /// **'Order No.'**
   String get order_number;
 
   /// No description provided for @used_coupon_amount.

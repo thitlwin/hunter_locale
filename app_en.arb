@@ -1,5 +1,46 @@
 {
   "@@locale": "en",   
+  "coming_soon": "Coming Soon",
+  "message_for_coming_soon": "This program isn’t start yet. We’ll let you know once it’s ready. Stay tuned!",
+  "no_calculators_available": "No calculators available.",
+  "label_gain_point": "Gain Points",
+  "label_used_point": "Used Points",
+  "title_my_weight_height_waist": "Weight, Height & Waist",      
+  "waist_with_emoji": "👖 {inches}\"", 
+  "@waist_with_emoji": {
+    "description": "Displays the number of inches with emoji (👖).",
+    "placeholders": {      
+      "inches": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "height_with_emoji": "📏 {feet}' {inches}\"", 
+  "@height_with_emoji": {
+    "description": "Displays the number of lbs with emoji (📏).",
+    "placeholders": {
+      "feet": {
+        "type": "num",
+        "example": "5.0"
+      },
+      "inches": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "lb_with_emoji": "🏋️ {count, plural, =0{Lbs} =1{1 Lb} other{{count} Lbs}}", 
+  "@lb_with_emoji": {
+    "description": "Displays the number of lbs with emoji (🏋️).",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "my_weight_height_waist": "My Weight(🏋️), Height(📏) & Waist(👖)",
   "references": "References",
   "academic_reference": "Academic Reference:",
   "public_health_reference": "Public Health Reference:",
@@ -244,7 +285,7 @@
   "title_order_detail": "Order Detail",
   "empty_cart": "Empty cart",
   "bank_account_copied": "Account number copied to clipboard!",
-  "order_number": "Order",
+  "order_number": "Order No.",
   "used_coupon_amount": "Used Coupon",
   "title_orders": "Orders",
   "empty_order": "Empty order list",

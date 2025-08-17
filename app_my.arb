@@ -1,5 +1,47 @@
 {
   "@@locale": "my",  
+  "coming_soon": "မကြာမှီလာမည်",
+  "message_for_coming_soon": "ဤအစီအစဉ်ကို မစတင်ရသေးပါ။ အဆင်သင့်ဖြစ်ပါက သတင်းပို့ပါမည်။ စောင့်နေပေးပါ!",
+  "no_calculators_available": "တွက်ချက်စက်များ မရှိပါ။",
+  "label_gain_point": "ရရှိသည့်အမှတ်များ",
+  "label_used_point": "သုံးလိုက်သည့်အမှတ်များ",
+  "title_my_weight_height_waist": "ကိုယ်အလေးချိန်၊ အရပ်နှင့် ခါး",      
+  "no_announcements": "ကြေငြာချက်များ မရှိပါ။",
+  "waist_with_emoji": "👖 {inches}\"", 
+  "@waist_with_emoji": {
+    "description": "Emoji (👖) နှင့်အတူ လက်မအရေအတွက်ကို ပြသသည်။",
+    "placeholders": {      
+      "inches": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "height_with_emoji": "📏 {feet}' {inches}\"", 
+  "@height_with_emoji": {
+    "description": "Emoji (📏) နှင့်အတူ ပေအရေအတွက်ကို ပြသသည်။",
+    "placeholders": {
+      "feet": {
+        "type": "num",
+        "example": "5.0"
+      },
+      "inches": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "lb_with_emoji": "🏋️ {count, plural, =0{ပေါင်} =1{ပေါင် ၁} other{{count} ပေါင်}}", 
+  "@lb_with_emoji": {
+    "description": "Emoji (🏋️) နှင့်အတူ ပေါင်အရေအတွက်ကို ပြသသည်။",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5.0"
+      }
+    }
+  },
+  "my_weight_height_waist": "ကျွန်ုပ်၏ ကိုယ်အလေးချိန်(🏋️)၊ အရပ်(📏) နှင့် ခါး(👖)",
   "references": "ကိုးကားချက်များ",
   "academic_reference": "ပညာရပ်ဆိုင်ရာ ကိုးကားချက်",
   "public_health_reference": "ပြည်သူ့ကျန်းမာရေး ကိုးကားချက်",
@@ -243,7 +285,7 @@
   "title_order_detail": "အော်ဒါအသေးစိတ်",
   "empty_cart": "စျေးခြင်းထည့်စရာ မရှိပါ",
   "bank_account_copied": "ဘဏ်အကောင့်နံပါတ်ကို clipboard သို့ ကူးထည့်ပြီးပါပြီ!",
-  "order_number": "အော်ဒါ",
+  "order_number": "အော်ဒါနံပါတ်",
   "used_coupon_amount": "အသုံးပြုထားသော ကူပွန်",
   "title_orders": "အော်ဒါများ",
   "empty_order": "အော်ဒါစာရင်း မရှိပါ",

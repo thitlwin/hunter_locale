@@ -9,6 +9,50 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get coming_soon => 'Coming Soon';
+
+  @override
+  String get message_for_coming_soon =>
+      'This program isn’t start yet. We’ll let you know once it’s ready. Stay tuned!';
+
+  @override
+  String get no_calculators_available => 'No calculators available.';
+
+  @override
+  String get label_gain_point => 'Gain Points';
+
+  @override
+  String get label_used_point => 'Used Points';
+
+  @override
+  String get title_my_weight_height_waist => 'Weight, Height & Waist';
+
+  @override
+  String waist_with_emoji(num inches) {
+    return '👖 $inches\"';
+  }
+
+  @override
+  String height_with_emoji(num feet, num inches) {
+    return '📏 $feet\' $inches\"';
+  }
+
+  @override
+  String lb_with_emoji(num count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count Lbs',
+      one: '1 Lb',
+      zero: 'Lbs',
+    );
+    return '🏋️ $_temp0';
+  }
+
+  @override
+  String get my_weight_height_waist => 'My Weight(🏋️), Height(📏) & Waist(👖)';
+
+  @override
   String get references => 'References';
 
   @override
@@ -578,7 +622,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get bank_account_copied => 'Account number copied to clipboard!';
 
   @override
-  String get order_number => 'Order';
+  String get order_number => 'Order No.';
 
   @override
   String get used_coupon_amount => 'Used Coupon';

@@ -9,6 +9,51 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get coming_soon => 'မကြာမှီလာမည်';
+
+  @override
+  String get message_for_coming_soon =>
+      'ဤအစီအစဉ်ကို မစတင်ရသေးပါ။ အဆင်သင့်ဖြစ်ပါက သတင်းပို့ပါမည်။ စောင့်နေပေးပါ!';
+
+  @override
+  String get no_calculators_available => 'တွက်ချက်စက်များ မရှိပါ။';
+
+  @override
+  String get label_gain_point => 'ရရှိသည့်အမှတ်များ';
+
+  @override
+  String get label_used_point => 'သုံးလိုက်သည့်အမှတ်များ';
+
+  @override
+  String get title_my_weight_height_waist => 'ကိုယ်အလေးချိန်၊ အရပ်နှင့် ခါး';
+
+  @override
+  String waist_with_emoji(num inches) {
+    return '👖 $inches\"';
+  }
+
+  @override
+  String height_with_emoji(num feet, num inches) {
+    return '📏 $feet\' $inches\"';
+  }
+
+  @override
+  String lb_with_emoji(num count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count ပေါင်',
+      one: 'ပေါင် ၁',
+      zero: 'ပေါင်',
+    );
+    return '🏋️ $_temp0';
+  }
+
+  @override
+  String get my_weight_height_waist =>
+      'ကျွန်ုပ်၏ ကိုယ်အလေးချိန်(🏋️)၊ အရပ်(📏) နှင့် ခါး(👖)';
+
+  @override
   String get references => 'ကိုးကားချက်များ';
 
   @override
@@ -136,7 +181,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get select_primary_address => 'ပင်မလိပ်စာတစ်ခုကို ရွေးချယ်ပါ';
 
   @override
-  String get no_announcements => 'No announcements available.';
+  String get no_announcements => 'ကြေငြာချက်များ မရှိပါ။';
 
   @override
   String get title_announcement => 'ကြေငြာချက်များ';
@@ -584,7 +629,7 @@ class AppLocalizationsMy extends AppLocalizations {
       'ဘဏ်အကောင့်နံပါတ်ကို clipboard သို့ ကူးထည့်ပြီးပါပြီ!';
 
   @override
-  String get order_number => 'အော်ဒါ';
+  String get order_number => 'အော်ဒါနံပါတ်';
 
   @override
   String get used_coupon_amount => 'အသုံးပြုထားသော ကူပွန်';
