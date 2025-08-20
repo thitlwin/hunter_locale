@@ -1,5 +1,6 @@
 {
   "@@locale": "en",   
+  "successWeightUpdate": "Your weight has been successfully updated.",
   "coming_soon": "Coming Soon",
   "message_for_coming_soon": "This program isn’t start yet. We’ll let you know once it’s ready. Stay tuned!",
   "no_calculators_available": "No calculators available.",

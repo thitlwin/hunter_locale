@@ -9,6 +9,10 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get successWeightUpdate =>
+      'Your weight has been successfully updated.';
+
+  @override
   String get coming_soon => 'Coming Soon';
 
   @override

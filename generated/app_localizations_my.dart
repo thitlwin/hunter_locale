@@ -9,6 +9,10 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get successWeightUpdate =>
+      'သင့်ရဲ့ ကိုယ်အလေးချိန်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။';
+
+  @override
   String get coming_soon => 'မကြာမှီလာမည်';
 
   @override

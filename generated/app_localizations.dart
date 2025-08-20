@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @successWeightUpdate.
+  ///
+  /// In en, this message translates to:
+  /// **'Your weight has been successfully updated.'**
+  String get successWeightUpdate;
+
   /// No description provided for @coming_soon.
   ///
   /// In en, this message translates to:

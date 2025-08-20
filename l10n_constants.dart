@@ -75,6 +75,8 @@ class L10nConstants {
   static const String errorInvalidPhoneFormat = "errorInvalidPhoneFormat";
 
   static const String successGoalUpdate = "successGoalUpdate";
+
+  static const String successWeightUpdate = "successWeightUpdate";
 }
 
 class UiFieldConstants {
