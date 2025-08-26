@@ -1,5 +1,6 @@
 {
   "@@locale": "my",  
+  "btn_mark_as_eaten_today": "ယနေ့ စားသုံးမည်",
   "successWeightUpdate": "သင့်ရဲ့ ကိုယ်အလေးချိန်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။",
   "coming_soon": "မကြာမှီလာမည်",
   "message_for_coming_soon": "ဤအစီအစဉ်ကို မစတင်ရသေးပါ။ အဆင်သင့်ဖြစ်ပါက သတင်းပို့ပါမည်။ စောင့်နေပေးပါ!",
@@ -977,7 +978,7 @@
   },
   "label_ingredient": "ပါဝင်ပစ္စည်းများ",
   "label_instruction": "ညွှန်ကြားချက်",
-  "btn_eaten": "စားပြီး",
+  "btn_eaten": "ယနေ့ စားသုံးပြီး",
   "label_bmi": "BMI: ",
   "label_weight": "ကိုယ်အလေးချိန်: ",
   "label_height": "အရပ်အမြင့်: ",

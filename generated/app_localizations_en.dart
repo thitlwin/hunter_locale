@@ -9,6 +9,9 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get btn_mark_as_eaten_today => 'Mark as eaten today';
+
+  @override
   String get successWeightUpdate =>
       'Your weight has been successfully updated.';
 
@@ -1459,7 +1462,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get label_instruction => 'Instruction';
 
   @override
-  String get btn_eaten => 'Eaten';
+  String get btn_eaten => 'Eaten Today';
 
   @override
   String get label_bmi => 'BMI : ';

@@ -9,6 +9,9 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get btn_mark_as_eaten_today => 'ယနေ့ စားသုံးမည်';
+
+  @override
   String get successWeightUpdate =>
       'သင့်ရဲ့ ကိုယ်အလေးချိန်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။';
 
@@ -1474,7 +1477,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get label_instruction => 'ညွှန်ကြားချက်';
 
   @override
-  String get btn_eaten => 'စားပြီး';
+  String get btn_eaten => 'ယနေ့ စားသုံးပြီး';
 
   @override
   String get label_bmi => 'BMI: ';

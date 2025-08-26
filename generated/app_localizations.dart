@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @btn_mark_as_eaten_today.
+  ///
+  /// In en, this message translates to:
+  /// **'Mark as eaten today'**
+  String get btn_mark_as_eaten_today;
+
   /// No description provided for @successWeightUpdate.
   ///
   /// In en, this message translates to:
@@ -2453,7 +2459,7 @@ abstract class AppLocalizations {
   /// No description provided for @btn_eaten.
   ///
   /// In en, this message translates to:
-  /// **'Eaten'**
+  /// **'Eaten Today'**
   String get btn_eaten;
 
   /// No description provided for @label_bmi.

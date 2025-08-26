@@ -1,5 +1,6 @@
 {
   "@@locale": "en",   
+  "btn_mark_as_eaten_today": "Mark as eaten today",
   "successWeightUpdate": "Your weight has been successfully updated.",
   "coming_soon": "Coming Soon",
   "message_for_coming_soon": "This program isn’t start yet. We’ll let you know once it’s ready. Stay tuned!",
@@ -977,7 +978,7 @@
     },
     "label_ingredient": "Ingredient",
     "label_instruction": "Instruction",
-    "btn_eaten": "Eaten",
+    "btn_eaten": "Eaten Today",
     "label_bmi": "BMI : ",
     "label_weight": "Weight : ",
     "label_height": "Height : ",
