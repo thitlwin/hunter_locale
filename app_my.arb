@@ -63,7 +63,7 @@
   "active": "Active",
   "completed": "Completed",
   "label_program_details": "အစီအစဉ် အသေးစိတ်",
-  "end_date": "ပြီးဆုံးမည့်ရက်: {endDate}",
+  "end_date": "ပြီးမည့်ရက်: {endDate}",
   "@end_date": {
     "description": "ပြီးဆုံးမည့်ရက်: ရက်စွဲ",
     "placeholders": {
@@ -926,7 +926,7 @@
       }
     }
   },
-  "started_date": "စတင်သည့်ရက်: {date}",
+  "started_date": "စရက်: {date}",
   "@started_date": {
     "description": "ရက်စွဲပြသခြင်း",
     "placeholders": {
@@ -936,7 +936,7 @@
       }
     }
   },
-  "day": "နေ့: {day}",
+  "day": "({day}) ရက်နေ့",
   "@day": {
     "description": "နေ့ပြသခြင်း",
     "placeholders": {

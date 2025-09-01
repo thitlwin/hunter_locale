@@ -936,7 +936,7 @@
                 }
       }       
     },
-    "day": "Day : {day}",
+    "day": "Day : ({day})",
     "@day": {
       "description": "Display day",
       "placeholders": {

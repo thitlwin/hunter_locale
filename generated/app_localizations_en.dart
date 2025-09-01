@@ -1411,7 +1411,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String day(int day) {
-    return 'Day : $day';
+    return 'Day : ($day)';
   }
 
   @override

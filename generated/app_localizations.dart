@@ -2369,7 +2369,7 @@ abstract class AppLocalizations {
   /// Display day
   ///
   /// In en, this message translates to:
-  /// **'Day : {day}'**
+  /// **'Day : ({day})'**
   String day(int day);
 
   /// No description provided for @no_meal_plan_for_today.

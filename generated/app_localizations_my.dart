@@ -125,7 +125,7 @@ class AppLocalizationsMy extends AppLocalizations {
 
   @override
   String end_date(String endDate) {
-    return 'ပြီးဆုံးမည့်ရက်: $endDate';
+    return 'ပြီးမည့်ရက်: $endDate';
   }
 
   @override
@@ -1421,12 +1421,12 @@ class AppLocalizationsMy extends AppLocalizations {
 
   @override
   String started_date(String date) {
-    return 'စတင်သည့်ရက်: $date';
+    return 'စရက်: $date';
   }
 
   @override
   String day(int day) {
-    return 'နေ့: $day';
+    return '($day) ရက်နေ့';
   }
 
   @override
