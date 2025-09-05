@@ -10,9 +10,9 @@ class LocaleNotifier extends _$LocaleNotifier {
   static const _localeKey = 'selected_locale';
 
   @override
-  Locale? build() {
-    // Initial state (will be loaded from SharedPreferences)
-    return null;
+  Future<Locale> build() async {
+    // Initial state is null; actual locale will be loaded asynchronously
+    return await loadSavedLocale();
   }
 
   Future<void> _saveLocale(Locale locale) async {
@@ -24,18 +24,19 @@ class LocaleNotifier extends _$LocaleNotifier {
     if (!AppLocalizations.supportedLocales.contains(locale)) return;
 
     await _saveLocale(locale);
-    state = locale;
+    state = AsyncData(locale);
   }
 
-  Future<void> loadSavedLocale() async {
+  Future<Locale> loadSavedLocale() async {
     final prefs = ref.watch(preferencesDataSourceProvider);
     final languageCode = await prefs.getString(_localeKey);
 
     if (languageCode != null) {
       final locale = Locale(languageCode);
       if (AppLocalizations.supportedLocales.contains(locale)) {
-        state = locale;
+        return locale;
       }
     }
+    return const Locale('en');
   }
 }
