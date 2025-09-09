@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @no_meal_instruction.
+  ///
+  /// In en, this message translates to:
+  /// **'No meal instruction available.'**
+  String get no_meal_instruction;
+
   /// No description provided for @btn_mark_as_eaten_today.
   ///
   /// In en, this message translates to:

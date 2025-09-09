@@ -1,5 +1,6 @@
 {
   "@@locale": "en",   
+  "no_meal_instruction": "No meal instruction available.",
   "btn_mark_as_eaten_today": "Mark as eaten today",
   "successWeightUpdate": "Your weight has been successfully updated.",
   "coming_soon": "Coming Soon",

@@ -9,6 +9,9 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get no_meal_instruction => 'No meal instruction available.';
+
+  @override
   String get btn_mark_as_eaten_today => 'Mark as eaten today';
 
   @override
