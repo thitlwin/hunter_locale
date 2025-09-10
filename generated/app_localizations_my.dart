@@ -9,7 +9,8 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
-  String get no_meal_instruction => 'No meal instruction available.';
+  String get no_meal_instruction =>
+      'အစားစာချက်ပြုတ်ရန် လမ်းညွှန်ချက်မရှိသေးပါ။';
 
   @override
   String get btn_mark_as_eaten_today => 'ယနေ့ စားသုံးမည်';
