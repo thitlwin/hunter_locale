@@ -9,6 +9,17 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get unknown => 'အမည်မသိ';
+
+  @override
+  String get snack => 'အစာပြေ';
+
+  @override
+  String chapter_number(int chapterNumber) {
+    return 'အပိုင်း - $chapterNumber';
+  }
+
+  @override
   String get no_meal_instruction =>
       'အစားစာချက်ပြုတ်ရန် လမ်းညွှန်ချက်မရှိသေးပါ။';
 
@@ -533,7 +544,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get btn_logout => 'ထွက်မည်';
 
   @override
-  String get btn_cancel => 'မထွက်တော့ပါ';
+  String get btn_cancel => 'မလုပ်တော့ပါ';
 
   @override
   String get title_notifications => 'အသိပေးချက်များ';

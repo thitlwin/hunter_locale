@@ -9,6 +9,17 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get unknown => 'Unknown';
+
+  @override
+  String get snack => 'Snack';
+
+  @override
+  String chapter_number(int chapterNumber) {
+    return 'Chapter: $chapterNumber';
+  }
+
+  @override
   String get no_meal_instruction => 'No meal instruction available.';
 
   @override

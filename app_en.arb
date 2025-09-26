@@ -1,5 +1,17 @@
 {
   "@@locale": "en",   
+  "unknown": "Unknown",
+  "snack": "Snack",
+  "chapter_number": "Chapter: {chapterNumber}",
+  "@chapter_number": {
+    "description": "Chapter: 1, 2, 3 ...",
+    "placeholders": {
+      "chapterNumber": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
   "no_meal_instruction": "No meal instruction available.",
   "btn_mark_as_eaten_today": "Mark as eaten today",
   "successWeightUpdate": "Your weight has been successfully updated.",

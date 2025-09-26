@@ -98,6 +98,24 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown'**
+  String get unknown;
+
+  /// No description provided for @snack.
+  ///
+  /// In en, this message translates to:
+  /// **'Snack'**
+  String get snack;
+
+  /// Chapter: 1, 2, 3 ...
+  ///
+  /// In en, this message translates to:
+  /// **'Chapter: {chapterNumber}'**
+  String chapter_number(int chapterNumber);
+
   /// No description provided for @no_meal_instruction.
   ///
   /// In en, this message translates to:

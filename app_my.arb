@@ -1,5 +1,17 @@
 {
-  "@@locale": "my",  
+  "@@locale": "my",
+  "unknown": "အမည်မသိ",
+  "snack": "အစာပြေ",
+  "chapter_number": "အပိုင်း - {chapterNumber}",
+  "@chapter_number": {
+    "description": "အပိုင်း - ၁, ၂, ၃ ...",
+    "placeholders": {
+      "chapterNumber": {
+        "type": "int",
+        "example": "၁"
+      }
+    }
+  },
   "no_meal_instruction": "အစားစာချက်ပြုတ်ရန် လမ်းညွှန်ချက်မရှိသေးပါ။",
   "btn_mark_as_eaten_today": "ယနေ့ စားသုံးမည်",
   "successWeightUpdate": "သင့်ရဲ့ ကိုယ်အလေးချိန်ကို အောင်မြင်စွာ ပြင်ဆင်ပြီးပါပြီ။",
@@ -241,7 +253,7 @@
   "logout_confirmation": "အကောင့်မှ ထွက်မည်",
   "logout_confirmation_message": "အကောင့်မှ ထွက်ရန် သေချာပါသလား?",
   "btn_logout": "ထွက်မည်",
-  "btn_cancel": "မထွက်တော့ပါ",
+  "btn_cancel": "မလုပ်တော့ပါ",
   "title_notifications": "အသိပေးချက်များ",
   "you_have": "သင့်တွင် ",
   "new_notifications": "{unReadCount, plural, =0{အသိပေးချက်အသစ်မရှိပါ} =1{အသိပေးချက်အသစ် ၁ ခု} other{အသိပေးချက်အသစ် {unReadCount} ခု}}", 
