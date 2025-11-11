@@ -9,6 +9,37 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get my_favorites => 'My Favorites';
+
+  @override
+  String get my_orders => 'My Orders';
+
+  @override
+  String get no_address_found => 'Empty address';
+
+  @override
+  String get errorNoIapServiceAvailable =>
+      'In-app purchase service is not available at this platform.';
+
+  @override
+  String get label_quantity => 'Quantity';
+
+  @override
+  String get ecommerce_store => 'JOY Store';
+
+  @override
+  String get errorGoogleLoginCancelled => 'Cancelled google login.';
+
+  @override
+  String get errorAppleLoginCancelled => 'Cancelled apple login.';
+
+  @override
+  String get loginWithGoogle => 'Login with Google';
+
+  @override
+  String get loginWithApple => 'Login with Apple';
+
+  @override
   String get unknown => 'အမည်မသိ';
 
   @override

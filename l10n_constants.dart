@@ -72,11 +72,17 @@ class L10nConstants {
   static const String errorFacebookLoginCancelled =
       "errorFacebookLoginCancelled";
 
+  static const String errorAppleLoginCancelled = "errorAppleLoginCancelled";
+
   static const String errorInvalidPhoneFormat = "errorInvalidPhoneFormat";
 
   static const String successGoalUpdate = "successGoalUpdate";
 
   static const String successWeightUpdate = "successWeightUpdate";
+
+  static const String errorGoogleLoginCancelled = "errorGoogleLoginCancelled";
+
+  static const String errorNoIapServiceAvailable = "errorNoIapServiceAvailable";
 }
 
 class UiFieldConstants {

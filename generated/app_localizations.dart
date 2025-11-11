@@ -98,6 +98,66 @@ abstract class AppLocalizations {
     Locale('my')
   ];
 
+  /// No description provided for @my_favorites.
+  ///
+  /// In en, this message translates to:
+  /// **'My Favorites'**
+  String get my_favorites;
+
+  /// No description provided for @my_orders.
+  ///
+  /// In en, this message translates to:
+  /// **'My Orders'**
+  String get my_orders;
+
+  /// No description provided for @no_address_found.
+  ///
+  /// In en, this message translates to:
+  /// **'Empty address'**
+  String get no_address_found;
+
+  /// No description provided for @errorNoIapServiceAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'In-app purchase service is not available at this platform.'**
+  String get errorNoIapServiceAvailable;
+
+  /// No description provided for @label_quantity.
+  ///
+  /// In en, this message translates to:
+  /// **'Quantity'**
+  String get label_quantity;
+
+  /// No description provided for @ecommerce_store.
+  ///
+  /// In en, this message translates to:
+  /// **'JOY Store'**
+  String get ecommerce_store;
+
+  /// No description provided for @errorGoogleLoginCancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancelled google login.'**
+  String get errorGoogleLoginCancelled;
+
+  /// No description provided for @errorAppleLoginCancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancelled apple login.'**
+  String get errorAppleLoginCancelled;
+
+  /// No description provided for @loginWithGoogle.
+  ///
+  /// In en, this message translates to:
+  /// **'Login with Google'**
+  String get loginWithGoogle;
+
+  /// No description provided for @loginWithApple.
+  ///
+  /// In en, this message translates to:
+  /// **'Login with Apple'**
+  String get loginWithApple;
+
   /// No description provided for @unknown.
   ///
   /// In en, this message translates to:
@@ -2651,7 +2711,7 @@ abstract class AppLocalizations {
   /// No description provided for @errorFacebookLoginCancelled.
   ///
   /// In en, this message translates to:
-  /// **'Facebook login cancelled.'**
+  /// **'Cancelled facebook login'**
   String get errorFacebookLoginCancelled;
 
   /// No description provided for @skip_login_and_register.

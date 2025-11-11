@@ -52,10 +52,14 @@ extension LocalizationHelper on BuildContext {
       L10nConstants.errorSomethingWentWrong => l10n.errorSomethingWentWrong,
       L10nConstants.errorFacebookLoginCancelled =>
         l10n.errorFacebookLoginCancelled,
+      L10nConstants.errorAppleLoginCancelled => l10n.errorAppleLoginCancelled,
       L10nConstants.errorInvalidPhoneFormat => l10n.errorInvalidPhoneFormat,
       L10nConstants.errorInTheFollowingFields =>
         l10n.error_in_the_following_fields,
       L10nConstants.successGoalUpdate => l10n.successGoalUpdate,
+      L10nConstants.errorNoIapServiceAvailable =>
+        l10n.errorNoIapServiceAvailable,
+      L10nConstants.errorGoogleLoginCancelled => l10n.errorGoogleLoginCancelled,
       _ => messageKey, // fallback
     };
   }
